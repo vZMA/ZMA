@@ -1,0 +1,877 @@
+[Version]: 5.00
+[Last Updated]: 03Jan2015
+Miami vARTCC VRC Alias File
+
+Version 5.0: Fred Michaels, Ken Bambach and Mark Anderson.
+Version 4.1 & Prior: Nicholas Cavacini,Samuel Mason and Larry Wimble.
+
+*******************************
+CLEARANCE DELIVERY/GROUND
+*******************************
+.SB Clearance on request, standby.
+.SBN Clearance on request, standby. You are number $1.
+.CNG there is an amendment to your clearance. Advise ready to copy.
+.CNGA $cruise unavailable. Advise if you can accept $uc($1)$uc($2).
+
+.CRAFTT cleared to $arr, $uc($1) departure, $uc($2) transition, then as filed. Maintain $temp, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTTU cleared to $arr, $uc($1) departure, $uc($2) transition, then as filed. Maintain $cruise. Switch to Unicom on 122.800 after departure then resume own navigation. Squawk $squawk.
+.CRAFTTS cleared to $arr, $uc($1) departure, $uc($2) transition, then as filed. Climb via the SID, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTTE cleared to $arr, $uc($1) departure, $uc($2) transition, then as filed. Climb via the SID except maintain $temp. Expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+
+.CRAFTV cleared to $arr, radar vectors to $uc($1), then as filed.  Maintain $temp, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.CRAFTVU cleared to $arr, direct $uc($1) when able, then as filed.  Maintain $cruise. Monitor Unicom on 122.80 after departure then resume own navigation. Squawk $squawk.
+
+.CRAFTP cleared to $arr via the $uc($1) departure, then as filed. Maintain $temp, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.CRAFTPU cleared to $arr via the $uc($1) departure, then as filed.  Maintain $cruise. Switch to Unicom on 122.80 after departure then resume own navigation. Squawk $squawk.
+.CRAFTPS cleared to $arr via the $uc($1) departure, then as filed. Climb via the SID, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.CRAFTPE cleared to $arr via the $uc($1) departure, then as filed. Climb via the SID, except maintain $temp. Expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+
+.ROB readback correct. Push and start at pilot's discretion. Expect Runway $uc($1) for departure. Advise when ready to taxi.
+.ROBP readback correct. Expect Runway $uc($1) for departure. Advise when ready for push.
+.ROBC readback correct. Expect Runway $uc($1) for departure. Contact $radioname($2) on $freq($2) when ready for taxi.
+.ROBCP readback correct. Expect Runway $uc($1) for departure. Contact $radioname($2) on $freq($2) when ready for push.
+.ROBU readback correct. Expect Runway $uc($1) for departure. Advise UNICOM on 122.800 when ready to taxi.
+
+.TAXI Runway $uc($1), taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6). Altimeter $altim($dep).
+
+.HS Hold Short Runway $uc($1).
+.STOP hold position.
+.PUSH Push approved, tail $uc($1). Advise when ready to taxi.
+.PUSHC Push approved, tail $uc($1). Squawk Mode Charlie. Contact $radioname($2) on $freq($2) when ready for taxi.
+
+.ALT $uc($1) altimeter $altim($1).
+
+*******************************
+TOWER
+*******************************
+.CL Wind $winds, Runway $uc($1), cleared to land.
+.HOLDING Traffic holding short.
+.DEPART Traffic departing prior to arrival.
+
+.GA go around. 
+.GAI Fly heading $1, climb and maintain $temp, contact Departure on $freq($2).
+.GAD Proceed direct $uc($1), climb and maintain $temp, contact Departure on $freq($2).
+.MISS Fly the Missed Approach as published. 
+.CT Runway $uc($1), cleared for takeoff.
+.CTN RNAV to $uc($1), Runway $uc($2), cleared for takeoff.
+.CTH Fly heading $1, Runway $uc($2), cleared for takeoff.
+
+.W Wind $winds.
+.WINDS Wind $winds.
+.WS $uc($1) wind $wind($1).
+
+.DELAY No delay.
+.LUAW Runway $uc($1), line up and wait.
+.CANCEL Cancel takeoff clearance.
+
+.RAMP Welcome to $arr. Exit to the $uc($1) when able. Parking, taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6), remain this frequency.
+.GND Welcome to $arr. Exit to the $uc($1) when able. Contact $radioname($2) on $freq($2).
+
+.WAKE  Caution wake turbulence.
+.WAKEH Hold for wake turbulence.
+
+.RP Report the traffic in sight.
+.FT Follow that traffic.
+
+.SHEAR Wind shear advisories are in effect.
+.MICRO Microburst advisories are in effect.
+.BYET frequency change to advisory approved.
+*******************************
+NOTHING BUT VFR
+*******************************
+.VFR departure to the $uc($1) is approved, maintain VFR at or below $temp. Departure frequency $freq($2). Squawk $squawk.
+.VFRU departure to the $uc($1) is approved, maintain VFR at or below $temp. Departure on UNICOM 122.80. Squawk $squawk.
+
+.VFRB cleared out of $uc($1) Class Bravo airspace to the $uc($2), maintain VFR at or below $temp. Departure frequency $freq($3). Squawk $squawk.
+.VFRBH cleared out of $uc($1) Class Bravo airspace on a heading of $uc($2), maintain VFR at or below $temp. Departure frequency $freq($3). Squawk $squawk.
+.VFRBU cleared out of $uc($1) Class Bravo airspace to the $uc($2), maintain VFR at or below $temp. Departure on UNICOM 122.80. Squawk $squawk.
+.BIN cleared into the $uc($1) Class Bravo airspace, maintain VFR at or below $temp, squawk $squawk.
+
+.TVFR squawk 1200, maintain VFR. Frequency change to advisory approved.
+.VL Make left closed traffic.
+.VR Make right closed traffic.
+.VLD Make left crosswind departure.
+.VRD Make right crosswind departure.
+
+.MID report midfield, downwind
+.ELD enter left downwind Runway $uc($1).
+.ERD enter right downwind Runway $uc($1).
+.ELB enter left base Runway $uc($1).
+.ERB enter right base Runway $uc($1).
+.MSI make straight in Runway $uc($1).
+
+.OPT Runway $uc($1), cleared for the option.
+.OPTSG Runway $uc($1), cleared for the option. Stop and Go unavailable.
+.OPTST Runway $uc($1), cleared Stop and Go. Report takeoff roll.
+.OPTTG Runway $uc($1), cleared Touch and Go.
+.OPTLA Runway $uc($1), cleared Low Approach.
+
+.CLEARB remain clear of the $uc($1) Class Bravo airspace at all times. 
+.CLEARR remain $1 miles from $uc($2) at all times. 
+.VFRA Maintain appropriate VFR altitudes.
+*******************************
+THE RADAR ROOM
+*******************************
+.ID Ident.
+.TID squawk $squawk, Ident.
+.RT Reset transponder, squawk $squawk.
+.VSQ verify squawking $squawk.
+.RCPOS radar contact, $dist($1) miles from $uc($1).
+.RCPOSA radar contact, $dist($1) miles $2 from $uc($1).
+.SAY Say altitude.
+.RC radar contact.
+
+
+.RLSD Readback correct. $dep altimeter $altim($dep). $winds. Released for departure. Time now $timez. Clearance void if not off in 10 minutes. Monitor Unicom on 122.800. Advise this frequency airborne.
+.RLSDH Readback correct. Hold for release. Time now $timez. Expect further clearance in 10 minutes. Remain this frequency.
+
+.VSEP  maintain visual separation from that traffic.
+.RON resume own navigation.
+.AF proceed as filed.
+.HOLDA can you accept hold over $uc($1) as published?
+.HOLD cleared direct $uc($1), maintain $temp, hold over $uc($1), left hand turns, 2 minute legs. Time now $timez. Expect further clearance in $2 minutes. 
+.HOLDP hold over $uc($1) as published, maintain $temp. Time now $timez. Expect further clearance in $2 minutes. 
+
+.FH Fly heading $1.
+.FHL Turn left heading $1.
+.FHR Turn right heading $1.
+
+.DH Fly heading $1.
+.DHVA Fly heading $1, vectors for approach.
+.DHVTA Fly heading $1, vectors to the approach.
+.DHVD Fly heading $1, vectors for descent.
+.DHVT Fly heading $1, vectors for traffic.
+.DHVF Fly heading $1, vectors for the field.
+.JOIN Join the $1 transition, then as filed.
+
+.DSTAR advise if you have the $uc($1) aboard. 
+.DSTAR1 proceed direct $uc($1) and join the $uc($2).
+.DHF proceed direct $uc($1).
+.DHFF Proceed direct $uc($1) when able, then on course as filed.
+.CDF cleared direct $uc($1).
+
+.CM Climb and maintain $alt.
+.DM Descend and maintain $alt.
+.M Maintain $alt.
+.STAR cross $uc($1) at and maintain $temp, $2 kts. 
+.STARN cross $uc($1) at and maintain $temp.
+.STARJ proceed direct $uc($1), rejoin the $uc($2).
+.XAA cross $uc($1) at or above $temp.
+.XAB cross $uc($1) at or below $temp.
+.XATDPT cross $uc($1) at $temp.. After $uc($1), depart $uc($1) heading $2.
+.TOD Report TOD.
+
+.SI say airspeed.
+.SM say Mach number.
+.IS increase speed to $1 $2.
+.RS reduce speed to $1 $2.
+.XS do not exceed $1 $2.
+.MS maintain $1 $2.
+.MFS maintain maximum forward speed.
+.SPS maintain slowest practical speed.
+.RNS resume normal speed.
+
+.EXP expect vectors $1 Runway $uc($2) approach.
+.LOC intercept the Runway $uc($1) localizer.
+
+.APRT $arr is at your $oclock($arr), $dist($arr) miles, report the field in sight.
+.VA cleared visual Runway $uc($1) approach.
+.PTAC $dist($1) from $uc($1), fly heading $2, maintain $temp until established, cleared $3 Runway $uc($4) approach.
+
+.CETF no observed traffic between you and $arr.
+.TERM radar services terminated, frequency change to advisory approved. 
+.FCLOSED Field is closed. Approach and landing will be at your own risk. 
+*******************************
+TERMINATION
+*******************************
+.BYE departing my airspace to the $uc($1), no adjoining ATC appears online. Radar services terminated, frequency change to advisory approved.
+.BYEV departing my airspace to the $uc($1), no adjoining ATC appears online. Squawk 1200, radar services terminated, frequency change to advisory approved. 
+.UP climbing out of my airspace, no adjoining ATC appears online. Radar services terminated, frequency change to advisory approved.
+.DOWN descending out of my airsapce, no adjoining ATC appears online. Radar services terminated, frequency change to advisory approved.
+
+.BYEJA departing my airspace to the NORTH, Jacksonville Center offline. Radar services terminated, frequency change to advisory approved.
+.BYEOR departing my airspace, Orlando Approach offline. Radar services terminated, frequency change to advisory approved.
+
+.BYEHA departing my airspace to the SOUTH, Havana Center offline. Radar services terminated, frequency change to advisory approved.
+.BYEHO departing my airspace to the WEST, Houston Oceanic offline. Radar services terminated, frequency change to advisory approved.
+.BYENY departing my airspace to the EAST, New York Radio offline. Radar services terminated, frequency change to advisory approved.
+.BYENA departing my airspace, Nassau FIR offline. Radar services terminated, frequency change to advisory approved.
+.BYEOC departing my airspace to the EAST, Miami Oceanic offline. Radar services terminated, frequency change to advisory approved.
+.BYEOCS departing my airspace to the SOUTH, Miami Oceanic offline. Radar services terminated, frequency change to advisory approved.
+
+.BYEO departing my airspace to the NORTH, New York Radio offline. Radar services terminated, frequency change to advisory approved.
+.BYEO1 departing my airspace to the SOUTH, Port Au Price FIR offline. Radar services terminated, frequency change to advisory approved.
+.BYEO2 departing my airspace to the SOUTH, Santo Domingo FIR offline. Radar services terminated, frequency change to advisory approved.
+.BYEO3 departing my airspace to the SOUTHEAST, San Juan Oceanic offline. Radar services terminated, frequency change to advisory approved.
+
+.CE radar services terminated, frequency change to advisory approved. Report IFR cancellation or missed approach this frequency.
+.CANCELIFR IFR cancellation received at $time. Squawk 1200. Radar services terminated, frequency to advisory change approved, good day.
+
+*******************************
+COMMON
+*******************************
+.CALL Contact $radioname($1) on $freq($1).
+.CV Do you copy voice?
+.GM  good morning.
+.GD  good day.
+.GE  good evening.
+.GF  good afternoon.
+.GN  good night.
+.IN  state intentions.
+.SAFE Have a safe flight, we will see you again.
+.NORM squawk Mode Charlie.
+.TS squawk standby.
+.TN squawk normal.
+
+.BRB Attention All Aircraft: $callsign will be away for approximately $1 minute(s).
+.SAFE Have a safe flight.
+.THANKS Thanks for flying with us today. Safe travels.
+
+
+.PRC  For Explanations-Questions-Tips Visit the pilot resource center at www.vatsim.net/prc/
+.texters NOTAM to all text pilots: Due to the time it takes to reply to ATC, pilots are requested to execute instructions **before** replying.
+.AATIS Attention All Aircraft: ATIS Information $uc($1) is now current at $uc($2). $uc($2) Altimeter $altim($2)
+
+.CLOSING **NOTAM** $radioname() is closing in $1 minute(s)
+.CLOSED ****NOTAM $radioname($1) closed at $time.****
+
+*******************************
+APPROACH CLEARANCES
+(VERIFY EACH AIRAC BEFORE USE)
+*******************************
+<<KMIA>>
+<<====================================================>>
+<<<-KMIA->>>
+<<------------>>
+.ALTMIA8L .sticky PABOY@3000--LOC APP
+.MIA8L $dist(PABOY) miles from PABOY, fly heading $1, maintain $temp until established, cleared LOC RWY 8L Approach.
+
+<<<RNAV 8L|  KACDE 1500>>
+.MIAR8L $dist(KACDE) miles from KACDE, cleared direct KACDE, cross at or above 1,500, cleared RNAV RWY 8L approach.
+.MIAR8LA $dist(VICUV) miles from VICUV, cleared direct VICUV, cross at or above 3,000, cleared RNAV RWY 8L approach.
+<<------------>>
+.ALTMIA26R .sticky HINKU@3000--LOC APP
+.MIA26R $dist(HINKU) miles from HINKU, fly heading $1, maintain $temp until established, cleared LOC RWY 26R approach.
+
+<<<RNAV 26R|  ZARER 1500>>
+.MIAR26R $dist(ZARER) miles from ZARER, cleared direct ZARER, cross at or above 1,500, cleared RNAV RWY 26R approach.
+.MIAR26RA $dist(NAYIB) miles from NAYIB, cleared direct NAYIB, cross at or above 3,000, cleared RNAV RWY 26R approach.
+<<------------>>
+.ALTMIA8R .sticky COPRA@3000 |KROME@4000
+.MIA8RC $dist(COPRA) miles from COPRA, fly heading $1, maintain $temp until established, cleared ILS RWY 8R approach.
+.MIA8RK $dist(KROME) miles from KROME, fly heading $1, maintain $temp until established, cleared ILS RWY 8R approach.
+
+<<<RNAV Y 8R|  KROME 3000>>
+.MIAR8R $dist(KROME) miles from KROME, cleared direct KROME, cross at 3,000, cleared RNAV Y RWY 8R approach.
+.MIAR8Ra $dist(COPRA) miles from COPRA, cleared direct COPRA, cross at or above 3,000, cleared RNAV Y RWY 8R approach.
+
+<<<RNAV Z 8R|  KROME 3000>>
+.MIAR8RZ $dist(KROME) miles from KROME, cleared direct KROME, cross at or above 3,000, cleared RNAV Z RWY 8R approach.
+.MIAR8RaZ $dist(COPRA) miles from COPRA, cleared direct COPRA, cross at or above 3,000, cleared RNAV Z RWY 8R approach.
+<<------------>>
+.ALTMIA26L .sticky BASHO@3000 |VAPOR@4000
+.MIA26LB $dist(BASHO) miles from BASHO, fly heading $1, maintain $temp until established, cleared ILS RWY 26L approach.
+.MIA26LV $dist(VAPOR) miles from VAPOR, fly heading $1, maintain $temp until established, cleared ILS RWY 26L approach.
+
+<<<RNAV Y 26L|  BASHO 3000>>
+.MIAR26L $dist(BASHO) miles from BASHO, cleared direct BASHO, cross at or above 3,000, cleared RNAV Y RWY 26L approach.
+.MIAR26La $dist(ZILBI) miles from ZILBI, cleared direct ZILBI, cross at or above 3,000, cleared RNAV Y RWY 26L approach.
+
+<<<RNAV Z 26L|  AGLER 1600>>
+.MIAR26Laz $dist(BASHO) miles from BASHO, cleared direct BASHO, cross at or above 3,000, cleared RNAV Z RWY 26L approach.
+.MIAR26LZ $dist(AGLER) miles from AGLER, cleared direct AGLER, cross at or above 1,600, cleared RNAV Z RWY 26L approach.
+<<------------>>
+.ALTMIA9 .sticky GRITT@3000
+.MIA9 $dist(GRITT) miles from GRITT, fly heading $1, maintain $temp until established, cleared ILS RWY 9 approach.
+
+<<<RNAV 9|  HODLE 3000//DOXSI 1500>>
+.MIAR9 $dist(DOXSI) miles from DOXSI, cleared direct DOXSI, cross at or above 1,500, cleared straight-in RNAV RWY 9 approach.
+.MIAR9A $dist(HODLE) miles from HODLE, cleared direct HODLE, cross at or above 3,000, cleared straight-in RNAV RWY 9 approach.
+<<------------>>
+.ALTMIA27 .sticky SARCO@3000
+.MIA27 $dist(SARCO) miles from SARCO, fly heading $1, maintain $temp until established, cleared ILS RWY 27 approach.
+
+<<<RNAV Y 27|  SARCO 3000>>
+.MIAR27 $dist(SARCO) miles from SARCO, cleared direct SARCO, cross at or above 3,000, cleared RNAV Y RWY 27 approach.
+.MIAR27a $dist(HENDN) miles from HENDN, cleared direct HENDN, cross at or above 3,000, cleared RNAV Y RWY 27 approach.
+
+<<<RNAV Z 27|  SARCO 3000>>
+.MIAR27az $dist(SARCO) miles from SARCO, cleared direct SARCO, cross at or above 3,000, cleared RNAV Z RWY 27 approach.
+.MIAR27Z $dist(HENDN) miles from HENDN, cleared direct HENDN, cross at or above 3,000, cleared RNAV Z RWY 27 approach.
+<<------------>>
+.ALTMIA12 .sticky VEPCO@2000 |PIANA@3000
+.MIA12V $dist(VEPCO) miles from VEPCO, fly heading $1, maintain $temp until established, cleared ILS RWY 12 approach.
+.MIA12P $dist(PIANA) miles from PIANA, fly heading $1, maintain $temp until established, cleared ILS RWY 12 approach.
+
+<<<RNAV Y 12|  GLRIA 3000>>
+.MIAR12 $dist(GLRIA) miles from GLRIA, cleared direct GLRIA, cross at 3,000, cleared RNAV Y RWY 12 approach.
+.MIAR12a $dist(VEPCO) miles from VEPCO, cleared direct VEPCO, cross at or above 2,000, cleared RNAV Y RWY 12 approach.
+
+<<<RNAV Z 12|  GLRIA 3000>>
+.MIAR12Z $dist(GLRIA) miles from GLRIA, cleared direct GLRIA, cross at or above 3,000, cleared RNAV Z RWY 12 approach.
+.MIAR12aZ $dist(VEPCO) miles from VEPCO, cleared direct VEPCO, cross at or above 2,000, cleared RNAV Z RWY 12 approach.
+<<------------>>
+.ALTMIA30 .sticky OLDDE@3000
+.MIA30 $dist(OLDDE) miles from OLDDE, fly heading $1, maintain $temp until established, cleared ILS RWY 30 approach.
+
+<<<RNAV Y 30|  SHANN 3000>>
+.MIAR30 $dist(SHANN) miles from SHANN, cleared direct SHANN, cross at or above 3,000, cleared RNAV Y RWY 30 approach.
+.MIAR30a $dist(OLDDE) miles from OLDDE, cleared direct OLDDE, cross at or above 3,000, cleared RNAV Y RWY 30 approach.
+
+<<<RNAV Z 30|  SHANN 3000>>
+.MIAR30az $dist(SHANN) miles from SHANN, cleared direct SHANN, cross at or above 3,000, cleared RNAV Z RWY 30 approach.
+.MIAR30Z $dist(OLDDE) miles from OLDDE, cleared direct OLDDE, cross at or above 3,000, cleared RNAV Z RWY 30 approach.
+<<====================================================>>
+<<<-KOPF->>>
+<<------------>>
+.ALTOPF9L .sticky MOLTS@1600
+.OPF9L $dist(OKANE) miles from OKANE, fly heading $1, maintain $temp until established, cleared ILS RWY 9L approach.
+
+<<<RNAV 9L| OKANE hold|SAZBO 1600>>
+.OPFR9L $dist(SAZBO) miles from SAZBO, cleared direct SAZBO, cross at or above 1,600, cleared straight-in RNAV RWY 9L approach.
+.OPFR9LH $dist(OKANE) miles from OKANE, cleared direct OKANE, cross at or above 1,600, cleared straight-in RNAV RWY 9L approach.
+<<------------>>
+.ALTOPF27R .sticky JOLYN 1600/IZROZ 1700
+.OPF27RJ $dist(JOLYN) miles from JOLYN, fly heading $1, maintain $temp until established, cleared ILS RWY 27R approach.
+.OPF27RI $dist(IZROZ) miles from IZROZ, fly heading $1, maintain $temp until established, cleared ILS RWY 27R approach.
+
+<<<RNAV 27R|  ZIKNA/JARNO 1600>>
+.OPFR27R $dist(JOLYN) miles from JOLYN, cleared direct JOLYN, cross at or above 1,600, cleared RNAV RWY 27R approach.
+.OPFR27RA $dist(IZROZ) miles from IZROZ, cleared direct IZROZ, cross at or above 1,600, cleared RNAV RWY 27R approach.
+<<------------>>
+.ALTOPF12 .sticky HAUSR@1700
+.OPF12 $dist(HAUSR) miles from HAUSR, fly heading $1, maintain $temp until established, cleared ILS RWY 12 approach.
+
+<<<RNAV 12|  ZIKNA/JARNO 1700>>
+.OPFR12 $dist(ZIKNA) miles from ZIKNA, cleared direct ZIKNA, cross at or above 1,700, cleared RNAV RWY 12 approach.
+.OPFR12A $dist(JARNO) miles from JARNO, cleared direct JARNO, cross at or above 1,700, cleared RNAV RWY 12 approach.
+<<====================================================>>
+<<<-KFLL->>>
+<<------------>>
+.ALTFLL10L .sticky PIONN@2500
+.FLL10LP $dist(PIONN) miles from PIONN, fly heading $1, maintain $temp until established, cleared ILS RWY 10L approach.
+
+<<<RNAV Y 10L|  YELUY/HOLID 5000K/210 KTS >>
+.FLLR10L $dist(YELUY) miles from YELUY, cleared direct YELUY, cross at or above 5,000, 210KTS or less, cleared RNAV Y RWY 10L approach.
+.FLLR10La $dist(HOLID) miles from HOLID, cleared direct HOLID, cross at or above 5,000, 210KTS or less, cleared RNAV Y RWY 10L approach.
+
+<<<RNAV Z 10L|  NOVAE 1800>>
+.FLLR10LZ $dist(NOVAE) miles from NOVAE, cleared direct NOVAE, cross at or above 1,800, cleared straight-in RNAV Z RWY 10L approach.
+
+.FLLR10LHZ $dist(PIONN) miles from PIONN, cleared direct PIONN, cross at or above 2,500, cleared RNAV Z RWY 10L approach. Report on the inbound procedure turn.
+<<------------>>
+.ALTFLL28R .sticky SNAPE@2000 |JUMAR@2500
+.FLL28RS $dist(SNAPE) miles from SNAPE, fly heading $1, maint. $temp til established, cleared ILS RWY 28R approach.
+.FLL28RJ $dist(JUMAR) miles from JUMAR, fly heading $1, maint. $temp til established, cleared ILS RWY 28R approach.
+
+<<<RNAV Y 28R|  JUMAR HOLD / SNAPE 2000>>
+.FLLR28R $dist(SNAPE) miles from SNAPE, cleared direct SNAPE, cross at or above 2,000, cleared straight-in RNAV Y RWY 28R approach.
+.FLLR28RH $dist(JUMAR) miles from JUMAR, cleared direct JUMAR, cross at or above 2,500, cleared RNAV Y RWY 28R approach. Report on the inbound procedure turn.
+
+<<<RNAV Z 28R| >>
+.FLLR28RZ $dist(JUMAR) miles from JUMAR, cleared direct JUMAR, cross at or above 4,000, cleared RNAV Z RWY 28R approach.
+.FLLR28RZa $dist(BEPAC) miles from BEPAC, cleared direct BEPAC, cross at or above 5,000, cleared RNAV Z RWY 28R approach.
+.FLLR28RZb $dist(HUXIM) miles from HUXIM, cleared direct HUXIM, cross at or above 4,000, 210KTS or less, cleared RNAVY Z RWY 28R approach.
+
+<<<VOR 28R|  FLL VOR 2100>>
+.FLLV28R cleared direct FLL VOR at or above 2,100. Join the outbound 090 radial. Report on the inbound procedure turn, cleared VOR RWY 28R approach.
+<<------------>>
+.ALTFLL10R .sticky BLAIM@3000 |LORII@1800
+.FLL10R $dist(BLAIM) miles from BLAIM, fly heading $1, maintain $temp until established, cleared ILS RWY 10R approach.
+.FLL10RL $dist(LORII) miles from LORII, fly heading $1, maintain $temp until established, cleared ILS RWY 10R approach.
+
+<<<RNAV 10R|  BLAIM@3000 |LORII@1800>>
+.FLLR10RN $dist(BLAIM) miles from BLAIM, cleared direct BLAIM, cross at or above 3,000, cleared RNAV RWY 10R approach.
+.FLLR10RNL $dist(LORII) miles from LORII, cleared direct HOLID, cross at or above 1,800, cleared RNAV RWY 10R approach.
+<<------------>>
+.ALTFLL28L .sticky YOBUS@2000 |WIKIR@2500>>
+.FLL28LY $dist(YOBUS) miles from YOBUS, fly heading $1, maint. $temp til established, cleared ILS RWY 28L approach.
+.FLL28L $dist(WIKIR) miles from WIKIR, fly heading $1, maint. $temp til established, cleared ILS RWY 28L approach.
+
+<<<RNAV 28L| YOBUS@2000 |WIKIR@2500>>
+.FLLR28L $dist(YOBUS) miles from YOBUS, cleared direct YOBUS, cross at or above 2,000, cleared RNAV RWY 28L approach.
+.FLLR28LW $dist(WIKIR) miles from WIKIR, cleared direct WIKIR, cross at or above 2,500, cleared RNAV Y RWY 28L approach. Report on the inbound procedure turn.
+
+<<====================================================>>
+<<<-KHWO->>>
+<<------------>>
+<<<RNAV 10R|  NICYI @ 1700 // FRRDY 2000>>
+.HWOR10R $dist(NICYI) miles from NICYI, cleared direct NICYI, cross at or above 1,700, cleared RNAV RWY 10R approach.
+.HWOR10RA $dist(FRRDY) miles from FRRDY, cleared direct FRRDY, cross at or above 2,000, cleared straight-in RNAV RWY 10R approach.
+<<------------>>
+<<<RNAV 28R|  CIBIB 1700>>
+.HWOR28R $dist(CIBIB) miles from CIBIB, cleared direct CIBIB, cross at or above 1,700, cleared RNAV RWY 28R approach.
+.HWOR28Ra $dist(CUDES) miles from CUDES, cleared direct CUDES, cross at or above 2,000, cleared RNAV RWY 28R approach.
+<<====================================================>>
+<<<-KFXE->>>
+<<------------>>
+.ALTFXE .sticky ILS RWY 8 |PADDS@2000
+.FXE8 $dist(PADDS) miles from PADDS, fly heading $1, maintain $temp until established, cleared ILS RWY 8 approach.
+
+<<<RNAV 8| ENVER hold|PADDS 2000>>
+.FXER8 $dist(PADDS) miles from PADDS, cleared direct PADDS, cross at or above 2,000, cleared straight-in RNAV RWY 8 approach.
+.FXER8H $dist(ENVER) miles from ENVER, cleared direct ENVER, cross at or above 2,000, cleared RNAV RWY 8 approach. Report exiting the hold.
+<<------------>>
+<<<RNAV 26| FORSU hold|PADDS 1,500>>
+.FXER26 $dist(KOKEY) miles from KOKEY, cleared direct KOKEY, cross at or above 1,500, cleared straight-in RNAV RWY 26 approach.
+.FXER26H $dist(FORSU) miles from FORSU, cleared direct FORSU, cross at or above 2,000, cleared RNAV RWY 26 approach. Report exiting the hold.
+<<====================================================>>
+<<<-KPMP->>>
+<<------------>>
+.ALTPMP .sticky LOC RWY 15 |JIMNY@2000--LOC APP
+.PMP15 $dist(JIMNY) miles from JIMNY, fly heading $1, maintain $temp until established, cleared LOC Runway 15 Approach.
+
+.PMPR15 $dist(JIMNY) miles from JIMNY, cleared direct JIMNY, cross at or above 2,000, cleared RNAV RWY 15 approach.
+<<------------>>
+<<<RNAV 33| RIMZY 2500 // WAKED 1600>>
+.PMPR33 $dist(RIMZY) miles from RIMZY, cleared direct RIMZY, cross at or above 2,500, cleared RNAV RWY 33 approach.
+.PMPR33W $dist(WAKED) miles from WAKED, cleared direct WAKED, cross at or above 1,600, cleared RNAV RWY 33 approach.
+<<------------>>
+<<<RNAV 24| CIVOV 2000>>
+.PMPR24 $dist(CIVOV) miles from CIVOV, cleared direct CIVOV, cross at or above 2,000, cleared RNAV RWY 24 approach.
+<<------------>>
+<<<RNAV 6| HIBDU 1600>>
+.PMPR6 $dist(HIBDU) miles from HIBDU, cleared direct HIBDU, cross at or above 1,600, cleared RNAV RWY 6 approach.
+<<====================================================>>
+<<<-KTNT->>>
+<<------------>>
+.ALTTNT9 .sticky ILS RWY 9 |MONRY@1800
+.TNT9 $dist(MONRY) miles from MONRY, fly heading $1, maintain $temp until established, report on the inbound procedure turn, cleared ILS RWY 9 approach. 
+<<====================================================>>
+<<<-KTMB->>>
+<<------------>>
+.ALTTMB9R .sticky ILS RWY 9R |QEEZY@1700
+.TMB9R $dist(QEEZY) miles from QEEZY, fly heading $1, maintain $temp until established, cleared ILS RWY 9R approach.
+
+<<<RNAV 9R| HAXAM hold|LAYDN 1500>>
+.TMBR9R $dist(LAYDN) miles from LAYDN, cleared direct LAYDN, cross at or above 1,500, cleared straight-in RNAV RWY 9R approach.
+
+.TMBR9RH $dist(HAXAM) miles from HAXAM, cleared direct HAXAM, cross at or above 2,000, cleared RNAV RWY 9R approach. Report exiting the hold.
+<<------------>>
+<<<RNAV 9L| JULED hold|HASDU 1500>>
+.TMBR9L $dist(HASDU) miles from HASDU, cleared direct HASDU, cross at or above 1,500, cleared straight-in RNAV RWY 9L approach.
+.TMBR9LH $dist(JULED) miles from JULED, cleared direct JULED, cross at or above 2,000, cleared RNAV RWY 9L approach. Report exiting the hold.
+
+<<<RNAV 27L| ZAGUN 2000>>
+.TMBR27L $dist(ZAGUN) miles from ZAGUN, cleared direct ZAGUN, cross at or above 2,000, cleared RNAV RWY 27L approach.
+
+<<<RNAV 27R| FITOL 2000>>
+.TMBR27R $dist(FITOL) miles from FITOL, cleared direct FITOL, cross at or above 2,000, cleared RNAV RWY 27R approach.
+<<====================================================>>
+<<<-KHST->>>
+<<------------>>
+.ALTHST5 .sticky ILS RWY 5 |GULPE@2500
+.HST5 $dist(GULPE) miles from GULPE, fly heading $1, maintain $temp until established, cleared ILS RWY 5 approach.
+
+<<<TACAN 5| RYDOM hold|FOOTY>>>
+.HSTT5 $dist(FOOTY) miles from FOOTY, cleared direct FOOTY, maintain 1,600 until established, cleared TACAN RWY 5 approach.
+.HSTT5H $dist(RYDOM) miles from RYDOM, cleared direct RYDOM, maintain 1,600 until established, cleared TACAN RWY 5 approach.
+<<------------>>
+<<<TACAN 23| CAHOO@2000 >>>
+.HSTT23 $dist(CAHOO) miles from CAHOO, cleared direct CAHOO, maintain 2,000 until established, report on the inbound procedure turn, cleared TACAN RWY 23 approach.
+<<====================================================>>
+<<<-X51->>>
+<<------------>>
+<<<RNAV 10| HOLMU hold|WEMBA 1500>>
+.X51R10 $dist(WEMBA) miles from WEMBA, cleared direct WEMBA, cross at or above 1,500, cleared straight-in RNAV RWY 10 approach.
+.X51R10H $dist(HOLMU) miles from HOLMU, cleared direct HOLMU, cross at or above 2,000, cleared RNAV RWY 10 approach. Report exiting the hold.
+<<------------>>
+<<<RNAV 28| ZURBU 2000>>
+.X51R28 $dist(ZURBU) miles from ZURBU, cleared direct ZURBU, cross at or above 1,500, cleared RNAV RWY 28 approach.
+<<====================================================>>
+<<<-KTPA->>>
+<<------------>>
+<<BUCCS @ 3K>>
+.TPA19LC $dist(COSME) miles from COSME, fly heading $1, maintain $temp until established, cleared ILS RWY 19L approach.
+.TPA19LB $dist(BUCCS) miles from BUCCS, fly heading $1, maintain $temp until established, cleared ILS RWY 19L approach.
+
+<<<RNAV Y 19L|  COBOX 3000/HIPAD 3000 OR LESS>
+.TPAR19L $dist(COBOX) miles from COBOX, cleared direct COBOX, cross at 3,000, cleared RNAV Y RWY 19L approach.
+.TPAR19La $dist(HIPAD) miles from HIPAD, cleared direct HIPAD, cross at or above 3,000, cleared RNAV Y RWY 19L approach.
+
+<<<RNAV Z 19L|  COBOX 3000/POMSE 2000>>
+.TPAR19LZ $dist(cobox) miles from COBOX, cleared direct COBOX, cross at or above 3,000, cleared RNAV Z RWY 19L approach.
+.TPAR19LzL $dist(POMSE) miles from POMSE, cleared direct POMSE, cross at or above 2,000, cleared RNAV Z RWY 19L approach.
+<<------------>>
+<<FADDI @ 3k>>
+.TPA19RJ $dist(JMBOB) miles from JMBOB, fly heading $1, maintain $temp until established, cleared ILS RWY 19R approach.
+.TPA19RF $dist(FADDI) miles from FADDI, fly heading $1, maintain $temp until established, cleared ILS RWY 19R approach.
+.TPA19RM $dist(MERRA) miles from MERRA, fly heading $1, maintain $temp until established, cleared ILS RWY 19R approach.
+
+<<<RNAV 19R| MERRA hold|FADDI 3000>>
+.TPAR19R $dist(FADDI) miles from FADDI, cleared direct FADDI, cross at or above 3,000, cleared straight-in RNAV RWY 19R approach.
+<<------------>>
+<<SNORK/LAGOO @ 2600 HOLD>>
+.TPA1LP $dist(SNORK) miles from SNORK, fly heading $1, maintain $temp until established, cleared ILS RWY 1L approach.
+.TPA1LL $dist(LAGOO) miles from LAGOO, fly heading $1, maintain $temp until established, cleared ILS RWY 1L approach.
+
+<<<RNAV 1L| SNORK 2600>>
+.TPAR1L $dist(SNORK) miles from SNORK, cleared direct SNORK, cross at or above 2,600, cleared straight-in RNAV RWY 1L approach.
+<<------------>>
+<<ANAZE--LOC APP @ 2,600>>
+.TPA1R $dist(ANAZE) miles from ANAZE, fly heading $1, maintain 2,600 until established, cleared LOC RWY 1R approach.
+
+<<<RNAV 1R| SNORK 2600>>
+.TPAR1R $dist(ANAZE) miles from ANAZE, cleared direct ANAZE, cross at or above 2,600, cleared straight-in RNAV RWY 1R approach.
+<<------------>>
+<<<RNAV 28| RUYKI hold|JUKGO 1600>>
+.TPAR28 $dist(JUKGO) miles from JUKGO, cleared direct JUKGO, cross at or above 1,600, cleared straight-in RNAV RWY 28 approach.
+<<------------>>
+<<<RNAV 10| POLVY hold|ZEXYY 1600>>
+.TPAR10 $dist(ZEXYY) miles from ZEXYY, cleared direct ZEXYY, cross at or above 1,600, cleared straight-in RNAV RWY 10 approach.
+
+<<====================================================>>
+<<<-KSRQ->>>
+<<------------>>
+<<2000>>
+.SRQ14 $dist(FRUGL) miles from FRUGL, fly heading $1, maintain $temp until established, cleared ILS RWY 14 approach
+
+<<<RNAV 14| FRUGL 2000>>
+.SRQR14 $dist(FRUGL) miles from FRUGL, cleared direct FRUGL, cross at or above 2,000, cleared straight-in RNAV RWY 14 approach.
+
+<<<VOR 14|  SRQ VOR 1700>>
+.SRQV14 $dist(SRQ) miles from SRQ, cleared direct SRQ VOR at or above 1,700. Join the outbound 298 radial. Report on the inbound procedure turn, cleared VOR RWY 14 approach.
+<<------------>>
+.SRQ32 $dist(SR) miles from RINGY, fly heading $1, maintain 1,800 until established, cleared ILS RWY 32 approach
+
+<<<RNAV 32| RINGY 1800>>
+.SRQR32 $dist(RINGY) miles from RINGY, cleared direct RINGY, cross at or above 1,800, cleared straight-in RNAV RWY 32 approach.
+
+<<<VOR 32|  SRQ VOR 1700>>
+.SRQV32 $dist(SRQ) miles from SRQ, cleared direct SRQ VOR at or above 1,600. Join the outbound 145 radial. Report on the inbound procedure turn, cleared VOR RWY 32 approach.
+<<------------>>
+<<<RNAV 4| CALCA 1700>>
+.SRQR4 $dist(CALCA) miles from CALCA, cleared direct CALCA, cross at or above 1,700, cleared straight-in RNAV RWY 4 approach.
+<<------------>>
+<<<RNAV 22| DIRAY 1800>>
+.SRQR22 $dist(DIRAY) miles from DIRAY, cleared direct DIRAY, cross at or above 1,800, cleared RNAV RWY 22 approach.
+.SRQR22a $dist(ERICO) miles from ERICO, cleared direct ERICO, cross at or above 2,000, cleared RNAV RWY 22 approach.
+
+<<====================================================>>
+<<<-KPIE->>>
+<<------------>>
+<<CAPOK @ 1500>>
+.PIE18L $dist(CAPOK) miles from CAPOK, fly heading $1, maintain $temp until established, cleared ILS RWY 18L approach
+
+<<<RNAV 18L| SAUND 1600>>
+.PIER18L $dist(SAUND) miles from SAUND, cleared direct SAUND, cross at or above 1,600, cleared straight-in RNAV RWY 18L approach.
+
+<<<VOR 18L|  PIE VOR 1800>>
+.PIEV18L $dist(PIE) miles from PIE, cleared direct PIE VOR at or above 1,800. Join the outbound 352 radial. Report on the inbound procedure turn, cleared VOR RWY 18L approach.
+
+<<NORTH BAY VISUAL --- REQUIRES TOWER//NOT AT NIGHT//CEILING 2100/VIS 3nm>>
+.PIE18LNB $dist(PIE) miles from PIE. Report over the Causeway Bridge, cleared North Bay Visual RWY 18L approach.
+<<------------>>
+.IAFPIE36R .ff SONES
+.PIE36R $dist(SONES) miles from SONES, fly heading $1, maintain $temp until established, cleared ILS RWY 36R approach
+
+<<<RNAV 36R| SONES 2000>>
+.PIER36R $dist(SONES) miles from SONES, cleared direct SONES, cross at or above 2,000, cleared straight-in RNAV RWY 36R approach.
+
+<<<VOR 36R|  PIE VOR 2000>>
+.PIEV36R $dist(PIE) miles from PIE, cleared direct PIE VOR at or above 2,000. Join the outbound 188 radial. Report on the inbound procedure turn, cleared VOR RWY 36R approach.
+<<------------>>
+<<<VOR 4|  PIE VOR 1700>>
+.PIEV4 $dist(PIE) miles from PIE, cleared direct PIE VOR at or above 1,700. Join the outbound 219 radial. Report on the inbound procedure turn, cleared VOR RWY 4 approach.
+<<------------>>
+<<<RNAV-A | HOKAX 1600 --- STATE RUNWAY IN ALIAS>>
+.PIERNAVA $dist(HOKAX) miles from HOKAX, cleared direct HOKAX, cross at or above 1,600, cleared RNAV-A $1 $2 approach.
+<<====================================================>>
+<<<-KLAL->>>
+<<------------>>
+<<ILS 9| FLYEN @ 1700
+.LAL9 $dist(FLYEN) miles from FLYEN, fly heading $1, maintain 1,700 until established, cleared ILS RWY 9 approach
+
+<<<RNAV 9| FLYEN 1700>>
+.LALR9 $dist(FLYEN) miles from FLYEN, cleared direct FLYEN, cross at or above 1,700, cleared straight-in RNAV RWY 9 approach.
+
+<<<VOR 9|  LAL VOR 1400>>
+.LALV9 $dist(LAL) miles from LAL, fly heading $1. Join the LAL VOR inbound 096 radial at or above 1,400, cleared VOR RWY 9 approach.
+<<------------>>
+<<<RNAV 5| BIYAT 1700>>
+.LALR5 $dist(BIYAT) miles from BIYAT, cleared direct BIYAT, cross at or above 1,700, cleared straight-in RNAV RWY 5 approach.
+<<------------>>
+<<<RNAV 23| OBTOQ 1700>>
+.LALR23 $dist(OBTOQ) miles from OBTOQ, cleared direct OBTOQ, cross at or above 1,700, cleared straight-in RNAV RWY 23 approach.
+<<------------>>
+<<<RNAV 27| ECADE 1700>>
+.LALR27 $dist(ECADE) miles from ECADE, cleared direct ECADE, cross at or above 1,700, cleared straight-in RNAV RWY 27 approach.
+
+<<<VOR 27|  LAL VOR 1400>>
+.LALV27 $dist(LAL) miles from LAL, cleared direct LAL VOR at or above 2,100. Join the outbound 076 radial. Report on the inbound procedure turn, cleared VOR RWY 27 approach.
+<<====================================================>>
+<<<-KSPG->>>
+<<------------>>
+<<<RNAV 18| KENVE 1200>>
+.SPGR18 $dist(KENVE) miles from KENVE, cleared direct KENVE, cross at or above 1,200, cleared straight-in RNAV RWY 18 approach.
+
+<<<VOR 18|  PIE VOR 1300>>
+.SPGV18 cleared direct PIE VOR at or above 1,700. Join the outbound 164 radial, cleared straight-in VOR RWY 18 approach.
+<<------------>>
+<<<RNAV 7| TONYJ 1600>>
+.SPGR7 $dist(TONYJ) miles from TONYJ, cleared direct TONYJ, cross at or above 1,600, cleared straight-in RNAV RWY 7 approach.
+<<------------>>
+<<<RNAV 36| WHITD 1600>>
+.SPGR36 $dist(WHITD) miles from WHITD, cleared direct WHITD, cross at or above 1,600, cleared straight-in RNAV RWY 36 approach.
+<<====================================================>>
+<<<-KMCF->>>
+<<------------>>
+<<ILS RWY 4 |MILNE@1600>>
+.MCF4 $dist(MILNE) miles from MILNE, fly heading $1, maintain $temp until established, cleared ILS RWY 4 approach.
+
+<<<RNAV 4| EMASE 1600>>
+.MCF4 $dist(EMASE) miles from EMASE, cleared direct EMASE, cross at or above 1,600, cleared straight-in RNAV RWY 4 approach.
+
+<<<TACAN 4| ADNIL 1600>>>
+.MCFT4 $dist(ADNIL) miles from ADNIL, cleared direct ADNIL, maintain 1,600 until established, cleared TACAN RWY 4 approach.
+<<------------>>
+<<ILS RWY 22 |OZONA@1600>>
+.MCF22 $dist(OZONA) miles from OZONA, fly heading $1, maintain $temp until established, cleared ILS RWY 22 approach.
+
+<<<RNAV 22| MOBUE 1600>>
+.MCF22 $dist(MOBUE) miles from MOBUE, cleared direct MOBUE, cross at or above 1,600, cleared RNAV RWY 22 approach.
+
+<<<TACAN 22| SPECO@1600 >>>
+.HSTT22 $dist(SPECO) miles from SPECO, cleared direct SPECO, maintain 1,600 until established, cleared TACAN RWY 22 approach.
+<<====================================================>>
+<<<-KBKV->>>
+<<------------>>
+<<ILS 9| BROAD @ 2,000>>
+.BKV9 $dist(BROAD) miles from BROAD, fly heading $1, maintain 2,000 until established, cleared ILS RWY 9 approach
+
+<<<RNAV 9| OWAGO 1800>>
+.BKVR9 $dist(OWAGO) miles from OWAGO, cleared direct OWAGO, cross at or above 1,800, cleared straight-in RNAV RWY 9 approach.
+<<------------>>
+<<<RNAV 3| OFKOR 1800>>
+.BKVR3 $dist(OFKOR) miles from OFKOR, cleared direct OFKOR, cross at or above 1,800, cleared straight-in RNAV RWY 3 approach.
+<<------------>>
+<<<RNAV 21| HINQE 1800>>
+.BKVR21 $dist(HINQE) miles from HINQE, cleared direct HINQE, cross at or above 1,800, cleared straight-in RNAV RWY 21 approach.
+<<------------>>
+<<<RNAV 27| IGNAQ 1800>>
+.BKVR27 $dist(IGNAQ) miles from IGNAQ, cleared direct IGNAQ, cross at or above 1,800, cleared straight-in RNAV RWY 27 approach.
+<<====================================================>>
+<<<-KBOW->>>
+<<------------>>
+<<RNAV 5 | AHJUP @ 1,800>>
+.BOW5 $dist(AHJUP) miles from AHJUP, cleared direct AHJUP, cross at or above 1,800, cleared straight-in RNAV RWY 5 approach.
+<<------------>>
+<<RNAV 9L | LAVXY @ 1,800>>
+.BOW9 $dist(LAVXY) miles from LAVXY, cleared direct LAVXY, cross at or above 1,800, cleared straight-in RNAV RWY 9L approach.
+
+<<<VOR 9L | LAL VOR 2000>>
+.BOW9V $dist(LAL) miles from LAL, cleared direct LAL VOR at or above 2,000. Join the outbound 101 radial. Report exiting the hold, cleared VOR RWY 9L approach.
+<<------------>>
+<<RNAV 23 | AKACA @ 1,800>>
+.BOW23 $dist(AKACA) miles from AKACA, cleared direct AKACA, cross at or above 1,800, cleared straight-in RNAV RWY 23 approach.
+<<------------>>
+<<RNAV 27R | CEZBA @ 1,800>>
+.BOW23 $dist(CEZBA) miles from CEZBA, cleared direct CEZBA, cross at or above 1,800, cleared straight-in RNAV RWY 27R approach.
+<<====================================================>>
+<<<-KPBI->>>
+<<------------>>
+<< ZISUR@2000 >>
+.PBI10L $dist(ZISUR) miles from ZISUR, fly heading $1, maintain $temp until established, cleared ILS RWY 10L approach.
+
+<<<RNAV Y 10L|  ZISUR@2000>>
+.PBIR10L $dist(ZISUR) miles from ZISUR, cleared direct ZISUR, cross at or above 2,000, cleared straight-in RNAV Y RWY 10L approach.
+
+<<<RNAV Z 10L|  FROM WEST GULLO@5k //NE FRWAY@5k>>	
+.PBIR10LW $dist(GULLO) miles from GULLO, cleared direct NOVAE, cross at 5,000, cleared RNAV Z RWY 10L approach.
+.PBIR10LNE $dist(FRWAY) miles from FRWAY, cleared direct FRWAY, cross at 5,000, cleared RNAV Z RWY 10L approach.
+<<------------>>
+.IAFPBI28R .ff CUPED@3000
+.PBI28R $dist(CUPED) miles from CUPED, fly heading $1, maintain $temp until established, cleared ILS RWY 28R approach.
+
+<<<RNAV Y 28R|  RELTY@1500>>
+.PBIR28R $dist(RELTY) miles from RELTY, cleared direct RELTY, cross at or above 1,500, cleared straight-in RNAV Y RWY 28R approach.
+
+<<<RNAV Z 28R|  FROM WEST BEKAH@8k //NE HETMO@4k>>
+.PBIR28RW $dist(BEKAH) miles from BEKAH, cleared direct BEKAH, cross at 8,000, cleared RNAV Z RWY 28R approach.
+.PBIR28RNE $dist(HETMO) miles from HETMO, cleared direct HETMO, cross at 4,000, cleared RNAV Z RWY 28R approach.
+<<------------>>
+<<<RNAV Y 14|  RIBEE@1500>>
+.PBIR14 $dist(RIBEE) miles from RIBEE, cleared direct RIBEE, cross at or above 1,500, cleared straight-in RNAV Y RWY 14 approach.
+
+<<<RNAV Z 14|  FROM WEST GULLO@5k //NE FRWAY@5k>>
+.PBIR14W $dist(GULLO) miles from GULLO, cleared direct GULLO, cross at 5,000, cleared RNAV Z RWY 14 approach.
+.PBIR14NE $dist(FRWAY) miles from FRWAY, cleared direct FRWAY, cross at 5,000, cleared RNAV Z RWY 14 approach.
+<<------------>>
+<<<RNAV Y 32|  RUMDE@1500>>
+.PBIR32 $dist(RUMDE) miles from RUMDE, cleared direct RUMDE, cross at or above 1,500, cleared straight-in RNAV Y RWY 32 approach.
+
+<<<RNAV Z 32|  FROM WEST GULLO@5k //NE FRWAY@5k>>
+.PBIR32W $dist(GULLO) miles from GULLO, cleared direct GULLO, cross at 5,000, cleared RNAV Z RWY 32 approach.
+.PBIR32NE $dist(FRWAY) miles from FRWAY, cleared direct FRWAY, cross at 5,000, cleared RNAV Z RWY 32 approach.
+<<====================================================>>
+<<<-KBCT->>>
+<<------------>>
+<<<RNAV 5| TANAH 1500>>
+.BCTR5 $dist(TANAH) miles from TANAH, cleared direct TANAH, cross at or above 1,500, cleared straight-in RNAV RWY 5 approach.
+
+<<<VOR 5| PBI 2000>>
+.BCTVOR5 $dist(PBI) miles from PBI, cleared direct PBI VOR at or above 2,000. Join the outbound 187 radial, cleared VOR RWY 5 approach. Report 10 mile final.
+<<------------>>
+<<<RNAV Y 23| HIVUR  2K>>
+.BCTR23Y $dist(HIVUR) miles from HIVUR, cleared direct HIVUR, cross at or above 2,000, cleared straight-in RNAV Y RWY 23 approach.
+
+<<<RNAV Z 23| WEPOM/WEMSO 4k @ 210>>
+.BCTR23Z $dist(WEPOM) miles from WEPOM, cleared direct WEPOM, cross at or above 4,000, 210kts or less, cleared RNAV Z RWY 23 approach.
+.BCTR23ZA $dist(WEMSO) miles from WEMSO, cleared direct WEMSO, cross at or above 4,000, 210kts or less, cleared RNAV Z RWY 23 approach.
+
+<<<VOR 23| PBI 2000>>
+.BCTVOR23 $dist(PBI) miles from PBI, cleared direct PBI VOR at or above 2,000. Join the outbound 187 radial, cleared VOR RWY 23 approach. Report 10 mile final.
+<<====================================================>>
+<<<-KSUA->>>
+<<------------>>
+<<<RNAV 30| LEBAN 2000>>
+.SUAR30 $dist(LEBAN) miles from LEBAN, cleared direct LEBAN, cross at or above 2,000, cleared RNAV RWY 30 approach.
+<<------------>>
+<<<RNAV 12| PETNE 2000>>
+.SUAR12 $dist(PETNE) miles from PETNE, cleared direct PETNE, cross at or above 2,000, cleared RNAV RWY 12 approach.
+<<====================================================>>
+<<<-F45->>>
+<<------------>>
+.IAFF458R .ff AZCID@1600
+.F458R $dist(AZCID) miles from AZCID, fly heading $1, maintain $temp until established, cleared ILS RWY 8R approach.
+
+<<<RNAV 8R|  AZCID@1600>>
+.F45R8R $dist(AZCID) miles from AZCID, cleared direct AZCID, cross at or above 1,600, cleared straight-in RNAV RWY 8R approach.
+
+<<<VOR 8R| PHK 1500>>
+.F45VOR8R $dist(PHK) miles from PHK, cleared direct PHK VOR at or above 1,500. Join the outbound 083 radial. Report exiting the hold, cleared VOR RWY 8R approach.
+<<------------>>
+<<<RNAV 13|  SPOUN@1500>>
+.F45R13 $dist(SPOUN) miles from SPOUN, cleared direct SPOUN, cross at or above 1,500, cleared RNAV RWY 13 approach.
+<<------------>>
+<<<RNAV 26L|  ULNOY@1500>>
+.F45R26L $dist(ULNOY) miles from ULNOY, cleared direct ULNOY, cross at or above 1,500, cleared straight-in RNAV RWY 26L approach.
+<<====================================================>>
+<<<-KVRB->>>
+<<------------>>
+<<<RNAV 12R|  AZCID@1500>>
+.VRBR12R $dist(MUDDS) miles from MUDDS, cleared direct MUDDS, cross at or above 1,500, cleared straight-in RNAV RWY 12R approach.
+
+<<<VOR 12R| TRV 1600>>
+.VRBVOR12R $dist(TRV) miles from TRV, cleared direct TRV VOR at or above 1,600. Join the outbound 118 radial. Report on the inbound procedure turn, cleared VOR RWY 11R approach.
+<<------------>>
+<<<RNAV 30L|  ZOROE@1500>>
+.VRBR30L $dist(ZOROE) miles from ZOROE, cleared direct ZOROE, cross at or above 1,500, cleared straight-in RNAV RWY 30L approach.
+
+<<<VOR 30L| TRV 1600 // MUST BE SOUTHEAST OF ZAGGA>>
+.VRBVOR30L $dist(TRV) miles from TRV, cleared direct TRV VOR at or above 1,800. Join the inbound 298 radial, cleared VOR RWY 30L approach.
+<<------------>>
+<<<RNAV 04|  NOLBE@1500>>
+.VRBR4 $dist(NOLBE) miles from NOLBE, cleared direct NOLBE, cross at or above 1,500, cleared straight-in RNAV RWY 4 approach.
+<<------------>>
+<<<RNAV 22|  TATUW@1500>>
+.VRBR22 $dist(TATUW) miles from TATUW, cleared direct TATUW, cross at or above 1,500, cleared straight-in RNAV RWY 22 approach.
+<<====================================================>>
+<<<-KRSW->>>
+<<------------>>
+<<<RNAV 6| TROPIC 1600>>
+.RSW6D $dist(DOLPN) miles from DOLPN, fly heading $1, maintain $temp until established, cleared ILS RWY 6 approach.
+.RSW6 $dist(TROPC) miles from TROPC, fly heading $1, maintain $temp until established, cleared ILS RWY 6 approach.
+
+<<<RNAV 6| CELBO 1500>>
+.RSWR6 $dist(CELBO) miles from CELBO, cleared direct CELBO, cross at or above 1,500, cleared RNAV RWY 6 approach.
+.RSWR6a $dist(LENPE) miles from LENPE, cleared direct LENPE, cross at or above 2,000, cleared RNAV RWY 6 approach.
+
+<<<RNAV 6| BAY VISUAL, NA AT NIGHT, RADAR REQUIRED>>
+.RSW6BAYE $dist(RSW) miles from RSW. Report over Estero Bay, cleared Bay Visual RWY 6 approach.
+.RSW6BAYW $dist(RSW) miles from RSW. Report over the Sanibel Bridge, cleared Bay Visual RWY 6 approach.
+<<------------>>
+<<<RNAV 24| OMOKY 1500>>
+.RSWR24 $dist(RODDE) miles from RODDE, cleared direct RODDE, cross at or above 2,000, cleared RNAV RWY 24 approach.
+.RSWR24A $dist(OMOKY) miles from OMOKY, cleared direct OMOKY, cross at or above 1,500, cleared RNAV RWY 24 approach.
+.RSWR24B $dist(ODERY) miles from ODERY, cleared direct ODERY, cross RODDE at or above 2,000, cleared RNAV RWY 24 approach.
+
+<<<VOR 24| RSW CNTY 1600>>
+.RSWVOR24 $dist(RSW) miles from RSW, cleared direct RSW VOR at or above 1,500. Join the outbound 064 radial. Report on the inbound procedure turn, cleared VOR RWY 24 approach.
+
+<<<TACAN 24| MORGN 1600>>>
+.RSWT24 $dist(MORGN) miles from MORGN, cleared direct MORGN, maintain 1,600 until established, report on the inbound procedure turn, cleared TACAN RWY 24 approach.
+<<====================================================>>
+<<<-KFMY->>>
+<<------------>>
+<<ILS5 - CALOO @ 2000>>
+.FMY5 $dist(CALOO) miles from CALOO, fly heading $1, maintain $temp until established, cleared ILS RWY 5 approach.
+
+<<<RNAV 5| GRAMS 2000>>
+.FMYR5 $dist(GRAMS) miles from GRAMS, cleared direct GRAMS, cross at or above 2,000, cleared RNAV RWY 5 approach.
+<<------------>>
+<<<RNAV 13| IJERE 1600>>
+.FMYR13 $dist(IJERE) miles from IJERE, cleared direct IJERE, cross at or above 1,600, cleared straight-in RNAV RWY 13 approach.
+
+<<<VOR 13| FIVER 2000>>
+.FMYVOR13 $dist(FIVER) miles from FIVER, cleared direct FIVER at or above 2,000. Join the RSW outbound 309 radial. Report on the inbound procedure turn, cleared VOR RWY 13 approach.
+<<------------>>
+<<<RNAV 23| APASY 2500>>
+.FMYR23 $dist(APASY) miles from APASY, cleared direct APASY, cross at or above 2,500, cleared RNAV RWY 23 approach.
+.FMYR23A $dist(GLUMM) miles from GLUMM, cleared direct GLUMM, cross at or above 1,600, cleared RNAV RWY 23 approach.
+<<------------>>
+<<<RNAV 31| DELDO 1500>>
+.FMYR31 $dist(DELDO) miles from DELDO, cleared direct DELDO, cross at or above 1,500, cleared straight-in RNAV RWY 31 approach.
+<<====================================================>>
+<<<-KAPF->>>
+<<------------>>
+<<<RNAV 5| DUFBO 1800>>
+.APFR5 $dist(DUFBO) miles from DUFBO, cleared direct DUFBO, cross at or above 1,800, cleared straight-in RNAV RWY 5 approach.
+
+<<VOR 5 | CYY 1800>>
+.APFV5 $dist(CYY) miles from CYY, cleared direct CYY VOR at or above 1,800. Join the outbound 219 radial. Report on the inbound procedure turn, cleared VOR RWY 5 approach.
+<<------------>>
+<<<RNAV 23| TEFDU 1600>>
+.APFR23 $dist(TEFDU) miles from TEFDU, cleared direct TEFDU, cross at or above 1,600, cleared straight-in RNAV RWY 23 approach.
+.APFR23A $dist(OFDOY) miles from OFDOY, cleared direct OFDOY, cross at or above 2,100, cleared straight-in RNAV RWY 23 approach.
+
+<<VOR 23 | CYY 2000>>
+.apfvor23 $dist(CYY) miles from CYY, cleared direct CYY VOR at or above 2,000. Join the outbound 055 radial. Report on the inbound procedure turn, cleared VOR RWY 23 approach.
+<<====================================================>>
+<<<-KEYW->>>
+<<------------>>
+<<<RNAV 9| CHETS1500>>
+.EYWR9 $dist(CHETS) miles from CHETS, cleared direct CHETS, cross at or above 1,500, cleared RNAV RWY 9 approach.
+.EYWR9AA $dist(ATNAW) miles from ATNAW, cleared direct ATNAW, cross at or above 1,500, cleared RNAV RWY 9 approach.
+
+<<NDB 9 | FIS(FISH HOOK) 1500>>
+.EYWNDB9 $dist(FIS) miles from FIS, cleared direct FIS NDB at or above 1,500. Join the outbound 251 radial. Report on the inbound procedure turn, cleared NDB A RWY 9 approach.
+<<------------>>
+<<<RNAV 27| KEYCY 1500>>
+.EYWR27 $dist(KEYCY) miles from KEYCY, cleared direct KEYCY, cross at or above 1,500, cleared RNAV RWY 27 approach.
+.EYWR27A $dist(BURPY) miles from BURPY, cleared direct BURPY, cross at or above 1,500, cleared RNAV RWY 27 approach.
+
+<<====================================================>>
+*******************************
+PRE-DEPARTURE CLEARANCES
+*******************************
+.pdcp *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||XPNDR: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: $temp ||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+.pdcv *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||XPNDR: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: MAINTAIN $temp.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||CONFIRM HEADING WITH TOWER PRIOR TO DEPARTURE.||
+.pdcs *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||XPNDR: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: CLIMB VIA SID.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+.pdce *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||XPNDR: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: CLIMB VIA SID, EXCEPT MAINTAIN $temp.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+
+.pdc2 ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. WHEN READY FOR TAXI, CONTACT APPROPRIATE GROUND CONTROL WITH XPNDR CODE AND CURRENT ATIS, IF AVAILABLE. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE.CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
+.pdc2p ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. CONTACT RAMP CONTROL WITH ASSIGNED XPNDR CODE AND CURRENT ATIS, IF AVAILABLE, FOR PUSH INSTRUCTIONS. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
+*******************************
+CONFIGURATION
+*******************************
+-WEATHER-
+.SET .qd KMIA KFLL KTPA KRSW KPBI KSRQ
+.SETM .qd KMIA KFLL KOPF KTMB KFXE KHWO
+.SETT .qd KTPA KSRQ KLAL KPIE
+
+-DEPARTURE GATES-
+.GMIAT .ff ARKES BEECH EONNS HEDLY MNATE PADUS PREDA SKIPS THNDR VALLY WINCO ZAPPA
+.GMIA .ff BEECH EONNS HEDLY MNATE PADUS SKIPS VALLY WINCO
+.GFLL .ff ARKES BEECH MNATE PREDA THNDR ZAPPA
+.GTPA .fv CTY GNV LAL OCF ORL PHK PIE RSW SRQ SZW TAY
+.GTPA2 .ff COVIA
+.GPBI .fv CTY DHP EYW FLL FPR LAL LBV MTH ORL PHK PIE RSW SRQ TRV VKZ ZBV ZFP
+.GPBI2 .ff BAIRN HEATT PERMT
+.GRSW .fv CYY FLL EYW LAL LBV ORL PIE PHK SRQ
+.GEYW .ff CARNU MAXIM CANOA
+
+-STICKY NOTES-
+.WAKES .sticky Wake Turbulence Separation| |Departures| |2 minutues -- Small/large behind a heavy jet (same threshold)|3 minutes -- Small/larget behind a heavy jet (intersection)| |Enroute| |Heavy jet behind heavy jet -- 4 miles|Large or heavy behind B757 -- 4 miles|Small behind B757 -- 5 miles|Small or large aircraft behind heavy jet -- 5 miles|Super behind super -- 4 miles|Heavy jet behind super -- 6 miles|Large behind super -- 8 miles|Small behind super -- 10 miles| |Arrival (small only)| |Small aircraft landing behind super -- 10 miles|Small aircraft landing behind heavy jet -- 6 miles|Small aircraft landing behind B757 -- 5 miles|Small aircraft landing behind large aircraft -- 4 miles| |Categories Defined| |Super -- A380 only|Heavy -- AOB 300,000 lbs.|Large -- 41,000-299,999 lbs.|Small -- < 41,000 lbs.
+.nowake .nostickies
+.linkup .sticky LINK ESTABLISHED| |VZMA INTRANET CONNECTION ONLINE| |PROCESSING DATALINK...
