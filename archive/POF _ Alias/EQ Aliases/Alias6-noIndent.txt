@@ -1,0 +1,973 @@
+[Version]: 5.01
+[Last Updated]: 20JUN2016
+vZMA Alias File
+
+Version 5.1: Erik Quinn (significant re-work)
+Version 5.0: Fred Michaels, Ken Bambach and Mark Anderson
+Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
+
+********************************************************************************
+GENERAL
+********************************************************************************
+.ALT $uc($1) altimeter $altim($1).
+.OOPS DISREGARD LAST TRANSMISSION. Stand by for correction...
+.O .OOPS
+.C .CENTER
+.EA expect $1 Runway $2 approach.
+.WIND wind $winds.
+.WS $uc($1) wind $wind($1).
+.SHEAR wind shear advisories are in effect.
+.MICRO microburst advisories are in effect.
+.CON contact $radioname($1), $freq($1)
+.WAKE caution wake turbulence.
+.SI say indicated.
+.SM say mach number.
+.RON resume own navigation.
+.CV do you copy voice?
+.BRB ATTENTION ALL AIRCRAFT: $callsign will be away for approximately $1 minutes.
+.BACK $callsign has returned.
+.PRC For explanations/questions/tips, please visit the VATSIM pilot resource center at www.vatsim.net/prc/
+.TXT ATTENTION TEXT PILOTS: Please ALWAYS EXECUTE instructions first, then reply if able. Thank you!
+.NEWATIS ATTENTION ALL AIRCRAFT: ATIS Information $uc($1) is now current at $uc($2). Wind $wind($2), $uc($2) altimeter $altim($2).
+.CURATIS ATIS Information $uc($1) is current at $uc($2). Advise when you have $uc($1), $uc($2) altimeter $altim($2).
+.CLOSING ****NOTAM: $radioname() will be closing in approximately $1 minutes*****
+.CLOSED ****NOTAM: $radioname($1) CLOSED at $time. Monitor unicom 122.8****
+.SG when able, say gate number.
+.SP when able, say parking.
+
+
+
+********************************************************************************
+CLEARANCE DELIVERY
+********************************************************************************
+.COR clearance on request, stand by.
+.CORN clearance on request, stand by, number $1.
+.IAFDOFW filed altitude of $cruise invalid for direction of flight. Please choose any EVEN altitude, and either advise this frequency of your choice, or re-file your flight plan.
+.IAFDOFE filed altitude of $cruise invalid for direction of flight. Please choose any ODD altitude, and either advise this frequency of your choice, or re-file your flight plan.
+.CRAFT cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.CRAFTU cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTS cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTSU cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTSCVS cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, departure frequency $freq($2), squawk $squawk.
+.CRAFTSCVSE cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, except maintain $2. Expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTST cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3,expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
+.CRAFTSTU cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTSTCVS cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID. Departure frequency $freq($3), squawk $squawk.
+.CRAFTSTCVSE cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID except maintain $3. Expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
+.CRAFTV cleared to $arr airport via radar vectors $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTVU cleared to $arr airport via direct $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.DEPFREQ new departure frequency: $radioname($1) on $freq($1).
+.DEPNA departure services are no longer available. After departure, monitor unicom 122.8.
+.RBC readback correct. Push and start at pilot's discretion. Advise when ready to taxi.
+.RBCE readback correct. Push and start at pilot's discretion. Expect Runway $uc($1). Advise when ready to taxi.
+.RBCC readback correct. Push and start at pilot's discretion. Contact $radioname($1) on $freq($1) when ready to taxi.
+.RBCU readback correct. Push and start at pilot's discretion. Advise UNICOM on 122.800 when ready to taxi.
+.RBCHP readback correct. HOLD PUSH for traffic. Advise when ready to push.
+.RBCHPE readback correct. HOLD PUSH for traffic. Advise when ready to push. Expect Runway $uc($1).
+.RBCHPC readback correct. HOLD PUSH, and advise $radioname($1) on $freq($1) when ready to push.
+
+
+
+********************************************************************************
+GROUND
+********************************************************************************
+----- General Taxi -----
+.TLO turn LEFT on $uc($1).
+.TLOSP turn LEFT on $uc($1), say parking.
+.TLOCON turn LEFT on $uc($1), contact $radioname($2), $freq($2) when off.
+.TLOTP turn LEFT on $uc($1), taxi to parking via $uc($2).
+.TLOTPHS turn LEFT on $uc($1), taxi to parking via $uc($2), hold short of $uc($3).
+.TLOTPCR turn LEFT on $uc($1), taxi to parking via $uc($2), cross Runway $uc($3).
+.TRO turn RIGHT on $uc($1).
+.TROSP turn RIGHT on $uc($1), say parking.
+.TROCON turn RIGHT on $uc($1), contact $radioname($2), $freq($2) when off.
+.TROTP turn RIGHT on $uc($1), taxi to parking via $uc($2).
+.TROTPHS turn RIGHT on $uc($1), taxi to parking via $uc($2), hold short of $uc($3).
+.TROTPCR turn RIGHT on $uc($1), taxi to parking via $uc($2), cross Runway $uc($3).
+.TV taxi via $uc($1).
+.TVHS taxi via $uc($1), hold short of $uc($2).
+.TF follow the $uc($1) $uc($2) from the $uc($3).
+.TFHS follow the $uc($1) $uc($2) from the $uc($3), hold short of $uc($4).
+.TSA taxi straight ahead.
+.TSAHS taxi straight ahead, hold short of $uc($1).
+
+----- Departure Taxi -----
+.TR Runway $uc($1), taxi via $uc($2).
+.TRHS Runway $uc($1), taxi via $uc($2), hold short of $uc($3).
+.TRCR Runway $uc($1), taxi via $uc($2), cross Runway $uc($3).
+.TRF Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4).
+.TRFHS Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4). Hold short of $uc($5).
+.TRFCR Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4). Cross Runway $uc($5).
+
+----- Arrival Taxi -----
+.TP taxi to parking via $uc($1).
+.TPHS taxi to parking via $uc($1), hold short of $uc($2).
+.TPCR taxi to parking via $uc($1), cross Runway $uc($2).
+.ER exit RIGHT when able, remain this frequency.
+.ERSG exit RIGHT when able, then say gate number.
+.ERSP exit RIGHT when able, then say parking.
+.ERCON exit RIGHT when able, then contact $radioname($1), $freq($1) when off.
+.ERTP exit RIGHT when able, then taxi to parking via $uc($1).
+.ERTPHS exit RIGHT when able, then taxi to parking via $uc($1), hold short of $uc($2).
+.ERTPCR exit RIGHT when able, then taxi to parking via $uc($1), cross Runway $uc($2).
+.ERTRO exit RIGHT when able, then turn RIGHT on $uc($1), remain this frequency.
+.ERTROSG exit RIGHT when able, then turn RIGHT on $uc($1), remain this frequency. When able, say gate number.
+.ERTROSP exit RIGHT when able, then turn RIGHT on $uc($1), remain this frequency. When able, say parking.
+.ERTROHS exit RIGHT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency.
+.ERTROHSSG exit RIGHT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency. When able, say gate number.
+.ERTROHSSP exit RIGHT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency. When able, say parking.
+.ERTLO exit RIGHT when able, then turn LEFT on $uc($1), remain this frequency.
+.ERTLOSG exit RIGHT when able, then turn LEFT on $uc($1), remain this frequency. When able, say gate number.
+.ERTLOSP exit RIGHT when able, then turn LEFT on $uc($1), remain this frequency. When able, say parking.
+.ERTLOHS exit RIGHT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency.
+.ERTLOHSSG exit RIGHT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency. When able, say gate number.
+.ERTLOHSSP exit RIGHT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency. When able, say parking.
+.EL exit LEFT when able, remain this frequency.
+.ELSG exit LEFT when able, then say gate number.
+.ELSP exit LEFT when able, then say parking.
+.ELCON exit LEFT when able, then contact $radioname($1), $freq($1) when off.
+.ELTP exit LEFT when able, then taxi to parking via $uc($1).
+.ELTPHS exit LEFT when able, then taxi to parking via $uc($1), hold short of $uc($2).
+.ELTPCR exit LEFT when able, then taxi to parking via $uc($1), cross Runway $uc($2).
+.ELTRO exit LEFT when able, then turn RIGHT on $uc($1), remain this frequency.
+.ELTROSG exit LEFT when able, then turn RIGHT on $uc($1), remain this frequency. When able, say gate number.
+.ELTROSP exit LEFT when able, then turn RIGHT on $uc($1), remain this frequency. When able, say parking.
+.ELTROHS exit LEFT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency.
+.ELTROHSSG exit LEFT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency. When able, say gate number.
+.ELTROHSSP exit LEFT when able, then turn RIGHT on $uc($1), hold short of $uc($2), remain this frequency. When able, say parking.
+.ELTLO exit LEFT when able, then turn LEFT on $uc($1), remain this frequency.
+.ELTLOSG exit LEFT when able, then turn LEFT on $uc($1), remain this frequency. When able, say gate number.
+.ELTLOSP exit LEFT when able, then turn LEFT on $uc($1), remain this frequency. When able, say parking.
+.ELTLOHS exit LEFT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency.
+.ELTLOHSSG exit LEFT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency. When able, say gate number.
+.ELTLOHSSP exit LEFT when able, then turn LEFT on $uc($1), hold short of $uc($2), remain this frequency. When able, say parking.
+
+----- Crossing & Holding -----
+.STOP hold position.
+.HS hold short of $uc($1).
+.HSNT hold short of next taxiway.
+.CR cross Runway $uc($1).
+.CRHS cross Runway $uc($1), hold short of $uc($2).
+.CRTV cross Runway $uc($1), taxi via $uc($2).
+.CRTVHS cross Runway $uc($1), taxi via $uc($2), hold short of $uc($3).
+.CRTF cross Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4).
+.CRTFHS cross Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4), hold short of $uc($5).
+.CRTP cross Runway $uc($1), taxi to parking via $uc($2).
+.CT continue taxi.
+.CTP taxi to parking.
+.CTG taxi to the gate.
+.CTR taxi to the ramp.
+.CTHS continue taxi, hold short of $uc($1).
+
+----- Ramp Control & Ground Metering -----
+.HPT hold push for traffic.
+.HPQ hold push, you are in the queue.
+.HPQN hold push, you are number $1 in the queue.
+.PUSH Push approved, face $uc($1). Advise when ready to taxi.
+.PUSHT Push approved, tail $uc($1). Advise when ready to taxi.
+.PUSHC Push approved, tail $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
+.PUSHTC Push approved, face $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
+.GMIE ATTENTION ALL AIRCRAFT: Ground metering is in effect. Contact $radioname($1) on $freq($1) when ready to push.
+
+----- Progressive Taxi -----
+.TLNT turn left next taxiway.
+.TLNTHS turn left next taxiway, hold short of $uc($1).
+.TLNTCR turn left next taxiway, cross Runway $uc($1).
+.TRNT turn right next taxiway.
+.TRNTHS turn right next taxiway, hold short of $uc($1).
+.TRNTCR turn right next taxiway, cross Runway $uc($1).
+
+
+
+********************************************************************************
+TOWER
+********************************************************************************
+----- Arrivals -----
+.CL wind $winds, Runway $uc($1), cleared to land.
+.CLN wind $winds, Runway $uc($1), cleared to land, number $2.
+.CLNF wind $winds, Runway $uc($1), cleared to land, number $2, following a $uc($3) on a $4 mile final.
+.CLWTA wind $winds, Runway $uc($1), cleared to land. Caution wake turbulence arrived $uc($2).
+.CLWTD wind $winds, Runway $uc($1), cleared to land. Caution wake turbulence departed $uc($2).
+.CLWTAD wind $winds, Runway $uc($1), cleared to land. Caution wake turbulence arrived $uc($2), departed $uc($3).
+.CLTD wind $winds, Runway $uc($1), cleared to land, traffic departing.
+.CLTDP wind $winds, Runway $uc($1), cleared to land, traffic departing the parallel Runway $uc($2).
+.CLTDI wind $winds, Runway $uc($1), cleared to land, traffic departing the intersecting Runway $uc($2).
+.CLTA wind $winds, Runway $uc($1), cleared to land, traffic $2 mile final for Runway $uc($3).
+.CLTAP wind $winds, Runway $uc($1), cleared to land, traffic $2 mile final for the parallel Runway $uc($3).
+.CLTAI wind $winds, Runway $uc($1), cleared to land, traffic $2 mile final for intersecting Runway $uc($3).
+.CLTHP wind $winds, Runway $uc($1), cleared to land, traffic holding in position.
+.CTU Runway $uc($1), continue.
+.CTUTD Runway $uc($1), continue, traffic departing prior to your arrival.
+.CTUMD Runway $uc($1), continue, $2 departures prior to your arrival.
+.CTUTHP Runway $uc($1), continue, traffic holding in position.
+.CTUTMP Runway $uc($1), continue, traffic moving into position.
+.GA GO AROUND.
+.MISS fly the missed approach as published.
+.CG contact ground.
+.CGF contact ground, $1
+
+----- Departures -----
+.CTO wind $winds, Runway $uc($1), cleared for takeoff.
+.CTOWTD wind $winds, Runway $uc($1), cleared for takeoff. Caution wake turbulence departed $uc($2).
+.CTOR wind $winds, RNAV to $uc($1), Runway $uc($2), cleared for takeoff.
+.CTORWTD wind $winds, RNAV to $uc($1), Runway $uc($2), cleared for takeoff. Caution wake turbulence departed $uc($3).
+.CTOFH Fly heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
+.CTOFHWTD Fly heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+.CTOTRH Turn right heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
+.CTOTRHWTD Turn right heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+.CTOTLH Turn left heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
+.CTOTLHWTD Turn left heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+.LUAW Runway $uc($1), line up and wait.
+.LUAWWT Runway $uc($1), line up and wait for wake turbulence.
+.LUAWTC Runway $uc($1), line up and wait, traffic crossing downfield.
+.LUAWTWC Runway $uc($1), line up and wait, traffic will cross downfield.
+.HSTOF hold short, traffic $1 mile final.
+.HSTOFI hold short, traffic $1 mile final for the intersecting Runway $2.
+.HSWT hold short for wake turbulence.
+.RTO CANCEL TAKEOFF CLEARANCE.
+.CTC CANCEL TAKEOFF CLEARANCE.
+.CD contact departure.
+
+
+
+********************************************************************************
+VFR
+********************************************************************************
+----- Departures -----
+.VFRD departure to the $uc($1) is approved. Maintain VFR at or below $2, departure frequency $freq($3). Squawk $squawk.
+.VFRDSO straight-out departure approved.
+.VFRDLC left crosswind departure approved.
+.VFRDRC right crosswind departure approved.
+.VFRDLD left downwind departure approved.
+.VFRDRD right downwind departure approved.
+.VFRDU departure to the $uc($1) is approved. Maintain VFR at or below $2, departure on UNICOM 122.80. Squawk $squawk.
+
+----- Class Bravo Clearances -----
+.VFRCOB cleared out of $uc($1) Bravo airspace to the $uc($2). Maintain VFR at or below $3. Departure frequency $freq($4). Squawk $squawk.
+.VFRCOBU cleared out of $uc($1) Bravo airspace to the $uc($2). Maintain VFR at or below $3. Departure on unicom, 122.8. Squawk $squawk.
+.VFRCIB cleared into $uc($1) Bravo airspace. Maintain VFR at or below $2.
+.VFRCIBH cleared into $uc($1) Bravo airspace. Maintain VFR at or below $2, enter controlled airspace heading $3.
+.VFRCTB cleared through $uc($1) Bravo airspace. Maintain VFR at or below $2.
+.VFRCTBH cleared through $uc($1) Bravo airspace. Maintain VFR at or below $2, enter controlled airspace heading $3.
+.VFRRCB REMAIN CLEAR of the $uc($1) Bravo airspace. Expect an update in $2 minutes.
+
+----- Pattern Work / Arrivals -----
+.LCTA left closed traffic approved.
+.RCTA right closed traffic approved.
+.ELD enter left downwind Runway $uc($1).
+.ERD enter right downwind Runway $uc($1).
+.ELB enter left base Runway $uc($1).
+.ERB enter right base Runway $uc($1).
+.MSI make straight in Runway $uc($1).
+.RMD report midfield downwind.
+.RPN report passing the numbers.
+.RTB report turning base.
+.RTF report turning final.
+.ED extend downwind, I'll call your base.
+.EU extend upwind, I'll call your crosswind.
+.TC turn crosswind.
+.TB turn base.
+.COPT Runway $uc($1), cleared for the option.
+.CTG Runway $uc($1), cleared touch and go.
+.CLA Runway $uc($1), cleared low approach.
+
+
+
+
+********************************************************************************
+RADAR
+********************************************************************************
+----- Transponder -----
+.SS squawk standby.
+.SN squawk normal.
+.SMC squawk Mode C.
+.ID squawk ident.
+.SQ squawk $squawk.
+.SQID squawk $squawk and ident.
+.CSQ check transponder. Verify squawking $squawk.
+
+.HIID $radioname(), squawk ident.
+.HISQ $radioname(), squawk $squawk.
+.HISQID $radioname(), squawk $squawk and ident.
+.HIAID $radioname(), $uc($1) altimeter $altim($1), squawk ident.
+.HIASQ $radioname(), $uc($1) altimeter $altim($1), squawk $squawk.
+.HIASQID $radioname(), $uc($1) altimeter $altim($1), squawk $squawk and ident.
+
+----- Radar Identification -----
+.SA say altitude.
+.RC radar contact.
+.RCSA radar contact, say altitude.
+.RCSAL radar contact, say altitude leaving.
+.RCPOS radar contact $dist($1) miles $bear($1) of $uc($1).
+.RCPOSSA radar contact $dist($1) miles $bear($1) of $uc($1), say altitude.
+.RCPOSSAL radar contact $dist($1) miles $bear($1) of $uc($1), say altitude leaving.
+
+.HISA $radioname(), say altitude.
+.HIRC $radioname(), radar contact.
+.HIRCSA $radioname(), radar contact, say altitude.
+.HIRCSAL $radioname(), radar contact, say altitude leaving.
+.HIRCPOS $radioname(), radar contact $dist($1) miles $bear($1) of $uc($1).
+.HIRCPOSSA $radioname(), radar contact $dist($1) miles $bear($1) of $uc($1), say altitude.
+.HIRCPOSSAL $radioname(), radar contact $dist($1) miles $bear($1) of $uc($1), say altitude leaving.
+.HIASA $radioname(), $uc($1) altimeter $altim($1), say altitude.
+.HIARC $radioname(), $uc($1) altimeter $altim($1), radar contact.
+.HIARCSA $radioname(), $uc($1) altimeter $altim($1), radar contact, say altitude.
+.HIARCSAL $radioname(), $uc($1) altimeter $altim($1), radar contact, say altitude leaving.
+.HIARCPOS $radioname(), $uc($1) altimeter $altim($1), radar contact $dist($2) miles $bear($2) of $uc($2).
+.HIARCPOSSA $radioname(), $uc($1) altimeter $altim($1), radar contact $dist($2) miles $bear($2) of $uc($2), say altitude.
+.HIARCPOSSAL $radioname(), $uc($1) altimeter $altim($1), radar contact $dist($2) miles $bear($2) of $uc($2), say altitude leaving.
+
+----- Traffic Advisories -----
+.TFC traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), $5.
+.TFCC traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), leaving $5, climbing to $6.
+.TFCD traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), leaving $5, descending to $6.
+.TFCOD traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), $4.
+.TFCODC traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), leaving $4, climbing to $5.
+.TFCODD traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), leaving $4, descending to $5.
+.TFCSD traffic $uc($1) o'clock, $2 miles, same direction, $uc($3), $4.
+.TFCSDC traffic $uc($1) o'clock, $2 miles, same direction, $uc($3), leaving $4, climbing to $5.
+.TFCSDD traffic $uc($1) o'clock, $2 miles, same direction, $uc($3), leaving $4, descending to $5.
+.TFCLR traffic $uc($1) o'clock, $2 miles, left to right, $uc($3), $4.
+.TFCLRC traffic $uc($1) o'clock, $2 miles, left to right, $uc($3), leaving $4, climbing to $5.
+.TFCLRD traffic $uc($1) o'clock, $2 miles, left to right, $uc($3), leaving $4, descending to $5.
+.TFCRL traffic $uc($1) o'clock, $2 miles, right to left, $uc($3), $4.
+.TFCRLC traffic $uc($1) o'clock, $2 miles, right to left, $uc($3), leaving $4, climbing to $5.
+.TFCRLD traffic $uc($1) o'clock, $2 miles, right to left, $uc($3), leaving $4, descending to $5.
+.VSEP maintain visual separation from that traffic.
+
+----- Satellite Ops -----
+.HFR hold for release.
+.RFD released for departure.
+.RFDH released for departure. Enter controlled airspace heading $1
+.RFDHA released for departure. Enter controlled airspace heading $1, maintain $2
+
+----- Heading & Altitude Control Instructions -----
+.FPH fly present heading.
+.FPHV fly present heading, vector $uc($1) Runway $uc($2) approach.
+.FPHVF fly present heading, vector to $uc($1) Runway $uc($2) final approach course.
+.FPHCM fly present heading, climb and maintain $1.
+.FPHCMV climb and maintain $1, fly present heading, vector $uc($2) Runway $uc($3) approach.
+.FPHCMVF climb and maintain $1, fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
+.FPHDM fly present heading, descend and maintain $1.
+.FPHDMV descend and maintain $1, fly present heading, vector $uc($2) Runway $uc($3) approach.
+.FPHDMVF descend and maintain $1, fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
+.FH fly heading $1.
+.FHV fly heading $1, vector $uc($2) Runway $uc($3) approach.
+.FHVF fly heading $1, vector to $uc($2) Runway $uc($3) final approach course.
+.FHCM fly heading $1, climb and maintain $2.
+.FHCMV climb and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.FHCMVF climb and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.FHDM fly heading $1, descend and maintain $2.
+.FHDMV descend and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.FHDMVF descend and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TLH Turn left heading $1.
+.TLHV turn left heading $1, vector $uc($2) Runway $uc($3) approach.
+.TLHVF turn left heading $1, vector to $uc($2) Runway $uc($3) final approach course.
+.TLHCM turn left heading $1, climb and maintain $2.
+.TLHCMV climb and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.TLHCMVF climb and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TLHDM turn left heading $1, descend and maintain $2.
+.TLHDMV descend and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.TLHDMVF descend and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TRH Turn right heading $1.
+.TRHV turn right heading $1, vector $uc($2) Runway $uc($3) approach.
+.TRHVF turn right heading $1, vector to $uc($2) Runway $uc($3) final approach course.
+.TRHCM turn right heading $1, climb and maintain $2.
+.TRHCMV climb and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.TRHCMVF climb and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TRHDM turn right heading $1, descend and maintain $2.
+.TRHDMV descend and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.TRHDMVF descend and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.PD proceed direct $uc($1).
+.FHPD fly heading $1. When able, proceed direct $uc($1).
+.PDCM proceed direct $uc($1), climb and maintain $2.
+.PDDM proceed direct $uc($1), descend and maintain $2.
+.CM Climb and maintain $1.
+.DM Descend and maintain $1.
+
+.HI $radioname().
+.HIFH $radioname(), fly heading $2.
+.HIFHV $radioname(), fly heading $2, vector $uc($3) Runway $uc($4) approach.
+.HIFHVF $radioname(), fly heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HIFHCM $radioname(), fly heading $2, climb and maintain $3.
+.HIFHCMV $radioname(), climb and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIFHCMVF $radioname(), climb and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIFHDM $radioname(), fly heading $2, descend and maintain $3.
+.HIFHDMV $radioname(), descend and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIFHDMVF $radioname(), descend and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HITLH $radioname(), turn left heading $2.
+.HITLHV $radioname(), turn left heading $2, vector $uc($3) Runway $uc($4) approach.
+.HITLHVF $radioname(), turn left heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HITLHCM $radioname(), turn left heading $2, climb and maintain $3.
+.HITLHCMV $radioname(), climb and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HITLHCMVF $radioname(), climb and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HITLHDM $radioname(), turn left heading $2, descend and maintain $3.
+.HITLHDMV $radioname(), descend and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HITLHDMVF $radioname(), descend and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HITRH $radioname(), turn right heading $2.
+.HITRHV $radioname(), turn right heading $2, vector $uc($3) Runway $uc($4) approach.
+.HITRHVF $radioname(), turn right heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HITRHCM $radioname(), turn right heading $2, climb and maintain $3.
+.HITRHCMV $radioname(), climb and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HITRHCMVF $radioname(), climb and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HITRHDM $radioname(), turn right heading $2, descend and maintain $3.
+.HITRHDMV $radioname(), descend and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HITRHDMVF $radioname(), descend and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIPD $radioname(), proceed direct $uc($2).
+.HIFHPD $radioname(), fly heading $2. When able, proceed direct $uc($2).
+.HIPDCM $radioname(), proceed direct $uc($2), climb and maintain $3.
+.HIPDDM $radioname(), proceed direct $uc($2), descend and maintain $3.
+.HICM $radioname(), climb and maintain $2.
+.HIDM $radioname(), descend and maintain $2.
+.HIA $radioname(), $uc($1) altimeter $altim($1).
+.HIAFH $radioname(), $uc($1) altimeter $altim($1), fly heading $2.
+.HIAFHV $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector $uc($3) Runway $uc($4) approach.
+.HIAFHVF $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HIAFHCM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, climb and maintain $3.
+.HIAFHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIAFHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIAFHDM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, descend and maintain $3.
+.HIAFHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIAFHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATLH $radioname(), $uc($1) altimeter $altim($1), turn left heading $2.
+.HIATLHV $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, vector $uc($3) Runway $uc($4) approach.
+.HIATLHVF $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HIATLHCM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, climb and maintain $3.
+.HIATLHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATLHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATLHDM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, descend and maintain $3.
+.HIATLHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATLHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATRH $radioname(), $uc($1) altimeter $altim($1), turn right heading $2.
+.HIATRHV $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, vector $uc($3) Runway $uc($4) approach.
+.HIATRHVF $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, vector to $uc($3) Runway $uc($4) final approach course.
+.HIATRHCM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, climb and maintain $3.
+.HIATRHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATRHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATRHDM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, descend and maintain $3.
+.HIATRHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATRHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIAPD $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2).
+.HIAFHPD $radioname(), $uc($1) altimeter $altim($1), fly heading $2. When able, proceed direct $uc($2).
+.HIAPDCM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), climb and maintain $3.
+.HIAPDDM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), descend and maintain $3.
+.HIACM $radioname(), $uc($1) altimeter $altim($1), climb and maintain $2.
+.HIADM $radioname(), $uc($1) altimeter $altim($1), descend and maintain $2.
+
+----- Speed Control Instructions -----
+.RS reduce speed to $1.
+.RSM reduce speed to mach $1
+.IS increase speed to $2.
+.ISM increase speed to mach $1
+.MS maintain $1 knots.
+.MM maintain mach $1
+.DNE do not exceed $1 knots
+.DNEM do not exceed mach $1
+.MFS maintain maximum forward speed.
+.SPS maintain slowest practical speed.
+.RFAS reduce to final approach speed.
+.CSR cancel speed restriction.
+.RNS resume normal speed.
+
+----- Visual Approach Clearances -----
+.APRT $arr $oclock($arr), $dist($arr) miles. Report the field in sight.
+.VA cleared visual approach Runway $uc($1).
+.FTCVA follow that traffic, cleared visual approach Runway $uc($1).
+
+----- Instrument Approach Clearances -----
+.LOC intercept the Runway $uc($1) localizer.
+.PTAC $1 miles from from $uc($2), fly heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
+.PTACR $1 miles from from $uc($2), turn right heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
+.PTACL $1 miles from from $uc($2), turn left heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
+
+----- Crossing Restrictions -----
+.XS cross $uc($1) at $2 knots.
+
+.XA cross $uc($1) at and maintain $uc($2).
+    .XAA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
+    .XACM cross $uc($1) at $uc($2), climb and maintain $uc($3).
+    .XADM cross $uc($1) at $uc($2), descend and maintain $uc($3).
+        .XADMA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
+.XAS cross $uc($1) at and maintain $uc($2), $3 knots.
+    .XASA cross $uc($1) at and maintain $uc($2), $3 knots, $uc($4) altimeter $altim($4).
+    .XASCM cross $uc($1) at $uc($2), $3 knots, climb and maintain $uc($4).
+    .XASDM cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4).
+    .XASDMA cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+.XAOA cross $uc($1) at or above $2.
+    .XAOACM cross $uc($1) at or above $2, climb and maintain $uc($3).
+    .XAOADM cross $uc($1) at or above $2, descend and maintain $uc($3).
+        .XAOADMA cross $uc($1) at or above $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+.XAOAS cross $uc($1) at or above $2, $3 knots.
+    .XAOASCM cross $uc($1) at or above $2, $3 knots, climb and maintain $uc($4).
+    .XAOASDM cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4).
+        .XAOASDMA cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+.XAOB cross $uc($1) at or below $2.
+    .XAOBCM cross $uc($1) at or below $2, climb and maintain $uc($3).
+    .XAOBDM cross $uc($1) at or below $2, descend and maintain $uc($3).
+        .XAOBDMA cross $uc($1) at or below $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+.XAOBS cross $uc($1) at or below $2, $3 knots.
+    .XAOBSCM cross $uc($1) at or below $2, $3 knots, climb and maintain $uc($4).
+    .XAOBSDM cross $uc($1) at or below $2, $3 knots, descend and maintain $uc($4).
+        .XAOBSDMA cross $uc($1) at or below $2, $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+
+----- Reports -----
+.RL report leaving $1.
+.RP report passing $2.
+.RX report crossing $3.
+.RE report established on $4.
+.RRTOD Report reaching top of descent.
+
+
+
+********************************************************************************
+UNICOM
+********************************************************************************
+.RST radar services terminated, change to advisory frequency approved.
+.RSTNTO no observed traffic between you and $arr. Radar services terminated, change to advisory frequency approved.
+.RSTRCI report cancellation of IFR this frequency. Radar services terminated, change to advisory frequency approved.
+.RSTNTORCI no traffic observed between you and $arr. Report cancellation of IFR this frequency. Radar services terminated, change to advisory frequency approved.
+.BYE departing my airspace, no further ATC available. Change to advisory frequency approved.
+.BYEV departing my airspace, no further ATC available. Squawk VFR, change to advisory frequency approved.
+.BYEUP climbing out of my airspace, no further ATC available. Change to advisory frequency approved.
+.BYEDOWN descending out of my airsapce, no further ATC available. Change to advisory frequency approved.
+.BYERST departing my airspace, no further ATC available. Radar services terminated, change to advisory frequency approved.
+.BYERSTV departing my airspace, no further ATC available. Radar services terminated, squawk VFR, change to advisory frequency approved.
+.BYERSTUP climbing out of my airspace, no further ATC available. Radar services terminated, change to advisory frequency approved.
+.BYERSTDOWN descending out of my airsapce, no further ATC available. Radar services terminated, change to advisory frequency approved.
+.ICR IFR cancellation received, $time. Radar services terminated, squawk VFR, change to advisory frequency approved.
+.UC monitor unicom 122.8.
+
+
+
+********************************************************************************
+PRE-DEPARTURE CLEARANCES (PDC)
+********************************************************************************
+.Opdcp *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||BEACON: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: $temp ||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+.Opdcv *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||BEACON: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: MAINTAIN $temp.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||CONFIRM HEADING WITH TOWER PRIOR TO DEPARTURE.||
+.Opdcs *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||BEACON: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: CLIMB VIA SID.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+.pdce *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||BEACON: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: CLIMB VIA SID, EXCEPT MAINTAIN $temp.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
+.Opdc2 ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. WHEN READY FOR TAXI, CONTACT APPROPRIATE GROUND CONTROL WITH XPDR CODE AND CURRENT ATIS, IF AVAILABLE. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE.CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
+.Opdc2p ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. CONTACT RAMP CONTROL WITH ASSIGNED XPDR CODE AND CURRENT ATIS, IF AVAILABLE, FOR PUSH INSTRUCTIONS. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
+
+.PDC cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.PDCU cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.PDCS cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.PDCSU cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.PDCSCVS cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, departure frequency $freq($2), squawk $squawk.
+.PDCSCVSE cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, except maintain $2. Expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.PDCST cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3,expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
+.PDCSTU cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.PDCSTCVS cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID. Departure frequency $freq($3), squawk $squawk.
+.PDCSTCVSE cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID except maintain $3. Expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
+.PDCV cleared to $arr airport via radar vectors $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.PDCVU cleared to $arr airport via direct $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+
+
+.PDCAF .MSG MIA_3_CTR .PDCEND $1 $2
+.PDCFRC
+.PDCAMR
+.PDCAMA
+.PDCAMAR
+.PDCAMRA
+.PDCDIVIDERLINE *****************************************
+.PDCROUTEASFILED CLEARED VIA FILED ROUTING.
+.PDCROUTEFRC ***AMENDED ROUTING*** CLEARED VIA $route.
+.PDCROUTESID CLEARED $1 DEPARTURE, THEN VIA FILED ROUTING.
+.PDCROUTEVECTORS RADAR VECTORS $1, THEN VIA FILED ROUTING.
+.PDCAMENDEDROUTE ***AMENDED ROUTING*** CLEARED VIA $1, THEN VIA FILED ROUTING.
+
+.PDCSTART **** PREDEPARTURE CLEARANCE START **** || PDC $time $aircraft $dep $arr || $aircraft CLEARED $dep TO $arr OPERATING $type($aircraft) WITH CRUISE ALTITUDE $cruise AND TRANSPONDER $squawk.
+.PDCEND MAINTAIN $1, EXPECT $cruise 10 MIN AFT DP. DPFRQ $freq($2) || **** PREDEPARTURE CLEARANCE END **** || ADDL INFO: THIS MSG SERVES AS YOUR IFR CLEARANCE. DO NOT REPLY. CONTACT CLRNC DEL ONLY IF YOU HAVE QUESTIONS RGRDG YOUR CLRNC. CTC GND CTL WITH CUR ATIS WHEN READY TO TAXI.
+
+
+********************************************************************************
+VRC CONFIGURATION
+********************************************************************************
+-----WEATHER-----
+.WXGROUP1 .qd KMIA KFLL KTPA KRSW KPBI KSRQ
+.WXGROUP2 .qd KMIA KFLL KOPF KTMB KFXE KHWO
+.WXGROUP3 .qd KTPA KSRQ KLAL KPIE
+
+------GENERAL FIX COMMANDS-----
+.NM .NOMARKERS
+
+-----DEPARTURE GATES-----
+.GMIAT .FF ARKES BEECH EONNS HEDLY MNATE PADUS PREDA SKIPS THNDR VALLY WINCO ZAPPA
+.GMIA .FF BEECH EONNS HEDLY MNATE PADUS SKIPS VALLY WINCO
+.GFLL .FF ARKES BEECH MNATE PREDA THNDR ZAPPA
+.GTPA .fv CTY GNV LAL OCF ORL PHK PIE RSW SRQ SZW TAY
+.GTPA2 .FF COVIA
+.GPBI .fv CTY DHP EYW FLL FPR LAL LBV MTH ORL PHK PIE RSW SRQ TRV VKZ ZBV ZFP
+.GPBI2 .FF BAIRN HEATT PERMT
+.GRSW .fv CYY FLL EYW LAL LBV ORL PIE PHK SRQ
+.GEYW .FF CARNU MAXIM CANOA
+
+-----ILS/LOC APPROACH FIXES----- DONE
+.BKVI .FF BROAD EBELS
+.BKVI9 .FF BROAD EBELS
+.F45I .FF BOBIO YIGBO AZCID
+.F45I9R .FF BOBIO YIGBO AZCID
+.FLLI .FF HOLID PIONN NOVAE SNAPE JUMAR BUNKR BEZER LORII YOBUS WIKIR ZADIL
+.FLLI10L .FF HOLID PIONN NOVAE
+.FLLI10R .FF BUNKR BEZER LORII
+.FLLI28L .FF YOBUS WIKIR ZADIL
+.FLLI28R .FF SNAPE JUMAR
+.FMYI .FF CALOO
+.FMYI5 .FF CALOO
+.FPRI .FF HASOK MIMBE ZAHZA TIKIY SIVYO KFPR
+.FPRI10R .FF HASOK MIMBE ZAHZA TIKIY SIVYO KFPR
+.FXEI .FF ENVER PADDS TRUBE
+.FXEI9 .FF ENVER PADDS TRUBE
+.LALI .FF ARSHW FLYEN SUNFN
+.LALI9 .FF ARSHW FLYEN SUNFN
+.MIAI .FF PABOY LICEY JODAX HINKU COPRA LAWNN ZILBI BASHO AGLER GRITT INESS CHHAZ SARCO HENDN GLRIA PIANA VEPCO BIRDD OLDDE SHANN
+.MIAI12 .FF GLRIA PIANA VEPCO
+.MIAI26L .FF ZILBI BASHO AGLER
+.MIAI26R .FF JODAX HINKU
+.MIAI27 .FF CHHAZ SARCO HENDN
+.MIAI30 .FF BIRDD OLDDE SHANN
+.MIAI8L .FF PABOY LICEY
+.MIAI8R .FF KROME COPRA LAWNN
+.MIAI9 .FF GRITT INESS
+.OPFI .FF OKANE SAZBO IZROZ JOLYN JARNO ZIKNA
+.OPFI12 .FF JARNO ZIKNA
+.OPFI27R .FF IZROZ JOLYN
+.OPFI9L .FF OKANE SAZBO
+.PBII .FF GULLO WILBA ZISUR CUPED RELTY
+.PBII10L .FF GULLO WILBA ZISUR
+.PBII28R .FF CUPED RELTY
+.PGDI .FF RSW ZEPIG CISTS
+.PGDI4 .FF RSW ZEPIG CISTS
+.PIEI .FF DARBS WIPSO CFBBD ZEPUM CAPOK SRQ RONXI SONES SAWGA
+.PIEI18 .FF DARBS WIPSO CFBBD ZEPUM CAPOK
+.PIEI36 SRQ RONXI SONES SAWGA
+.PMPL .FF OGOYY JIMNY
+.PMPL15 .FF OGOYY JIMNY
+.RSWI .FF TROPC DOLPN
+.RSWI6 .FF TROPC DOLPN
+.SRQI .FF PIE PASOE FRUGL
+.SRQI14 .FF PIE PASOE FRUGL
+.SRQI32 .FF RINGY
+.TMBI .FF EYAXO LAYDN
+.TMBI9R .FF EYAXO LAYDN
+.TPAI .FF LAGOO SELMN ZERUR MERRA FADDI JMBOB MUWTY ANAZE ZELTO BUCCS COSME
+.TPAI19L .FF BUCCS COSME
+.TPAI19R .FF MERRA FADDI JMBOB
+.TPAI1L .FF LAGOO SELMN ZERUR
+.TPAI1R .FF MUWTY ANAZE ZELTO
+
+------RNAV APPROACH FIXES------
+.APFR .FF DUFBO EMDUJ FEVSI FILOP HIJEG JUKIG NONLE OFDOY POJHY TEFDU TILDE UGYOW VIZAF WEXIX WOBKU ZEVIK
+.APFR23 .FF UGYOW POJHY OFDOY TEFDU
+.APFR5 .FF EMDUJ FEVSI VIZAF DUFBO
+.APFRA .FF ZEVIK WOBKU HIJEG NONLE
+.APFRB .FF JUKIG FILOP WEXIX TILDE
+.BCTR .FF ATONE UZAPA FEYFO TANAH SOBPO KISEC WEPOM ZOREK GECER XICZO RANCO WEMSO HIVUR
+.BCTR5 .FF ATONE UZAPA FEYFO TANAH
+.BCTRY23 .FF SOBPO KISEC HIVUR
+.BCTRZ23 .FF WEPOM ZOREK GECER XICZO RANCO WEMSO HIVUR
+.BKVR .FF RUSIF CUNJU MUCRO OFKOR FOREK LEVSE EPNIF COJLA HINQE CEGIM DEWIX JUNAV ASKEH OWAGO OZIME PABBI AZBOG IGNAQ
+.BKVR21 .FF LEVSE EPNIF COJLA HINQE CEGIM
+.BKVR27 .FF OZIME PABBI AZBOG IGNAQ
+.BKVR3 .FF RUSIF CUNJU MUCRO OFKOR FOREK
+.BKVR9 .FF DEWIX JUNAV ASKEH OWAGO
+.BOWR .FF EBPAD VADDO FODBI AHJUP SILIE ANTII BOONN ZOMOV AKACA JANGO GUVEQ LAVXY IVONY CEZBA
+.BOWR23 .FF ANTII BOONN ZOMOV AKACA JANGO
+.BOWR27R .FF IVONY CEZBA
+.BOWR5 .FF EBPAD VADDO FODBI AHJUP SILIE
+.BOWR9L .FF GUVEQ LAVXY
+.EYWR .FF CHETS ATNAW BUSBY GUCEL BURPY KEYCY
+.EYWR27 .FF GUCEL BURPY KEYCY
+.EYWR9 .FF CHETS ATNAW BUSBY
+.F45R .FF YIGBO AZCID WYNER WUSIX SPOUN ZETAP WOPDU ULNOY
+.F45R14 .FF WYNER WUSIX SPOUN ZETAP
+.F45R27L .FF WOPDU ULNOY
+.F45R9R .FF YIGBO AZCID
+.FLLR .FF YELUY OGIHI IJEPY VANUY SIYOL ZARLA HOLID SNAPE JUMAR PIONN NOVAE PAKEE BEPAC JIDVA CUSRA ZITPO WONAR PRHIB ZUKED JUMA HUXIM BUNKR BEZER LORII ZADIL WIKIR YOBUS
+.FLLR10R .FF BUNKR BEEZR BLAIM LORII
+.FLLR28L .FF ZADIL WIKIR YOBUS
+.FLLRY10L .FF YELUY OGIHI IJEPY VANUY HOLID ZARLA SIYOL
+.FLLRY28R .FF JUMAR SNAPE
+.FLLRZ10L .FF PIONN NOVAE
+.FLLRZ28R .FF BEPAC JIDVA CUSRA ZITPO WONAR HUXIM PRHIB JUMAR ZUKED
+.FMYR .FF APASY AZOMY BUTLY CITAG CORFU DELDO ERRIN GLUMM GRAMS IJERE LBV MEMXI PINTS QUZSY RUTHY TIRTE UZAWO VASES
+.FMYR13 .FF PINTS QUZSY ERRIN IJERE
+.FMYR23 .FF LBV TIRTE VASES APASY GLUMM
+.FMYR31 .FF RUTHY CORFU CITAG MEMXI DELDO
+.FMYR5 .FF BUTLY AZOMY UZAWO GRAMS
+.FPRR .FF MIMBE HASOK ZAHZA TIKIY KOYEP EUCYO POBCI JOMDU VOYUT JUDUD BRONG YADDU FOMGU NOYEM WADAS COSVA
+.FPRR10R .FF MIMBE HASOK ZAHZA TIKIY
+.FPRR14 .FF KOYEP EUCYO POBCI JOMDU
+.FPRR28L .FF  VOYUT JUDUD BRONG YADDU
+.FPRR32 .FF FOMGU NOYEM WADAS COSVA
+.FXER .FF ENVER PADDS TRUBE FORSU KOKEY SACCK
+.FXER27 .FF FORSU KOKEY SACCK
+.FXER9 .FF ENVER PADDS TRUBE
+.HWOR .FF CUDES CIBIB FRRDY NICYI
+.HWOR10R .FF FRRDY NICYI
+.HWOR28R .FF CUDES CIBIB
+.IMMR .FF BUCMU CAKNA DIBUF ECAMO FAPTO JEXQU JIRAX JIVLU KADTE OBMEE PAPDE UVNAY UXUVE WIXUX ZAWRI ZUGDU
+.IMMR18 .FF JIVLU UVNAY BUCMU KADTE
+.IMMR27 .FF JEXQU WIXUX ZUGDU UXUVE
+.IMMR36 .FF JIRAX ZAWRI DIBUF CAKNA
+.IMMR9 .FF OBMEE PAPDE FAPTO ECAMO
+.LALR .FF IPUNE SANOY ZUXON BIYAT GUNNR BOMRR ARSHW FLYEN SUNFN LEZTI EHAGU JOVMU OBTOQ KONDE GILDE RETME ECADE CUVNA
+.LALR23 .FF LEZTI EHAGU JOVMU OBTOQ
+.LALR27 .FF KONDE GILDE RETME ECADE CUVNA
+.LALR5 .FF IPUNE SANOY ZUXON BIYAT
+.LALR9 .FF GUNNR BOMRR ARSHW FLYEN SUNFN
+.LNAR .FF ARKES CUVMO JOVLI KISEC KUVBE LMORE MRLIN RUCOG VURYU WIBGA YANBU YEGUP ZOTUB
+.LNAR34 .FF MRLIN VURYU KISEC JOVLI WIBGA
+.LNARA .FF ARKES LMORE ZOTUB KUVBE YEGUP
+.LNARB .FF YANBU MRLIN CUVMO RUCOG
+.MIAR .FF VICUV KACDE NAYIB ZARER KROME COPRA LAWNN ZILBI BASHO AGLER JODPO RUBOE HODLE DOXSI WUKVU HENDN SARCO CHHAZ WORPP FOGSO GLRIA PIANA VEPCO MANTY FLIPR SHANN OLDDE BIRDD
+.MIAR12 .FF WORPP FOGSO GLRIA PIANA VEPCO
+.MIAR26L .FF MANTY FLIPR ZILBI BASHO AGLER
+.MIAR26R .FF NAYIB ZARER
+.MIAR27 .FF MANTY FLIPR HENDN SARCO CHHAZ
+.MIAR30 .FF MANTY FLIPR SHANN OLDDE BIRDD
+.MIAR8L .FF VICUV KACDE
+.MIAR8R .FF WORPP FOGSO KROME COPRA LAWNN
+.MIAR9 .FF JODPO RUBOE HODLE DOXSI WUKVU
+.MKYR .FF AVCOF EJAMO TAJGO COPGI ONSAW PARYE
+.MKYR17 .FF AVCOF EJAMO
+.MKYR35 .FF TAJGO COPGI ONSAW PARYE
+.NQXR .FF TAVDE MEDAC DEMTE WEBUN BIPIN CEXIG HEKEM SAGLE OBADE
+.NQXR26 .FF BIPIN CEXIG HEKEM
+.NQXR32 .FF BIPIN SAGLE OBADE
+.NQXR4 .FF TAVDE MEDAC
+.NQXR8 .FF DEMTE WEBUN
+.OPFR .FF WUDIP OKANE SAZBO TOWES IZROZ JOLYN JARNO ZIKNA
+.OPFR12 .FF WUDIP JARNO ZIKNA
+.OPFR27R .FF TOWES IZROZ JOLYN
+.OPFR9L .FF WUDIP OKANE SAZBO
+.PBIR .FF BEKAH COTEB CRTHY CUPED ENDUW FESAK FLABS FRWAY GULLO HETMO INEVY ITOWN JEMAL JERII JERMA LIDRE OBTEE OGGAN QELAH RELTY RIBEE RREBA RUMDE SANZZ SHDEE WETTN WILBA XAGRY YOURS ZABTA ZISUR
+.PBIRW28R .FF HETMO JERII CRTHY ITOWN WETTN
+.PBIRX28R .FF FRWAY HETMO RREBA YOURS FLABS
+.PBIRY10L .FF GULLO WILBA ZISUR
+.PBIRY14 .FF JEMAL RIBEE
+.PBIRY28R .FF CUPED RELTY
+.PBIRY32 .FF LIDRE RUMDE
+.PBIRZ10L .FF GULLO WILBA FRWAY ENDUW  SANZZ SHDEE ZISUR
+.PBIRZ14 .FF FRWAY OBTEE INEVY SANZZ XAGRY GULLO OGGAN QELAH ZABTA
+.PBIRZ28R .FF FRWAY HETMO JERMA BEKAH FESAK COTEB RELTY
+.PBIRZ32 .FF LIDRE RUMDE
+.PGDR .FF CUPAV ZEGIS BULOW CISTS SACRA BRUSK APZUL UBIDY ROGAN QUNCY AIRVA DOGLE RSW OWGAF PETSE DODIK
+.PGDR15 .FF SACRA BRUSK APZUL UBIDY
+.PGDR22 .FF ROGAN QUNCY AIRVA DOGLE
+.PGDR33 .FF RSW OWGAF PETSE DODIK
+.PGDR4 .FF CUPAV ZEGIS BULOW CISTS
+.PHKR .FF WIKIN SETUE THNDR HEDLY PASAE HOREP
+.PHKR18 .FF WIKIN SETUE
+.PHKR36 .FF THNDR HEDLY PASAE HOREP
+.PIER .FF DONHU DETSE SAUND WIGUS SRQ RONXI SONES SAWGA
+.PIER18 .FF DONHU DETSE SAUND WIGUS
+.PIER36 .FF SRQ RONXI SONES SAWGA
+.PIERA .FF DARBS BDUBB HOKAX WESAG
+.PMPR .FF ZARNA HIBDU HEATT MRLIN TUYVO CIVOV ATONE OGOYY JIMNY QEPRO RIMZY WAKED
+.PMPR15 .FF ATONE OGOYY JIMNY
+.PMPR24 .FF HEATT MRLIN TUYVO CIVOV
+.PMPR33 .FF QEPRO RIMZY WAKED
+.PMPR6 .FF ZARNA HIBDU
+.RSWR .FF PONTY SOKIE LENPE CELBO LBV NABAC ODERY RODDE OMOKY
+.RSWR24 .FF LBV NABAC ODERY RODDE OMOKY
+.RSWR6 .FF PONTY SOKIE LENPE CELBO
+.SPGR .FF LOYIL CWBIL PHIEL TONYJ PIE KENVE JRGAL WHITD BENWA
+.SPGR18 .FF PIE KENVE
+.SPGR36 .FF JRGAL WHITD BENWA
+.SPGR7 .FF LOYIL CWBIL PHIEL TONYJ
+.SRQR .FF WERPI BAYDA CALCA  OSAXE PIE BRDGE ERICO DIRAY RITLE PIE PASOE FRUGL SABEE FAXID RINGY
+.SRQR14 .FF PIE PASOE FRUGL
+.SRQR22 .FF PIE BRDGE ERICO DIRAY RITLE
+.SRQR32 .FF SABEE FAXID RINGY
+.SRQR4 .FF WERPI BAYDA CALCA  OSAXE
+.SUAR .FF IVETY SHEDS PETNE MAINR BERBE MONAD LEBAN AROSS
+.SUAR .FF SHEDS IVETY PETNE MAINR MONAD BERBE LEBAN AROSS
+.SUAR12 .FF IVETY SHEDS PETNE MAINR
+.SUAR12 .FF SHEDS IVETY PETNE MAINR
+.SUAR30 .FF BERBE MONAD LEBAN AROSS
+.SUAR30 .FF MONAD BERBE LEBAN AROSS
+.TMBR .FF FOGSO HAXAM LAYDN JULED HASDU LUVLY HOTMA FITOL CACSA ZAGUN
+.TMBR27L .FF LUVLY CACSA ZAGUN
+.TMBR27R .FF LUVLY HOTMA FITOL
+.TMBR9L .FF FOGSO JULED HASDU
+.TMBR9R .FF FOGSO HAXAM LAYDN
+.TPAR .FF FITPA SNORK WELIT MERRA FADDI JMBOB MUWTY ANAZE ZELTO ZADSA COBOX ZPLIN LZARD POMSE POLVY ZEXYY RUYKI JUKGO JUNTI
+.TPAR10 .FF POLVY ZEXYY
+.TPAR19L .FF ZADSA COBOX ZPLIN LZARD POMSE
+.TPAR19R .FF MERRA FADDI JMBOB
+.TPAR1L .FF FITPA SNORK WELIT
+.TPAR1R .FF MUWTY ANAZE ZELTO
+.TPAR28 .FF RUYKI JUKGO JUNTI
+.VRBR .FF BLDOG EPLOW FFAIR HAMVA HOCKI HULLA IPINE JINSO MRINO MUDDS NOLBE OJEMY PUUMA SUNDY TATUW ZOROE
+.VRBR12R .FF BLDOG MRINO HOCKI MUDDS
+.VRBR22 .FF HAMVA IPINE OJEMY TATUW
+.VRBR30L .FF HULLA SUNDY PUUMA ZOROE
+.VRBR4 .FF FFAIR EPLOW JINSO NOLBE
+.X14R .FF QUNCY UTELE VASES PUNAE WINCO FORTL TIRTE UROLE
+.X14R14 .FF QUNCY UTELE VASES PUNAE
+.X14R32 .FF WINCO FORTL TIRTE UROLE
+
+------VOR/NDB/TACAN APPROACH FIXES------
+.APFV .FF CYY
+.APFV23 .FF CYY
+.APFV5 .FF CYY
+.BCTV .FF PBI UGLEE JISAS
+.BCTVA .FF PBI UGLEE JISAS
+.BOWV .FF LAL BARTZ
+.BOWV9L .FF LAL BARTZ
+.EYWN .FF FIS
+.EYWNA .FF FIS
+.FMYV .FF RSW FIVER
+.FMYV13 .FF RSW FIVER
+.FPRN .FF FPR
+.FPRN28L .FF FPR
+.FPRV .FF TRV LADDY
+.FPRV14 .FF TRV LADDY
+.IMMV .FF LBV JIBTO JICTI DUPNT KOCHE
+.IMMV18 .FF LBV JIBTO JICTI DUPNT KOCHE
+.LALV .FF LAL LLEGO AIRBS UDATE AMBAZ
+.LALV27 .FF LAL AMBAZ
+.LALV9 .FF LAL LLEGO AIRBS UDATE
+.MKYV .FF CITAG CYY FIGOX
+.MKYV17 .FF CITAG CYY FIGOX
+.NQXHT .FF NQX THUMP PANDA SAXNN SEBLE OTABE SPAAD TWNKY OBBIN JUSTA SKIPP EYW
+.NQXHT32 .FF NQX THUMP PANDA SPAAD TWNKY
+.NQXHT4 .FF NQX THUMP PANDA SEBLE OTABE
+.NQXHTY8 .FF NQX THUMP SAXNN JUSTA SKIPP EYW
+.NQXHTZ8 .FF NQX THUMP PANDA OBBIN
+.NQXT .FF NQX PANDA SEBLE OTABE CANIN SPAAD TWNKY OBBIN SKIPP
+.NQXT26 .FF NQX CANIN
+.NQXT32 .FF NQX PANDA SPAAD TWNKY
+.NQXT4 .FF NQX PANDA SEBLE OTABE
+.NQXTY8 .FF NQX PANDA OBBIN
+.NQXTZ8 .FF EYW SKIPP
+.NQXV .FF EYW SKIPP CANIN
+.NQXV26 .FF EYW CANIN
+.NQXV8 .FF EYW SKIPP
+.PGDV .FF PGD
+.PGDV22 .FF PGD
+.PGDV4 .FF PGD
+.PIEV .FF PIE JULSO BIGOO
+.PIEV36 .FF PIE BIGOO
+.PIEV4 .FF PIE JULSO
+.RSWT .FF RSW MORGN
+.RSWT24 .FF RSW MORGN
+.RSWV .FF RSW MORGN
+.RSWV24 .FF RSW MORGN
+.SPGV .FF PIE WUXUT
+.SPGV18 .FF PIE WUXUT
+.VRBV .FF TRV MLBSO WUBUR BUEYE HRBOR RUSOY WEMEN ZAGGA
+.VRBV12R .FF TRV MLBSO WUBUR BUEYE HRBOR
+.VRBV30L .FF TRV RUSOY WEMEN ZAGGA
+
+------ALL PROCEDURES FOR AIRPORT------
+.SIDSMIA .FF BORLE MEAGN WINCO VVMAX HEDLY SHALW JANUS VALLY
+.SIDSFLL .SIDSMIA
+
+------SIDS------
+.ARKES4 .FF JUMAR HAPOR SECOR NOVAE KRMIT ATONE ARKES
+.BAHMA5 .FF NOVAE HEMAG SECOR BIYAK ADKOQ CORNL BAHMA
+.BAYPO7 .FF FINKI BAYPO ECAKE WILON SPRNG CAMJO AMG CARRD DUNKN
+.BEECH5 .FF JUMAR KERRN BEECH BAHMA
+.BSTER2 .FF BSTER SCATE BORLE MEAGN WINCO SHUTE VVMAX HEDLY SKORE FORKK SHALW VALLY PADUS
+.BUFIT2 .FF CRRMN CRYER UTLEY FINNS PYRUT BAYBE BRTHR AHABB RIDRR JIMEY BUFIT HEATT HILEY
+.CROWD7 .FF MILEJ CROWD HALLR
+.CSHEL5 .FF MAPUL SNOKE WITAR LOSBY YALOO CSHEL JUNLO PULEC LAL ORL
+.DEEEP2 .FF BSTER DRIVM DEEEP FENIR MNATE SHULA EONNS CRABI SKIPS
+.ENDED7 .FF ENDED LACEN CTY KLIIN BULZI SZW
+.EONNS2 .FF LICEY JADAK GRITT CULBY SABRA VKZ DICKI SHULA EONNS
+.GANDY7 .FF GANDY PAIRS MURDO SABEE
+.HEDLY2 .FF SENOY CIMBA FORKK METTS BRBRA VVMAX HEDLY
+.HITAG2 .FF POTTR HITAG KAINS FORKK HOSFU BORLE WINCO VVMAX HEDLY SHALW VALLY PADUS
+.JONZI2 .FF JONZI VKZ SKIPS LUVLY MANNN EONNS NREQZ MNATE
+.LMORE2 .FF CRRMN BUFIT SHRKY BLNKT CRYER LMORE DONVN MKYDG
+.MIXAE2 .FF CRRMN JIMEY CRYER UTLEY FINNS PYRUT BAYBE BRTHR AHABB TURPS MIXAE HALBI
+.MNATE2 .FF SABRA VKZ BLUNE LICEY JADAK GRITT CULBY FENIR MNATE
+.PADUS2 .FF HINKU GOZZO RIKEE VAPOR METTS HAUSR FORKK SHALW JANUS PADUS
+.POTTR6 .FF POTTR BEECH HEDLY PADUS WINCO
+.PREDA4 .FF JUMAR TURBO NOVAE HEMAG SECOR BIYAK PREDA
+.SKIPS2 .FF SABRA VKZ IBISS LICEY JADAK GRITT CULBY DICKI CRABI SKIPS
+.SLIDZ2 .FF CRRMN RIDRR CRYER UTLEY FINNS PYRUT BAYBE BRTHR AHABB RBACK SLIDZ AMNDA
+.SOUBY5 .FF SOUBY VKZ EONNS MNATE SKIPS
+.SRKUS2 .FF VECIE KIZIZ SRKUS GOLTY FRAAT SCHUZ SIMMR HYRON BRUNG ENDED MOMIE CTY KLIIN OOLLA BULZI SZW WILON SPRNG CAMJO AMG CARRD DUNKN
+.SYKES7 .FF SYKES DORMR SIMMR PSTOL
+.TBIRD2 .FF CRRMN SMGLR AHABB CRYER UTLEY DIAPR TBIRD SHEDS
+.THNDR4 .FF JUMAR HAPOR SECOR NOVAE NEWER TICOG GILBI THNDR
+.VALLY2 .FF HINKU GOZZO RIKEE VAPOR METTS HAUSR FORKK SHALW JANUS VALLY
+.WINCO2 .FF SENOY CIMBA FORKK OHOFO BORLE MEAGN WINCO
+.ZAPPA4 .FF JUMAR TURBO NOVAE HEMAG SECOR BIYAK PREDA ZAPPA
+
+------STARS------
+.ANNEY4 .FF OMN PCMAN MLB TRV PHORD PBI SNSBK ANNEY HILEY KAINS VKZ
+.BLOND4 .FF SIMMR RUDOF BLOND AGASE OOSAF GUSNE DADPE BAYZZ WOBKI
+.BLUFI4 .FF MLB LEBUR DALOO TOPPR BLUFI HEATT KAINS VKZ
+.BRDGE8 .FF PHK LBV RSW ROGAN BRDGE JSTRM PIE
+.CLAMP7 .FF SZW HEVVN CLAMP LINKN BOATS WALTR SRQ
+.CURSO5 .FF EADEN STRAP TIGAR CARNU MTH GUSHY DVALL CURSO MNNDY GULPE 07FA X51 HAXAM JODPO LECIT VICLB BEETR EPENY FRRDY JAREM HOLID ENVER ATONE
+.CYY9 .FF PIE SRQ RSW CYY DEEDS WORPP DHP
+.DADES4 .FF TAY JAYJA EDISN OLENE MARVI KOKOH ORL DADES LZARD JKBAL LISAF GUZDA JSTRM
+.DARBS3 .FF SZW HEVVN LEGGT TABIR DARBS PIE
+.DEAKK5 .FF PHK LBV RSW ROGAN DEAKK JSTRM GUZDA JKBAL
+.DEKAL5 .FF URSUS ZQA CAREY ZBV ZFP DEKAL FLL
+.DVALL3 .FF EYW CARNU MTH DVALL WEVER FAMIN DHP
+.FISEL7 .FF OMN DIINO QUASH CRANS MLB FATHR TOOMR TRV JALOP MOSIE ZFP BALEW FISEL WAKED BEPAC AGOYA
+.FLIPR5 .FF URSUS ZOLLA HODGY JAYEE PEKRE ZQA NICKO TINKY ZFP LUCSS FOWEE FLIPR LUVLY LECIT JODPO
+.FOOXX4 .FF SZW HEVVN LEGGT TABIR DIPAY GUSNE DARBS FOOXX DADPE BAYZZ WOBKI
+.FORTL7 .FF TAY TEPEE PIE SRQ RSW FORTL KUBIC
+.FOWEE9 .FF ZQA TINKY ZFP LUCSS URSUS FOWEE JUNUR LUVLY DHP
+.FRWAY5 .FF OMN FILBE OBEYS HURDE TRV CHADO STOOP AYBID MIMMI NEUBE SWOMP FRWAY TUNNE SANZZ CASKI
+.GISSH5 .FF OMN DIINO QUASH BOATR MLB FATHR TOOMR TRV JALOP GISSH FISEL FLL
+.HILEY7 .FF OMN MALET PCMAN MLB TRV PHORD SMUGS MORGA PBI BTOGA JORAY OSOGY AMZAR ZFP STAPL MILSY BOYUR HILEY KAINS CIMBA JESSS RUBOE
+.JINGL5 .FF TAY OTK HITTR WENGU SZW HEVVN PLYER POLEE BALKE BAGGS RXXAN FORTL SWAGS JINGL JAREM BEPAC
+.JOSFF5 .FF SZW SWABE HILTI GASPR TEPEE PIE SRQ JOSFF JEVES TYNEE PASTR
+.LZARD6 .FF TAY JAYJA GRASN OLENE MARVI DADES LZARD TUMPY PIE
+.SHFTY2 .FF AMG DUNKN CYNTA BOCAP HEPOX WOSAK INPIN VALCH HIBAC PIVVV CRIZZ LOOOU CRMIN SHFTY WRTRS MAZZY MOEMO LBV IRNIE WYCOF PONTY KOCHE COGDL TIOFF
+.SSCOT4 .FF TAY OTK HITTR TUCKE SZW HEVVN LEGGT PLYER SEATE JUULI BAGGS BAARY CYY DEEDS SSCOT RUBOE WALIP LECIT JUNUR
+.TEEGN1 .FF SZW HEVVN CLAMP LINKN AVTAR TEEGN OGGER CLOUW ALROE MAHAR PASOE FIVDO MURDO
+.TRAPR2 .FF TAY GNV JORPO TRAPR ZEBON RUNNE LAL WUUY LYFIE RUTAE MURDO
+.TUXXI3 .FF OMN FILBE OBEYS HURDE TRV TUXXI STOOP
+.TYNEE1 .FF SZW HEVVN PLYER EGAME OGGER CODGR FRZBE JOSFF JEVES BAGGS TYNEE PASTR LENPE LLMER SPNKE COOPR NABAC
+.WAVUN3 .FF ZQA MAJUR CAREY URSUS ZOLLA FOWEE SKIPS ZFP MAYKO BAHMA ZBV WIERS DEKAL WAVUN KEVEY FRRDY
+.WLACE3 .FF TAY OTK HITTR SZW CTY LATHY MOLIE AMSAW WULFF SRQ JOOOE BAGGS STUUU RSTAA WLACE PRRIE BOBIO GULLO BEKAH
+
+------ENROUTE MAJOR------
+.AZMA .FF ACMEE ADOOR ALBBE ALERI ALUTE AMBIS AMNDA ANGLL ANGSS APOLO ARKES ASIVO ATTIK AVION AVNEY AVOXI AYBID BAAGR BACCA BAGGS BAHAA BAIRN BARTS BEERD BESAS BGDOG BLUFI BLVNS BODLO BORDO BOSAR BOTES BQN BRIKL BROOM BRRGO BTLER BUNNZ BUUOY BYGON CANEE CANIT CANOA CARAH CARNU CARPX CASPR CATHI CCUDA CDO CERDA CFVPP CHRRI CIGAR CLETT CNNOR COCBU CORSU COUKY COY COZIE CRANS CYY DAAST DAGGR DCR DDP DEARY DEEDS DHP DIAZZ DONEZ DROWN DUKKY DULEE DUNED DUNNO DVALL DYNAH EGANN ELBOW ELLEE ELMUC EMCEE EMQUE ENAMO EONNS ERRCA ETECK EVETS EXTER EYSEL EYW FARMN FDLEE FOLLE FORRK FORST FOWEE GEROT GHANN GIGIH GOVET GRADI GRATX GTK GUANA HALSS HANKX HANRI HARBG HARDE HCN HEATT HEDLY HIBAC HINZE HINZY HOAGG HOBEE HODGY HOOCK HOOKY HRV IMELA INDEE INDRO INGRA INPIN IORIO IRDOV ISOLE JAINS JANUS JAYEE JAYMC JEFFO JENKS JERRE JORAY JORGG JOSES JSTIN JUELE JUNUR JURER KARRN KFFER KINCH KNDLL KNOST KPASA KRNEL KRTIS KUBIC KURAY LAL LAMER LANIE LASEE LBV LEEVI LENDS LENUS LEPAS LERED LERUG LETON LEV LLAKE LLNCH LNHOM LOGVN LOUIZ LUCSS LUCTI LYMIN MACKI MAJIK MALCN MALET MAMML MANII MAPYL MARCI MAXIM MAYAG MAZ MELON MENDL MICAS MILLE MINOW MLLER MLSAP MMDUQ MNATE MNDEZ MRTEE MTH MUPKI MUSSH MUVOD MYDIA MYSTR NAITE NAKRO NATHY NATLE NELSR NETTA NICKO NOPIT NUCAR OHBEE OHLAA OHOFO OMALY OMN ORL OTTNG OVALU OVIDO OZENA PAARR PADUS PAMMS PAR PBI PEKRE PERIE PERMT PETEE PHK PIE PIGBO PISAD PJM PLYER PNA POKEG PREDA PRRDO PRUNE PTA PVN RAHAM RAJAY RAMJT RAPPR RATTL REDFN RELLI REMIS RENAH RNDLY RNTRY RODRK ROSEA ROTHM ROZZI RSW RVERO RYDEL SAAKO SABRE SANNS SAPPO SCOBY SEBUG SEKAR SHAQQ SHOEZ SINGL SKHOT SKIPS SLEMA SLUKA SMTTY SNABS SNAGY SNAKR SNOMN SRQ STAAL STIFF STRUD STT SUMRS SWIMM TAANA TADPO TANIA TEPEE THNDR TINKY TOMAZ TORRY TRESR TROUT TUNUA TURBO TWNNS UCA UCJ UCL UCM UHA UHG UKOKA UMO UNV URLAM URSUS UVA VALLY VINKA VKZ VRB VRGAS WATRS WINCO WITOB WOLFO WOODZ WSSKY YENNE ZAPPA ZBV ZFP ZIN ZOLLA ZQA ZWICK
+.BZMA .FF BYNAH AMNDA ANGLL ARKES AYBID BACCA BAGGS BAIRN BARTS BORDO BUUOY CANOA CARNU CASPR CHRRI CIGAR CRANS CYY DEEDS DHP DVALL DYNAH ELLEE EONNS EYW FOWEE GIGIH HEDLY JAYMC JORAY KNOST KRNEL KUBIC LAL LBV LLAKE LOUIZ MARCI MAXIM MENDL MNATE MTH NATLE NUCAR OMN ORL PBI PEKRE PERMT PHK PIE PREDA RAJAY REMIS RSW RVERO SCOBY SHAQQ SKIPS SNAGY SNAKR SNOMN SRQ SUMRS TADPO TANIA TEPEE THNDR TINKY URSUS VALLY VKZ VRB VRGAS WINCO WOLFO YENNE ZAPPA ZBV ZFP ZOLLA ZQA
+
+------ENROUTE MINOR ("LITTLE" FIXES)------
+.LZMA .FF WINCO HEDLY THNDR ARKES PREDA ZAPPA VALLY PADUS BEECH SKIPS EONNS MNATE
+
+------MIAMI TRACON MAJOR ("BIG" FIXES)------
+
+------MIAMI TRACON MAJOR ("BIG" FIXES)------
+
+------MIAMI TRACON MAJOR ("BIG" FIXES)------
+
+------MIAMI TRACON MAJOR ("BIG" FIXES)------
+
+------KEY WEST RAPCON MAJOR ("BIG" FIXES)------
+.BEYW .FF MNATE DROWN CARNU MTH GUCEL STRAP STING KNQX BURY KEYCY BUSBY ATNAW CHETS CANOA MAXIM
+
+.MIASVMI .FF VKZ IBISS CRABI SKIPS TINKY PEKRE JAYEE HODGY AMBIS DUNNO ACMEE ZIN JOSES PJG
+
+********************************************************************************
+CPDLC
+********************************************************************************
+.dlc .msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS.
+.dlcp .msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK.
+.dlx .msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS. MOD RTE $route. ADV ACCEPT/REJECT RTE.
+.dlxp .msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK. MOD RTE $route. ADV ACCEPT/REJECT RTE.
+
+
+
+********************************************************************************
+LEGACY ALIASES SCHEDULED FOR REMOVAL
+********************************************************************************
+.STAR cross $uc($1) at and maintain $2, $3 kts.
+.STARN cross $uc($1) at and maintain $2.
+.STARJ proceed direct $uc($1), rejoin the $uc($2).
+.WAKES .sticky Wake Turbulence Separation| |Departures| |2 minutues -- Small/large behind a heavy jet (same threshold)|3 minutes -- Small/larget behind a heavy jet (intersection)| |Enroute| |Heavy jet behind heavy jet -- 4 miles|Large or heavy behind B757 -- 4 miles|Small behind B757 -- 5 miles|Small or large aircraft behind heavy jet -- 5 miles|Super behind super -- 4 miles|Heavy jet behind super -- 6 miles|Large behind super -- 8 miles|Small behind super -- 10 miles| |Arrival (small only)| |Small aircraft landing behind super -- 10 miles|Small aircraft landing behind heavy jet -- 6 miles|Small aircraft landing behind B757 -- 5 miles|Small aircraft landing behind large aircraft -- 4 miles| |Categories Defined| |Super -- A380 only|Heavy -- AOB 300,000 lbs.|Large -- 41,000-299,999 lbs.|Small -- < 41,000 lbs.
+.nowake .nostickies
+.linkup .sticky LINK ESTABLISHED| |VZMA INTRANET CONNECTION ONLINE| |PROCESSING DATALINK...
+.XATDPT cross $uc($1) at $2.. After $uc($1), depart $uc($1) heading $3.
