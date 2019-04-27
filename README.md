@@ -16,15 +16,13 @@ The purpose of this repository is to be:
 
 The repository structure is structured as follows:
 
-
-
-
-- archive/ *(this folder contains various versions of the files as they existed upon conversion to a git repo on 2019.04.27)*</li>
-- docs/ *(this folder contains the active docs used to manage the facility, including a reconstituted file history)*
-  - pof/
-  - alias/
-  - sector/
-  - vATIS/
+- archive/ *(various versions of the files as they existed upon conversion to a git repo on 2019.04.27)*</li>
+- docs/ *active docs used to manage the facility, including a reconstituted file history*
+  - aircraft/ *aircraft data for VRC clients*
+  - pof/ *position files*
+  - alias/ *alias files for clients*
+  - sector/ *sector files*
+  - vATIS/ *vATIS templates*
 
 ## Contact
 
