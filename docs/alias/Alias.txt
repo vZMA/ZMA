@@ -484,27 +484,32 @@ RADAR
 .XS cross $uc($1) at $2 knots.
 
 .XA cross $uc($1) at and maintain $uc($2).
-    .XAA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
-    .XACM cross $uc($1) at $uc($2), climb and maintain $uc($3).
-    .XADM cross $uc($1) at $uc($2), descend and maintain $uc($3).
-        .XADMA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
+.XAA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
+.XACM cross $uc($1) at $uc($2), climb and maintain $uc($3).
+.XADM cross $uc($1) at $uc($2), descend and maintain $uc($3).
+.XADMA cross $uc($1) at $uc($2), descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+
 .XAS cross $uc($1) at and maintain $uc($2), $3 knots.
     .XASA cross $uc($1) at and maintain $uc($2), $3 knots, $uc($4) altimeter $altim($4).
     .XASCM cross $uc($1) at $uc($2), $3 knots, climb and maintain $uc($4).
     .XASDM cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4).
     .XASDMA cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+	
 .XAOA cross $uc($1) at or above $2.
     .XAOACM cross $uc($1) at or above $2, climb and maintain $uc($3).
     .XAOADM cross $uc($1) at or above $2, descend and maintain $uc($3).
         .XAOADMA cross $uc($1) at or above $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+
 .XAOAS cross $uc($1) at or above $2, $3 knots.
     .XAOASCM cross $uc($1) at or above $2, $3 knots, climb and maintain $uc($4).
     .XAOASDM cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4).
         .XAOASDMA cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+
 .XAOB cross $uc($1) at or below $2.
     .XAOBCM cross $uc($1) at or below $2, climb and maintain $uc($3).
     .XAOBDM cross $uc($1) at or below $2, descend and maintain $uc($3).
         .XAOBDMA cross $uc($1) at or below $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+
 .XAOBS cross $uc($1) at or below $2, $3 knots.
     .XAOBSCM cross $uc($1) at or below $2, $3 knots, climb and maintain $uc($4).
     .XAOBSDM cross $uc($1) at or below $2, $3 knots, descend and maintain $uc($4).
