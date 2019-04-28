@@ -488,12 +488,11 @@ RADAR
 .XACM cross $uc($1) at $uc($2), climb and maintain $uc($3).
 .XADM cross $uc($1) at $uc($2), descend and maintain $uc($3).
 .XADMA cross $uc($1) at $uc($2), descend and maintain $uc($3), $uc($4) altimeter $altim($4).
-
 .XAS cross $uc($1) at and maintain $uc($2), $3 knots.
-    .XASA cross $uc($1) at and maintain $uc($2), $3 knots, $uc($4) altimeter $altim($4).
-    .XASCM cross $uc($1) at $uc($2), $3 knots, climb and maintain $uc($4).
-    .XASDM cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4).
-    .XASDMA cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+.XASA cross $uc($1) at and maintain $uc($2), $3 knots, $uc($4) altimeter $altim($4).
+.XASCM cross $uc($1) at $uc($2), $3 knots, climb and maintain $uc($4).
+.XASDM cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4).
+.XASDMA cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
 	
 .XAOA cross $uc($1) at or above $2.
     .XAOACM cross $uc($1) at or above $2, climb and maintain $uc($3).
