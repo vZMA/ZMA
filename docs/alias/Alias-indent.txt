@@ -162,8 +162,8 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
 .HPQN hold push, you are number $1 in the queue.
 .PUSH Push approved, face $uc($1). Advise when ready to taxi.
     .PUSHT Push approved, tail $uc($1). Advise when ready to taxi.
-.PUSHC Push approved, tail $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
-    .PUSHTC Push approved, face $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
+.PUSHC Push approved, face $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
+    .PUSHTC Push approved, tail $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
 .GMIE ATTENTION ALL AIRCRAFT: Ground metering is in effect. Contact $radioname($1) on $freq($1) when ready to push.
 
 ----- Progressive Taxi -----
@@ -209,11 +209,11 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
   .CTOR wind $winds, RNAV to $uc($1), Runway $uc($2), cleared for takeoff.
     .CTORWTD wind $winds, RNAV to $uc($1), Runway $uc($2), cleared for takeoff. Caution wake turbulence departed $uc($3).
   .CTOFH Fly heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
-    .CTOFHWTD Fly heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+    .CTOFHWTD Fly heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departed $uc($3).
   .CTOTRH Turn right heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
-    .CTOTRHWTD Turn right heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+    .CTOTRHWTD Turn right heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departed $uc($3).
   .CTOTLH Turn left heading $1, wind $winds, Runway $uc($2), cleared for takeoff.
-    .CTOTLHWTD Turn left heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departued $uc($3).
+    .CTOTLHWTD Turn left heading $1, wind $winds, Runway $uc($2), cleared for takeoff. Caution wake turbulence departed $uc($3).
 .LUAW Runway $uc($1), line up and wait.
   .LUAWWT Runway $uc($1), line up and wait for wake turbulence.
   .LUAWTC Runway $uc($1), line up and wait, traffic crossing downfield.
@@ -376,7 +376,7 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
     .TRHDMV descend and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
       .TRHDMVF descend and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .PD proceed direct $uc($1).
-  .FHPD fly heading $1. When able, proceed direct $uc($1).
+  .FHPD fly heading $1. When able, proceed direct $uc($2).
   .PDCM proceed direct $uc($1), climb and maintain $2.
   .PDDM proceed direct $uc($1), descend and maintain $2.
 .CM Climb and maintain $1.
@@ -445,7 +445,7 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
       .HIATRHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
         .HIATRHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
   .HIAPD $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2).
-    .HIAFHPD $radioname(), $uc($1) altimeter $altim($1), fly heading $2. When able, proceed direct $uc($2).
+    .HIAFHPD $radioname(), $uc($1) altimeter $altim($1), fly heading $2. When able, proceed direct $uc($3).
     .HIAPDCM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), climb and maintain $3.
     .HIAPDDM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), descend and maintain $3.
   .HIACM $radioname(), $uc($1) altimeter $altim($1), climb and maintain $2.
