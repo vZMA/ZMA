@@ -1,7 +1,8 @@
-[Version]: 5.01
-[Last Updated]: 20JUN2016
+[Version]: 6.00
+[Last Updated]: 28APR2019
 vZMA Alias File
 
+Version 6.0: Jason Cochran - Reconciled EQ's changes and derived reference document.
 Version 5.1: Erik Quinn (significant re-work)
 Version 5.0: Fred Michaels, Ken Bambach and Mark Anderson
 Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
