@@ -315,9 +315,9 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
     .HIARCPOSSAL $radioname(), $uc($1) altimeter $altim($1), radar contact $dist($2) miles $bear($2) of $uc($2), say altitude leaving.
 
 ----- Traffic Advisories -----
-.TFC traffic $uc($1) o'clock, $2 miles, $uc($3), $uc($4), $5.
-  .TFCC traffic $uc($1) o'clock, $2 miles, $uc($3), $uc($4), leaving $5, climbing to $6.
-  .TFCD traffic $uc($1) o'clock, $2 miles, $uc($3), $uc($4), leaving $5, descending to $6.
+.TFC traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), $5.
+  .TFCC traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), leaving $5, climbing to $6.
+  .TFCD traffic $uc($1) o'clock, $2 miles, $uc($3)-bound, $uc($4), leaving $5, descending to $6.
   .TFCOD traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), $4.
     .TFCODC traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), leaving $4, climbing to $5.
     .TFCODD traffic $uc($1) o'clock, $2 miles, opposite direction, $uc($3), leaving $4, descending to $5.
@@ -472,7 +472,7 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
 .FTCVA follow that traffic, cleared visual approach Runway $uc($1).
 
 ----- Instrument Approach Clearances -----
-.LOC intercept Runway $uc($1) localizer.
+.LOC intercept the Runway $uc($1) localizer.
 .PTAC $1 miles from from $uc($2), fly heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
   .PTACR $1 miles from from $uc($2), turn right heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
   .PTACL $1 miles from from $uc($2), turn left heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
@@ -480,15 +480,33 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
 .PC  $1 miles from from $uc($2), fly heading $3, maintain $4 until established on the localizer, cleared $uc($5) Runway $uc($6) approach.
 
 ----- Crossing Restrictions -----
-.XAA cross $uc($1) at or above $2.
-  .XAAS cross $uc($1) at or above $2, $3 knots.
-.XAB cross $uc($1) at or below $2.
-  .XABS cross $uc($1) at or below $2, $3 knots.
-.XAB cross $uc($1) at or below $2.
-  .XABS cross $uc($1) at or below $2, $3 knots.
-.XAM cross $uc($1) at and maintain $2.
-  .XAMS cross $uc($1) at and maintain $2, $3 knots.
-.XATDPT cross $uc($1) at $2.. After $uc($1), depart $uc($1) heading $3.
+.XS cross $uc($1) at $2 knots.
+	.XA cross $uc($1) at and maintain $uc($2).
+.XAA cross $uc($1) at and maintain $uc($2), $uc($3) altimeter $altim($3).
+	.XACM cross $uc($1) at $uc($2), climb and maintain $uc($3).
+	.XADM cross $uc($1) at $uc($2), descend and maintain $uc($3).
+		.XADMA cross $uc($1) at $uc($2), descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+.XAS cross $uc($1) at and maintain $uc($2), $3 knots.
+	.XASA cross $uc($1) at and maintain $uc($2), $3 knots, $uc($4) altimeter $altim($4).
+	.XASCM cross $uc($1) at $uc($2), $3 knots, climb and maintain $uc($4).
+	.XASDM cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4).
+		.XASDMA cross $uc($1) at $uc($2), $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+.XAOA cross $uc($1) at or above $2.
+	.XAOACM cross $uc($1) at or above $2, climb and maintain $uc($3).
+	.XAOADM cross $uc($1) at or above $2, descend and maintain $uc($3).
+		.XAOADMA cross $uc($1) at or above $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+.XAOAS cross $uc($1) at or above $2, $3 knots.
+	.XAOASCM cross $uc($1) at or above $2, $3 knots, climb and maintain $uc($4).
+	.XAOASDM cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4).
+		.XAOASDMA cross $uc($1) at or above $2, $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
+.XAOB cross $uc($1) at or below $2.
+	.XAOBCM cross $uc($1) at or below $2, climb and maintain $uc($3).
+	.XAOBDM cross $uc($1) at or below $2, descend and maintain $uc($3).
+		.XAOBDMA cross $uc($1) at or below $2, descend and maintain $uc($3), $uc($4) altimeter $altim($4).
+.XAOBS cross $uc($1) at or below $2, $3 knots.
+	.XAOBSCM cross $uc($1) at or below $2, $3 knots, climb and maintain $uc($4).
+	.XAOBSDM cross $uc($1) at or below $2, $3 knots, descend and maintain $uc($4).
+		.XAOBSDMA cross $uc($1) at or below $2, $3 knots, descend and maintain $uc($4), $uc($5) altimeter $altim($5).
 
 ----- Reports -----
 .RL report leaving $1.
@@ -515,7 +533,7 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
     .BYERSTUP climbing out of my airspace, no further ATC available. Radar services terminated, change to advisory frequency approved.
     .BYERSTDOWN descending out of my airsapce, no further ATC available. Radar services terminated, change to advisory frequency approved.
 .ICR IFR cancellation received, $time. Radar services terminated, squawk VFR, change to advisory frequency approved.
-
+.UC monitor unicom 122.8.
 
 
 ********************************************************************************
@@ -527,7 +545,6 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
 .pdce *PRE-DEPARTURE CLEARANCE START*||CALLSIGN: $aircraft||$time ZULU||XPNDR: $squawk||CRUISE: $cruise||DEPT: $uc($dep)||ARR: $uc($arr)||EQUIPMENT: $type($aircraft)||APPROVED ROUTE: $route||DEPARTURE FREQ: $freq($1) ||GROUND FREQ: $freq($2) ||ALTITUDE RESTRICTIONS: CLIMB VIA SID, EXCEPT MAINTAIN $temp.||EXPECT FINAL CRUISE ALTITUDE 10 MINUTES AFTER DEPARTURE.||SID INFORMATION: RNAV DEPARTURES ARE RUNWAY DEPENDENT AND SPECIFICALLY MARKED "RNAV." CONFIRM FIRST RNAV FIX WITH TOWER PRIOR TO DEPARTURE.||
 .pdc2 ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. WHEN READY FOR TAXI, CONTACT APPROPRIATE GROUND CONTROL WITH XPNDR CODE AND CURRENT ATIS, IF AVAILABLE. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE.CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
 .pdc2p ADDITIONAL INFORMATION: DO NOT REPLY TO THIS MESSAGE. GROUND WILL ASSIGN DEPARTURE RUNWAY WITH TAXI INSTRUCTIONS. CONTACT RAMP CONTROL WITH ASSIGNED XPNDR CODE AND CURRENT ATIS, IF AVAILABLE, FOR PUSH INSTRUCTIONS. THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. CONTACT APPROPRIATE CLEARANCE DELIVERY ONLY IF YOU HAVE QUESTIONS REGARDING YOUR CLEARANCE.||*PRE-DEPARTURE CLEARANCE END*
-
 
 
 ********************************************************************************
@@ -580,3 +597,4 @@ Version 4.1 & Prior: Nicholas Cavacini, Samuel Mason and Larry Wimble
 .WAKES .sticky Wake Turbulence Separation| |Departures| |2 minutues -- Small/large behind a heavy jet (same threshold)|3 minutes -- Small/larget behind a heavy jet (intersection)| |Enroute| |Heavy jet behind heavy jet -- 4 miles|Large or heavy behind B757 -- 4 miles|Small behind B757 -- 5 miles|Small or large aircraft behind heavy jet -- 5 miles|Super behind super -- 4 miles|Heavy jet behind super -- 6 miles|Large behind super -- 8 miles|Small behind super -- 10 miles| |Arrival (small only)| |Small aircraft landing behind super -- 10 miles|Small aircraft landing behind heavy jet -- 6 miles|Small aircraft landing behind B757 -- 5 miles|Small aircraft landing behind large aircraft -- 4 miles| |Categories Defined| |Super -- A380 only|Heavy -- AOB 300,000 lbs.|Large -- 41,000-299,999 lbs.|Small -- < 41,000 lbs.
 .nowake .nostickies
 .linkup .sticky LINK ESTABLISHED| |VZMA INTRANET CONNECTION ONLINE| |PROCESSING DATALINK...
+.XATDPT cross $uc($1) at $2.. After $uc($1), depart $uc($1) heading $3.
