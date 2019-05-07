@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>@ASDE_KLAL.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>@ASDE_KLAL</name>
+		<open>1</open>
+		<Folder>
+			<name>Taxiway</name>
+			<open>1</open>
+			<Placemark>
+				<name>@Taxiway_TD0001</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.00778824822677,27.98908684826566,0 -82.0077594208247,27.9890755451386,0 -82.00773028439302,27.98905985087328,0 -82.00770884804814,27.9890389868385,0 -82.00769669810941,27.98902185170903,0 -82.00768788923293,27.98898944398455,0 -82.0076855485993,27.98895345997897,0 -82.00762466580208,27.98776596542301,0 -82.00763182297828,27.98769585488779,0 -82.00763279969263,27.98768952041736,0 -82.0076595761347,27.98756113104734,0 -82.00766572553845,27.98752124906427,0 -82.00768117092466,27.98749958852071,0 -82.00770212917469,27.98748928064737,0 -82.00772611177,27.98747506041072,0 -82.00776100862078,27.98746856634603,0 -82.00781178597744,27.98745329178602,0 -82.00786667010451,27.98744278695226,0 -82.0079191772038,27.98743199622842,0 -82.00800463925107,27.98742730568135,0 -82.01518896037028,27.98741335729669,0 -82.01529627487656,27.98742062103651,0 -82.01537057227677,27.98743518170421,0 -82.01540218089437,27.98747840717974,0 -82.01541579461228,27.98750354803722,0 -82.01542213499212,27.98752725580512,0 -82.01541919715072,27.98754631838637,0 -82.01541376275728,27.98756861107705,0 -82.01540493742039,27.98758696613806,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>@Taxiway_TD0002</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.00753619120464,27.98908660293907,0 -82.00749256315343,27.98844510552462,0 -82.00745265551093,27.98782444016616,0 -82.00743814708511,27.98759146452535,0 -82.00739244954679,27.98671366526283,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>@Taxiway_TD0003</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.01578952594153,27.98724475085506,0 -82.01402189834339,27.98724644346433,0 -82.01258387711208,27.98725022072233,0 -82.0111053799224,27.98725418378278,0 -82.00989818516983,27.98725754640078,0 -82.00860524580236,27.98725996783865,0 -82.00800088989,27.98726109093749,0 -82.00794565845521,27.98725752892376,0 -82.00789721916216,27.98724760018282,0 -82.00777814301486,27.98722096901579,0 -82.00771777467885,27.9872055011835,0 -82.00767550611273,27.9871932357223,0 -82.0076641984823,27.98718366661876,0 -82.00765724578432,27.98716846396534,0 -82.00764282085891,27.98713389141492,0 -82.00762693911887,27.98707861983492,0 -82.00761163038862,27.98703470526421,0 -82.0075936221332,27.98697815177235,0 -82.00757965800752,27.98691797972191,0 -82.0075728502861,27.98685661571959,0 -82.00756432850494,27.98678375741153,0 -82.00755892409042,27.98673590259562,0 -82.0075575289238,27.98670902974192,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Runway</name>
+			<open>1</open>
+			<Placemark>
+				<name>@Runway_R0927</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.03387990992648,27.98944907434942,0 -82.007537612894,27.98950464291913,0 -82.00753403472174,27.98909160540105,0 -82.03387832663115,27.98903656472386,0 -82.03387990992648,27.98944907434942,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>@Runway_R0523</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.00961382614395,27.99334783940349,0 -82.00928420203839,27.99305799351614,0 -82.02021303193668,27.9833094027449,0 -82.02054342238952,27.98360044268876,0 -82.00961382614395,27.99334783940349,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Building</name>
+			<open>1</open>
+			<Placemark>
+				<name>@Building_B0001</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.0146305434624,27.99444417895762,0 -82.01463129375286,27.9944393111747,0 -82.01463137603923,27.9942930618133,0 -82.01468349501192,27.99429188829634,0 -82.014680323424,27.99415764274372,0 -82.01439310302412,27.99415411296062,0 -82.01439147207773,27.99414648005602,0 -82.0142498356247,27.99414557183217,0 -82.01425265718171,27.99415458731483,0 -82.01400578018404,27.99415342600891,0 -82.01400189593107,27.99436986906975,0 -82.01405944729842,27.9943713857384,0 -82.01406370409254,27.99444739421756,0 -82.01424869790897,27.99444805598415,0 -82.01425050456075,27.99446071765996,0 -82.01429239305081,27.99446326281994,0 -82.01429273668947,27.99449151176101,0 -82.01426745292915,27.99449096212547,0 -82.01426644203737,27.99461943439121,0 -82.01436900199502,27.99461848564846,0 -82.01436976160413,27.99449164243173,0 -82.01434527475824,27.99449201821388,0 -82.01434375750681,27.99446528749894,0 -82.01439323338992,27.99446127775425,0 -82.01439261546744,27.99444841220802,0 -82.0146305434624,27.99444417895762,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Labels</name>
+			<open>1</open>
+			<Placemark>
+				<name>@OLabel_TERMINAL</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-12-12</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-82.01405449805027</longitude>
+					<latitude>27.99470302376903</latitude>
+					<altitude>0</altitude>
+					<heading>5.739069229462053</heading>
+					<tilt>0</tilt>
+					<range>178.0182573976823</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-82.014378071678,27.99473336032411,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>@TLabel_D</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-12-12</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-82.0117560689888</longitude>
+					<latitude>27.98729431749388</latitude>
+					<altitude>0</altitude>
+					<heading>5.740147840287629</heading>
+					<tilt>0</tilt>
+					<range>278.0003806831995</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-82.01189228354527,27.9873410314285,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
