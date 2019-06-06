@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>@ASDE_KLAL.kml</name>
+	<name>@ASDE_KLAL ASDE.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+	</Style>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -19,6 +33,50 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
 	</Style>
 	<Style id="sh_placemark_circle_highlight">
 		<IconStyle>
@@ -60,7 +118,21 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
@@ -71,7 +143,7 @@
 		</Pair>
 	</StyleMap>
 	<Folder>
-		<name>@ASDE_KLAL</name>
+		<name>@ASDE_KLAL ASDE</name>
 		<open>1</open>
 		<Folder>
 			<name>Taxiway</name>
@@ -106,13 +178,43 @@
 					</coordinates>
 				</LineString>
 			</Placemark>
+			<Placemark>
+				<name>@Taxiway_TE0001</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.01995391012574,27.98350751813386,0 -82.01996852402871,27.98346542871286,0 -82.01995881793181,27.9834211819128,0 -82.01993742978551,27.98339325315829,0 -82.01991166585214,27.983360597656,0 -82.01986498061056,27.98333910199586,0 -82.01981731797662,27.98332619678939,0 -82.01971031057072,27.98331670431563,0 -82.01956439183574,27.98330375992686,0 -82.01944814550905,27.98328910906842,0 -82.01764646088805,27.98332016303279,0 -82.01510154072331,27.98336333132865,0 -82.0124016572764,27.98341221806999,0 -82.00996838440838,27.98345972178526,0 -82.00918817308688,27.98346232048727,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>@Taxiway_TE0002</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.02018907410638,27.98330026276515,0 -82.02008340412439,27.98321231534086,0 -82.01999004357192,27.98317260396047,0 -82.0198772956601,27.98314688734044,0 -82.01975308413688,27.98314372564254,0 -82.01823521967258,27.98318978165398,0 -82.01810308801903,27.98317805840247,0 -82.01798857440534,27.98316789819792,0 -82.01777012619439,27.98313280166569,0 -82.01761156946144,27.98311873336634,0 -82.01749971174829,27.98308523670265,0 -82.0174354374718,27.98302453305187,0 -82.01740820954403,27.98287282963803,0 -82.01738102358519,27.98264255766651,0 -82.0173838039558,27.98238351567912,0 -82.01737781793135,27.98204512348015,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>@Taxiway_A0000</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-82.00927121045503,27.99305177836551,0 -82.00792581774104,27.99188697120628,0 -82.00761453861487,27.99158412353314,0 -82.00753540363219,27.99144900948818,0 -82.00754068792682,27.99131389939106,0 -82.00752496577934,27.98950620881965,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Runway</name>
 			<open>1</open>
 			<Placemark>
 				<name>@Runway_R0927</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -122,7 +224,7 @@
 			</Placemark>
 			<Placemark>
 				<name>@Runway_R0523</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -136,7 +238,7 @@
 			<open>1</open>
 			<Placemark>
 				<name>@Building_B0001</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
