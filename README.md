@@ -22,4 +22,4 @@ The repository structure is structured as follows:
 
 ## Contact
 
-For questions about this repository, contact the ZME Facility Engineer at fe@zmaartcc.net.
+For questions about this repository, contact the ZMA Facility Engineer at fe@zmaartcc.net.
