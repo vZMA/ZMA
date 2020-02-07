@@ -26,7 +26,7 @@ Files are released on cadence following alternating international AIRAC cycle. T
 
 | AIRAC | AIRAC Date | Release Date |
 |-------|------------|--------------|
-|2001   |  02 JAN 20 | None         |
+|2001   |  02 JAN 20 | 07 FEB 20    |
 |2002   |	30 JAN 20  | None         |
 |2003   |	27 FEB 20  | 08 MAR 20    |
 |2004   |	26 MAR 20  | None         |
