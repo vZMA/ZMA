@@ -31,6 +31,7 @@ GENERAL
 .SM say mach number.
 .RON resume own navigation.
 .CV do you copy voice?
+.UOF are you on frequency?
 .BRB ATTENTION ALL AIRCRAFT: $callsign will be away for approximately $1 minute(s).
 .BACK $callsign has returned.
 .PRC For explanations/questions/tips, please visit the VATSIM pilot resource center at www.vatsim.net/prc/
@@ -390,7 +391,9 @@ RADAR
 .PDCM proceed direct $uc($1), climb and maintain $uc($2).
 .PDDM proceed direct $uc($1), descend and maintain $uc($2).
 .CM Climb and maintain $uc($1).
+.CMA Climb and maintain $uc($1), the $uc($2) altimeter $altim($2).
 .DM Descend and maintain $uc($1).
+.DMA Descend and maintain $uc($1), the $uc($2) altimeter $altim($2).
 
 .HI $radioname().
 .HIFH $radioname(), fly heading $1.
@@ -529,7 +532,32 @@ RADAR
 .RE report established on $4.
 .RRTOD Report reaching top of descent.
 
-
+----- Hand Offs, Point Outs, Requests & Coordination -----
+.PO .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $uc($3) along flight plan route?
+.PODIRECT .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $uc($3), turning direct $uc($4)?
+.POC .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $calt climbing $uc($3) along flight plan route?
+.POCDIRECT .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $calt climbing $uc($3), turning direct $uc($4)?
+.POD .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $calt descending $uc($3) along flight plan route?
+.PODDIRECT .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $calt descending $uc($3), turning direct $uc($4)?
+.POA $uc($1) point out approved.
+.POAR point out approved REFERENCE $uc($1)
+.POU unable, please remain clear of my airspace.
+.HO .msg $1 handoff, $dist($2) miles $bear($2) of $uc($2), $aircraft, $uc($3) along flight plan route?
+.REQC .msg $1 Request control of $aircraft
+.REQCT .msg $1 Request control for turns $aircraft
+.REQCC .msg $1 Request control for climb $aircraft
+.REQCD .msg $1 Request control for descent $aircraft
+.REQCS .msg $1 Request control for speed $aircraft
+.REQA .msg $1 Request $aircraft at $uc($2)
+.REQAH .msg $1 Request $aircraft at $uc($2) on heading $uc($3)
+.REQAS .msg $1 Request $aircraft at $uc($2) at speed of $uc($3)
+.REQS .msg $1 Request $aircraft at speed of $uc($2)
+.REQSA .msg $1 Request $aircraft at $uc($3) at speed $uc($2)
+.REQSH .msg $1 Request $aircraft on heading $uc($3) at speed of $uc($2)
+.REQH .msg $1 Request $aircraft on heading $uc($2)
+.REQHA .msg $1 Request $aircraft at $uc($3) on heading $uc($2)
+.REQHS .msg $1 Request $aircraft on heading $uc($2) at speed of $uc($3)
+.GOESTO .msg $1 $aircraft goes to $atccallsign($2) on $freq($2)
 
 ********************************************************************************
 UNICOM
