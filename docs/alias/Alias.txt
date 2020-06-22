@@ -51,18 +51,18 @@ CLEARANCE DELIVERY
 .CORN clearance on request, stand by, number $1.
 .IAFDOFW filed altitude of $cruise invalid for direction of flight. Please choose any EVEN altitude, and either advise this frequency of your choice, or re-file your flight plan.
 .IAFDOFE filed altitude of $cruise invalid for direction of flight. Please choose any ODD altitude, and either advise this frequency of your choice, or re-file your flight plan.
-.CRAFT cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
-.CRAFTU cleared to $arr airport as filed. Climb and maintain $1, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
-.CRAFTS cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
-.CRAFTSU cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFT cleared to $arr airport as filed. Climb and maintain $uc($1), expect $cruise one-zero minutes after departure, departure frequency $freq($2), squawk $squawk.
+.CRAFTU cleared to $arr airport as filed. Climb and maintain $uc($1), expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTS cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $uc($2), expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTSU cleared to $arr airport, $uc($1) departure, then as filed. Climb and maintain $uc($2), expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
 .CRAFTSCVS cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, departure frequency $freq($2), squawk $squawk.
 .CRAFTSCVSE cleared to $arr airport, $uc($1) departure, then as filed. Climb via SID, except maintain $2. Expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
-.CRAFTST cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3,expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
-.CRAFTSTU cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $3, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTST cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $uc($3),expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
+.CRAFTSTU cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb and maintain $uc($3), expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
 .CRAFTSTCVS cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID. Departure frequency $freq($3), squawk $squawk.
 .CRAFTSTCVSE cleared to $arr airport, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID except maintain $3. Expect $cruise one-zero minutes after departure, departure frequency $freq($4), squawk $squawk.
-.CRAFTV cleared to $arr airport via radar vectors $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
-.CRAFTVU cleared to $arr airport via direct $uc($1), then as filed. Climb and maintain $2, expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
+.CRAFTV cleared to $arr airport via radar vectors $uc($1), then as filed. Climb and maintain $uc($2), expect $cruise one-zero minutes after departure, departure frequency $freq($3), squawk $squawk.
+.CRAFTVU cleared to $arr airport via direct $uc($1), then as filed. Climb and maintain $uc($2), expect $cruise one-zero minutes after departure. Departure control services are not available, squawk $squawk.
 .DEPFREQ new departure frequency: $radioname($1) on $freq($1).
 .DEPNA departure services are no longer available. After departure, monitor unicom 122.8.
 .RBC readback correct. Push and start at pilot's discretion. Advise when ready to taxi.
@@ -352,116 +352,116 @@ RADAR
 .FPH fly present heading.
 .FPHV fly present heading, vector $uc($1) Runway $uc($2) approach.
 .FPHVF fly present heading, vector to $uc($1) Runway $uc($2) final approach course.
-.FPHCM fly present heading, climb and maintain $1.
-.FPHCMV climb and maintain $1, fly present heading, vector $uc($2) Runway $uc($3) approach.
-.FPHCMVF climb and maintain $1, fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
-.FPHDM fly present heading, descend and maintain $1.
-.FPHDMV descend and maintain $1, fly present heading, vector $uc($2) Runway $uc($3) approach.
-.FPHDMVF descend and maintain $1, fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
+.FPHCM fly present heading, climb and maintain $uc($1).
+.FPHCMV climb and maintain $uc($1), fly present heading, vector $uc($2) Runway $uc($3) approach.
+.FPHCMVF climb and maintain $uc($1), fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
+.FPHDM fly present heading, descend and maintain $uc($1).
+.FPHDMV descend and maintain $uc($1), fly present heading, vector $uc($2) Runway $uc($3) approach.
+.FPHDMVF descend and maintain $uc($1), fly present heading, vector to $uc($2) Runway $uc($3) final approach course.
 .FH fly heading $1.
 .FHV fly heading $1, vector $uc($2) Runway $uc($3) approach.
 .FHVF fly heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.FHCM fly heading $1, climb and maintain $2.
-.FHCMV climb and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
-.FHCMVF climb and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.FHDM fly heading $1, descend and maintain $2.
-.FHDMV descend and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
-.FHDMVF descend and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.FHCM fly heading $1, climb and maintain $uc($2).
+.FHCMV climb and maintain $uc($2), fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.FHCMVF climb and maintain $uc($2), fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.FHDM fly heading $1, descend and maintain $uc($2).
+.FHDMV descend and maintain $uc($2), fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.FHDMVF descend and maintain $uc($2), fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .TLH Turn left heading $1.
 .TLHV turn left heading $1, vector $uc($2) Runway $uc($3) approach.
 .TLHVF turn left heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.TLHCM turn left heading $1, climb and maintain $2.
-.TLHCMV climb and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
-.TLHCMVF climb and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.TLHDM turn left heading $1, descend and maintain $2.
-.TLHDMV descend and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
-.TLHDMVF descend and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TLHCM turn left heading $1, climb and maintain $uc($2).
+.TLHCMV climb and maintain $uc($2), turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.TLHCMVF climb and maintain $uc($2), turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TLHDM turn left heading $1, descend and maintain $uc($2).
+.TLHDMV descend and maintain $uc($2), turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.TLHDMVF descend and maintain $uc($2), turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .TRH Turn right heading $1.
 .TRHV turn right heading $1, vector $uc($2) Runway $uc($3) approach.
 .TRHVF turn right heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.TRHCM turn right heading $1, climb and maintain $2.
-.TRHCMV climb and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
-.TRHCMVF climb and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.TRHDM turn right heading $1, descend and maintain $2.
-.TRHDMV descend and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
-.TRHDMVF descend and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TRHCM turn right heading $1, climb and maintain $uc($2).
+.TRHCMV climb and maintain $uc($2), turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.TRHCMVF climb and maintain $uc($2), turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.TRHDM turn right heading $1, descend and maintain $uc($2).
+.TRHDMV descend and maintain $uc($2), turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.TRHDMVF descend and maintain $uc($2), turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .PD proceed direct $uc($1).
 .FHPD fly heading $1. When able, proceed direct $uc($2).
-.PDCM proceed direct $uc($1), climb and maintain $2.
-.PDDM proceed direct $uc($1), descend and maintain $2.
-.CM Climb and maintain $1.
-.DM Descend and maintain $1.
+.PDCM proceed direct $uc($1), climb and maintain $uc($2).
+.PDDM proceed direct $uc($1), descend and maintain $uc($2).
+.CM Climb and maintain $uc($1).
+.DM Descend and maintain $uc($1).
 
 .HI $radioname().
 .HIFH $radioname(), fly heading $1.
 .HIFHV $radioname(), fly heading $1, vector $uc($2) Runway $uc($3) approach.
 .HIFHVF $radioname(), fly heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.HIFHCM $radioname(), fly heading $1, climb and maintain $2.
-.HIFHCMV $radioname(), climb and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
-.HIFHCMVF $radioname(), climb and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.HIFHDM $radioname(), fly heading $1, descend and maintain $2.
-.HIFHDMV $radioname(), descend and maintain $2, fly heading $1, vector $uc($3) Runway $uc($4) approach.
-.HIFHDMVF $radioname(), descend and maintain $2, fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HIFHCM $radioname(), fly heading $1, climb and maintain $uc($2).
+.HIFHCMV $radioname(), climb and maintain $uc($2), fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.HIFHCMVF $radioname(), climb and maintain $uc($2), fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HIFHDM $radioname(), fly heading $1, descend and maintain $uc($2).
+.HIFHDMV $radioname(), descend and maintain $uc($2), fly heading $1, vector $uc($3) Runway $uc($4) approach.
+.HIFHDMVF $radioname(), descend and maintain $uc($2), fly heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .HITLH $radioname(), turn left heading $1.
 .HITLHV $radioname(), turn left heading $1, vector $uc($2) Runway $uc($3) approach.
 .HITLHVF $radioname(), turn left heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.HITLHCM $radioname(), turn left heading $1, climb and maintain $2.
-.HITLHCMV $radioname(), climb and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
-.HITLHCMVF $radioname(), climb and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.HITLHDM $radioname(), turn left heading $1, descend and maintain $2.
-.HITLHDMV $radioname(), descend and maintain $2, turn left heading $1, vector $uc($3) Runway $uc($4) approach.
-.HITLHDMVF $radioname(), descend and maintain $2, turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HITLHCM $radioname(), turn left heading $1, climb and maintain $uc($2).
+.HITLHCMV $radioname(), climb and maintain $uc($2), turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.HITLHCMVF $radioname(), climb and maintain $uc($2), turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HITLHDM $radioname(), turn left heading $1, descend and maintain $uc($2).
+.HITLHDMV $radioname(), descend and maintain $uc($2), turn left heading $1, vector $uc($3) Runway $uc($4) approach.
+.HITLHDMVF $radioname(), descend and maintain $uc($2), turn left heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .HITRH $radioname(), turn right heading $1.
 .HITRHV $radioname(), turn right heading $1, vector $uc($2) Runway $uc($3) approach.
 .HITRHVF $radioname(), turn right heading $1, vector to $uc($2) Runway $uc($3) final approach course.
-.HITRHCM $radioname(), turn right heading $1, climb and maintain $2.
-.HITRHCMV $radioname(), climb and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
-.HITRHCMVF $radioname(), climb and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
-.HITRHDM $radioname(), turn right heading $1, descend and maintain $2.
-.HITRHDMV $radioname(), descend and maintain $2, turn right heading $1, vector $uc($3) Runway $uc($4) approach.
-.HITRHDMVF $radioname(), descend and maintain $2, turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HITRHCM $radioname(), turn right heading $1, climb and maintain $uc($2).
+.HITRHCMV $radioname(), climb and maintain $uc($2), turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.HITRHCMVF $radioname(), climb and maintain $uc($2), turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
+.HITRHDM $radioname(), turn right heading $1, descend and maintain $uc($2).
+.HITRHDMV $radioname(), descend and maintain $uc($2), turn right heading $1, vector $uc($3) Runway $uc($4) approach.
+.HITRHDMVF $radioname(), descend and maintain $uc($2), turn right heading $1, vector to $uc($3) Runway $uc($4) final approach course.
 .HIPD $radioname(), proceed direct $uc($1).
 .HIFHPD $radioname(), fly heading $1. When able, proceed direct $uc($1).
-.HIPDCM $radioname(), proceed direct $uc($1), climb and maintain $2.
-.HIPDDM $radioname(), proceed direct $uc($1), descend and maintain $2.
-.HICM $radioname(), climb and maintain $1.
-.HICMA $radioname(), climb and maintain $1, the $uc($2) altimeter $altim($2).
-.HIDM $radioname(), descend and maintain $1.
-.HIDMA $radioname(), descend and maintain $1, the $uc($2) altimeter $altim($2).
+.HIPDCM $radioname(), proceed direct $uc($1), climb and maintain $uc($2).
+.HIPDDM $radioname(), proceed direct $uc($1), descend and maintain $uc($2).
+.HICM $radioname(), climb and maintain $uc($1).
+.HICMA $radioname(), climb and maintain $uc($1), the $uc($2) altimeter $altim($2).
+.HIDM $radioname(), descend and maintain $uc($1).
+.HIDMA $radioname(), descend and maintain $uc($1), the $uc($2) altimeter $altim($2).
 .HIA $radioname(), $uc($1) altimeter $altim($1).
 .HIAFH $radioname(), $uc($1) altimeter $altim($1), fly heading $2.
 .HIAFHV $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector $uc($3) Runway $uc($4) approach.
 .HIAFHVF $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector to $uc($3) Runway $uc($4) final approach course.
-.HIAFHCM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, climb and maintain $3.
-.HIAFHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIAFHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
-.HIAFHDM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, descend and maintain $3.
-.HIAFHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, fly heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIAFHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIAFHCM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, climb and maintain $uc($3).
+.HIAFHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIAFHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIAFHDM $radioname(), $uc($1) altimeter $altim($1), fly heading $2, descend and maintain $uc($3).
+.HIAFHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), fly heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIAFHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), fly heading $2, vector to $uc($4) Runway $uc($5) final approach course.
 .HIATLH $radioname(), $uc($1) altimeter $altim($1), turn left heading $2.
 .HIATLHV $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, vector $uc($3) Runway $uc($4) approach.
 .HIATLHVF $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, vector to $uc($3) Runway $uc($4) final approach course.
-.HIATLHCM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, climb and maintain $3.
-.HIATLHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIATLHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
-.HIATLHDM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, descend and maintain $3.
-.HIATLHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn left heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIATLHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATLHCM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, climb and maintain $uc($3).
+.HIATLHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATLHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATLHDM $radioname(), $uc($1) altimeter $altim($1), turn left heading $2, descend and maintain $uc($3).
+.HIATLHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), turn left heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATLHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), turn left heading $2, vector to $uc($4) Runway $uc($5) final approach course.
 .HIATRH $radioname(), $uc($1) altimeter $altim($1), turn right heading $2.
 .HIATRHV $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, vector $uc($3) Runway $uc($4) approach.
 .HIATRHVF $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, vector to $uc($3) Runway $uc($4) final approach course.
-.HIATRHCM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, climb and maintain $3.
-.HIATRHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIATRHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
-.HIATRHDM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, descend and maintain $3.
-.HIATRHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector $uc($4) Runway $uc($5) approach.
-.HIATRHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $3, turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATRHCM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, climb and maintain $uc($3).
+.HIATRHCMV $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATRHCMVF $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($3), turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
+.HIATRHDM $radioname(), $uc($1) altimeter $altim($1), turn right heading $2, descend and maintain $uc($3).
+.HIATRHDMV $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), turn right heading $2, vector $uc($4) Runway $uc($5) approach.
+.HIATRHDMVF $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($3), turn right heading $2, vector to $uc($4) Runway $uc($5) final approach course.
 .HIAPD $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2).
 .HIAFHPD $radioname(), $uc($1) altimeter $altim($1), fly heading $2. When able, proceed direct $uc($3).
-.HIAPDCM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), climb and maintain $3.
-.HIAPDDM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), descend and maintain $3.
-.HIACM $radioname(), $uc($1) altimeter $altim($1), climb and maintain $2.
-.HIADM $radioname(), $uc($1) altimeter $altim($1), descend and maintain $2.
+.HIAPDCM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), climb and maintain $uc($3).
+.HIAPDDM $radioname(), $uc($1) altimeter $altim($1), proceed direct $uc($2), descend and maintain $uc($3).
+.HIACM $radioname(), $uc($1) altimeter $altim($1), climb and maintain $uc($2).
+.HIADM $radioname(), $uc($1) altimeter $altim($1), descend and maintain $uc($2).
 
 ----- Speed Control Instructions -----
 .RS reduce speed to $1.
@@ -935,18 +935,6 @@ CPDLC
 .dlx .msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS. MOD RTE $route. ADV ACCEPT/REJECT RTE.
 .dlxp .msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK. MOD RTE $route. ADV ACCEPT/REJECT RTE.
 
-
-
-********************************************************************************
-LEGACY ALIASES SCHEDULED FOR REMOVAL
-********************************************************************************
-.STAR cross $uc($1) at and maintain $2, $3 kts.
-.STARN cross $uc($1) at and maintain $2.
-.STARJ proceed direct $uc($1), rejoin the $uc($2).
-.WAKES .sticky Wake Turbulence Separation| |Departures| |2 minutues -- Small/large behind a heavy jet (same threshold)|3 minutes -- Small/larget behind a heavy jet (intersection)| |Enroute| |Heavy jet behind heavy jet -- 4 miles|Large or heavy behind B757 -- 4 miles|Small behind B757 -- 5 miles|Small or large aircraft behind heavy jet -- 5 miles|Super behind super -- 4 miles|Heavy jet behind super -- 6 miles|Large behind super -- 8 miles|Small behind super -- 10 miles| |Arrival (small only)| |Small aircraft landing behind super -- 10 miles|Small aircraft landing behind heavy jet -- 6 miles|Small aircraft landing behind B757 -- 5 miles|Small aircraft landing behind large aircraft -- 4 miles| |Categories Defined| |Super -- A380 only|Heavy -- AOB 300,000 lbs.|Large -- 41,000-299,999 lbs.|Small -- < 41,000 lbs.
-.nowake .nostickies
-.linkup .sticky LINK ESTABLISHED| |VZMA INTRANET CONNECTION ONLINE| |PROCESSING DATALINK...
-.XATDPT cross $uc($1) at $2.. After $uc($1), depart $uc($1) heading $3.
 
 
 ********************************************************************************
