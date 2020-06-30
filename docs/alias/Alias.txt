@@ -7,8 +7,8 @@
 
 
 
-[Version]: 2005.1
-[Last Updated]: 03MAY2020
+[Version]: 2007.1
+[Last Updated]: 07JULY2020
 vZMA Alias File
 
 Version 6.0: Jason Cochran - Reconciled EQ's changes and derived reference document.
@@ -72,7 +72,8 @@ CLEARANCE DELIVERY
 .RBCHP readback correct. HOLD PUSH for traffic. Advise when ready to push.
 .RBCHPE readback correct. HOLD PUSH for traffic. Advise when ready to push. Expect Runway $uc($1).
 .RBCHPC readback correct. HOLD PUSH, and advise $radioname($1) on $freq($1) when ready to push.
-
+.ABLERTE Please advise if you are able to accept the following route: $1
+.ABLEDEP Please advise if you are able to accept the following departure: $1
 
 
 ********************************************************************************
@@ -99,7 +100,7 @@ GROUND
 .TSAHS taxi straight ahead, hold short of $uc($1).
 
 ----- Departure Taxi -----
-.TR Runway $uc($1), taxi via $uc($2).
+.TR Runway $uc($1), taxi via $uc($2)
 .TRHS Runway $uc($1), taxi via $uc($2), hold short of $uc($3).
 .TRCR Runway $uc($1), taxi via $uc($2), cross Runway $uc($3).
 .TRF Runway $uc($1), follow the $uc($2) $uc($3) from the $uc($4).
@@ -7708,4 +7709,11 @@ NDB Names
 .ndbZR .msg ZMA_INFO *** SARNIA NDB  
 .ndbZSJ .msg ZMA_INFO *** SAN SALVADOR NDB 
 .ndbZT .msg ZMA_INFO *** PORT HARDY NDB 
+
+
+
+
+
+
+
 
