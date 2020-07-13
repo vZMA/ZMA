@@ -957,8 +957,8 @@ VRC CONFIGURATION
 ------DIAGRAM ALIASES------
 .NOMAPS .NODIAGRAMS
 .ZMAHO .fd # ZMA HANDOFF             
-.MIAEHO .fd 
-.MIAWHO .fd 
+.MIAEHO .fd # MIAz (E) APP HANDOFF    
+.MIAWHO .fd # MIAz (W) APP HANDOFF    
 .MIAZMAHO .fd # MIA-ZMA HO              
 .MIAMVA .fd # VM: MIA MVA             
 .MIAB .fd # KMIA Class B            
