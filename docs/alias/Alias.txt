@@ -584,6 +584,17 @@ UNICOM
 
 
 ********************************************************************************
+TRAFFIC MANAGEMENT UNIT (TMU)
+********************************************************************************
+.RLSD $aircraft released at this time, rolling in 2 minutes or less. If unable, advise ASAP. Do not depart after this time.
+.RLSDA $aircraft released *** AT $1 ***, rolling within 1 minute either side of that time. If unable, advise ASAP. Do not depart after this time.
+.HFRE $aircraft HOLD FOR RELEASE (estimating about a $1 minute wait).
+.EUI $aircraft expect an update in about $1 minutes.
+.EUA $aircraft expect an update at $1
+
+
+
+********************************************************************************
 PRE-DEPARTURE CLEARANCES (PDC)
 ********************************************************************************
 .PDCAF .msg $aircraft *PRE-DEPARTURE CLEARANCE START*||$aircraft||$time Z||$uc($dep)-$uc($arr)||SQUAWK $squawk||ALT: MAINTAIN $1, EXP $cruise 10 MIN AFT DP||DPFRQ: $freq($2)||CTC $freq($3) FOR TAXI||RTE APPROVED AS FILED: $route||*PRE-DEPARTURE CLEARANCE END*
