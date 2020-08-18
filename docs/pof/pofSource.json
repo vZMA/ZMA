@@ -1,0 +1,3325 @@
+{
+	"version": "EXPERIMENTAL",
+    "MIA_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "C",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["7610", "7776"],
+        "sectors": {
+            "00": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.25,
+                "networkCallsigns": ["MIA_LO_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "02": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 119.82,
+                "networkCallsigns": ["MIA_02_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "05": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.7,
+                "networkCallsigns": ["MIA_05_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "06": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.2,
+                "networkCallsigns": ["MIA_06_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "08": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.9,
+                "networkCallsigns": ["MIA_08_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "19": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 123.67,
+                "networkCallsigns": ["MIA_19_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "20": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.15,
+                "networkCallsigns": ["MIA_20_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "21": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.4,
+                "networkCallsigns": ["MIA_21_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "23": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.95,
+                "networkCallsigns": ["MIA_23_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "25": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 128.22,
+                "networkCallsigns": ["MIA_25_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "41": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.6,
+                "networkCallsigns": ["MIA_41_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "42": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.85,
+                "networkCallsigns": ["MIA_42_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "43": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 123.77,
+                "networkCallsigns": ["ZMO_43_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "46": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.17,
+                "networkCallsigns": ["MIA_46_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "58": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.52,
+                "networkCallsigns": ["ZMO_58_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "59": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 134.8,
+                "networkCallsigns": ["ZMO_59_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "62": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.3,
+                "networkCallsigns": ["ZMO_62_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "63": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.2,
+                "networkCallsigns": ["ZMO_63_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "TM": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 199.998,
+                "networkCallsigns": ["MIA_TM_CTR"],
+                "verbalCallsign": "Miami TMU"
+            }
+        }
+    },
+    "JAX_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "J",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1001", "1047"],
+        "sectors": {
+            "10": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 120.2,
+                "networkCallsigns": ["JAX_10_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "11": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.47,
+                "networkCallsigns": ["JAX_11_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "12": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.75,
+                "networkCallsigns": ["JAX_12_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "13": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 134.45,
+                "networkCallsigns": ["JAX_13_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "15": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.32,
+                "networkCallsigns": ["JAX_15_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "16": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.17,
+                "networkCallsigns": ["JAX_16_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "30": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.92,
+                "networkCallsigns": ["JAX_30_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "33": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.05,
+                "networkCallsigns": ["JAX_33_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "35": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 134.85,
+                "networkCallsigns": ["JAX_35_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "50": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.97,
+                "networkCallsigns": ["JAX_50_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },            
+            "51": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 120.12,
+                "networkCallsigns": ["JAX_51_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "52": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.05,
+                "networkCallsigns": ["JAX_52_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "53": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.75,
+                "networkCallsigns": ["JAX_53_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "57": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 134,
+                "networkCallsigns": ["JAX_57_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "58": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.35,
+                "networkCallsigns": ["JAX_58_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "66": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.87,
+                "networkCallsigns": ["JAX_66_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "68": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.12,
+                "networkCallsigns": ["JAX_68_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            },
+            "75": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.47,
+                "networkCallsigns": ["JAX_75_CTR"],
+                "verbalCallsign": "Jacksonville Center"
+            }
+        }
+    },
+    "HOU_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "U",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2000", "2000"],
+        "sectors": {
+            "38": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.95,
+                "networkCallsigns": ["HOU_38_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "87": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 128.6,
+                "networkCallsigns": ["HOU_87_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "80": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.15,
+                "networkCallsigns": ["HOU_80_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "83": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 128.05,
+                "networkCallsigns": ["HOU_83_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "23": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.95,
+                "networkCallsigns": ["HOU_23_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "25": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.65,
+                "networkCallsigns": ["HOU_25_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "98": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.75,
+                "networkCallsigns": ["HOU_98_CTR"],
+                "verbalCallsign": "Houston Center"
+            },
+            "59": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["HOU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.75,
+                "networkCallsigns": ["HOU_59_CTR"],
+                "verbalCallsign": "Houston Center"
+            }
+        }
+    },
+    "ZHU_FSS": {
+        "defaultHandoffPrefixForExternalFacilities": "U",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2000", "2000"],
+        "sectors": {
+            "72": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["ZHU"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 135.77,
+                "networkCallsigns": ["ZHU_72_FSS"],
+                "verbalCallsign": "Houston Center"
+            },
+            "79": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["ZHU"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 132.65,
+                "networkCallsigns": ["ZHU_79_FSS"],
+                "verbalCallsign": "Houston Center"
+            }
+        }
+    },
+    "MYNN_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "N",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "N": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 134.2,
+                "networkCallsigns": ["MYNN_N_CTR"],
+                "verbalCallsign": "Nassau Center"
+            },
+            "S": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.7,
+                "networkCallsigns": ["MYNN_S_CTR"],
+                "verbalCallsign": "Nassau Center"
+            },
+            "P": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.22,
+                "networkCallsigns": ["MYNN_P_CTR"],
+                "verbalCallsign": "Nassau Center"
+            }
+        }
+    },
+    "NY_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "W",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["7101", "7177"],
+        "sectors": {
+            "82": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.02,
+                "networkCallsigns": ["NY_PPR_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "83": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.52,
+                "networkCallsigns": ["NY_HRI_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "65": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.92,
+                "networkCallsigns": ["NY_JBC_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "86": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.5,
+                "networkCallsigns": ["NY_ATL_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "80": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 119.1,
+                "networkCallsigns": ["NY_CCO_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "81": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 128.5,
+                "networkCallsigns": ["NY_HDY_CTR"],
+                "verbalCallsign": "New York Center"
+            }
+        }
+    },
+    "NY_FSS": {
+        "defaultHandoffPrefixForExternalFacilities": "W",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["7101", "7177"],
+        "sectors": {
+            "87": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130,
+                "networkCallsigns": ["NY_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "88": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.1,
+                "networkCallsigns": ["NY_BAC_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "89": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.2,
+                "networkCallsigns": ["NY_KRF_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "90": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.3,
+                "networkCallsigns": ["NY_GRX_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "16": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.5,
+                "networkCallsigns": ["NY_APO_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "18": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.6,
+                "networkCallsigns": ["NY_GEM_FSS"],
+                "verbalCallsign": "New York Radio"
+            },
+            "21": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["FSS"],
+                "frequency": 130.9,
+                "networkCallsigns": ["NY_E_FSS"],
+                "verbalCallsign": "New York Radio"
+            }
+        }
+    },
+    "SJU_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "S",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4277"],
+        "sectors": {
+            "2": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 118.15,
+                "networkCallsigns": ["SJU_2_CTR"],
+                "verbalCallsign": "San Juan Center"
+            },
+            "4": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125,
+                "networkCallsigns": ["SJU_4_CTR"],
+                "verbalCallsign": "San Juan Center"
+            },
+            "6": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.7,
+                "networkCallsigns": ["SJU_6_CTR"],
+                "verbalCallsign": "San Juan Center"
+            },
+            "8": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 118.75,
+                "networkCallsigns": ["SJU_8_CTR"],
+                "verbalCallsign": "San Juan Center"
+            }
+        }
+    },
+    "MDCS_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "D",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "N": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MDCS"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.3,
+                "networkCallsigns": ["MDCS_N_CTR"],
+                "verbalCallsign": "Santo Domingo Control"
+            },
+            "S": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MDCS"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.8,
+                "networkCallsigns": ["MDCS_S_CTR"],
+                "verbalCallsign": "Santo Domingo Control"
+            }
+        }
+    },
+    "MTEG_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "A": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["MTEG"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.5,
+                "networkCallsigns": ["MTEG_CTR"],
+                "verbalCallsign": "Port Au Prince Center"
+            }
+        }
+    },
+    "MUFH_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "H",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "A": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MUFH"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 120.25,
+                "networkCallsigns": ["MUFH_A_CTR"],
+                "verbalCallsign": "Havana Center"
+            },
+            "B": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MUFH"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 123.7,
+                "networkCallsigns": ["MUFH_B_CTR"],
+                "verbalCallsign": "Havana Center"
+            },
+            "C": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MUFH"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.55,
+                "networkCallsigns": ["MUFH_C_CTR"],
+                "verbalCallsign": "Havana Center"
+            },
+            "D": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MUFH"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 135.1,
+                "networkCallsigns": ["MUFH_D_CTR"],
+                "verbalCallsign": "Havana Center"
+            },
+            "G": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MUFH"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 133.7,
+                "networkCallsigns": ["MUFH_G_CTR"],
+                "verbalCallsign": "Havana Center"
+            }
+        }
+    },
+    "ATL_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "Z",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "01": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.97,
+                "networkCallsigns": ["ATL_1_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "09": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 120.45,
+                "networkCallsigns": ["ATL_09_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "10": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.57,
+                "networkCallsigns": ["ATL_10_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "19": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 123.95,
+                "networkCallsigns": ["ATL_19_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "20": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.42,
+                "networkCallsigns": ["ATL_20_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "32": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.62,
+                "networkCallsigns": ["ATL_32_CTR"],
+                "verbalCallsign": "Atlanta Center"
+            },
+            "33": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.42,
+                "networkCallsigns": ["ATL_33_CTR"],
+                "verbalCallsign": "Altanta Center"
+            },
+            "43": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["ATL"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 132.97,
+                "networkCallsigns": ["ATL_43_CTR"],
+                "verbalCallsign": "Altanta Center"
+            }
+        }
+    },
+    "SVZM_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "M",
+                "callsignPrefixes": ["SVZM"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 126.6,
+                "networkCallsigns": ["SVCM_CTR"],
+                "verbalCallsign": "Maiquetia Control"
+            }
+        }
+    },
+    "TNCF_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZZA": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["TNCF"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 124.1,
+                "networkCallsigns": ["TNCF_CTR"],
+                "verbalCallsign": "Curacao Control"
+            },
+            "ZZB": {
+                "artsPositionSymbol": "U",
+                "callsignPrefixes": ["TNCF"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.1,
+                "networkCallsigns": ["TNCF_CTR"],
+                "verbalCallsign": "Curacao Control"
+            }
+        }
+    },
+    "TTZP_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZZF": {
+                "artsPositionSymbol": "I",
+                "callsignPrefixes": ["TTZP"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 123.7,
+                "networkCallsigns": ["TTZP_CTR"],
+                "verbalCallsign": "Piarco Control"
+            }
+        }
+    },
+    "MKJK_CTR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "ZZI": {
+                "artsPositionSymbol": "K",
+                "callsignPrefixes": ["MKJK"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 128.1,
+                "networkCallsigns": ["MKJK_CTR"],
+                "verbalCallsign": "Kingston Center"
+            }
+        }
+    },
+    "MIA_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "M",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3501", "3777"],
+        "sectors": {
+            "V": {
+                "artsPositionSymbol": "V",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 124.85,
+                "networkCallsigns": ["MIA_V_APP (North Final)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "A": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 133.05,
+                "networkCallsigns": ["MIA_A_APP (South Final)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "N": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.75,
+                "networkCallsigns": ["MIA_N_APP (North Feeder)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "S": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 120.5,
+                "networkCallsigns": ["MIA_S_APP (South Feeder)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "Q": {
+                "artsPositionSymbol": "Q",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 126.85,
+                "networkCallsigns": ["MIA_Q_APP (North Satellite)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "H": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.25,
+                "networkCallsigns": ["MIA_H_APP (South Satellite)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "R": {
+                "artsPositionSymbol": "R",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 133.77,
+                "networkCallsigns": ["MIA_R_APP (FISEL)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "J": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 118.1,
+                "networkCallsigns": ["MIA_J_APP (JINGL)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "F": {
+                "artsPositionSymbol": "F",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 133.72,
+                "networkCallsigns": ["MIA_F_APP (FLL Final)"],
+                "verbalCallsign": "Miami Approach"
+            },
+            "D": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 119.45,
+                "networkCallsigns": ["MIA_D_DEP (North Departure)"],
+                "verbalCallsign": "Miami Departure"
+            },
+            "W": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 125.5,
+                "networkCallsigns": ["MIA_W_DEP (South Departure)"],
+                "verbalCallsign": "Miami Departure"
+            },
+            "L": {
+                "artsPositionSymbol": "L",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 126.05,
+                "networkCallsigns": ["MIA_L_DEP (FLL North Departure)"],
+                "verbalCallsign": "Miami Departure"
+            }
+        }
+    },
+    "TPA_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "T",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4201", "4277"],
+        "sectors": {
+            "E": {
+                "artsPositionSymbol": "E",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 118.15,
+                "networkCallsigns": ["TPA_E_APP (East Arrival)"],
+                "verbalCallsign": "Tampa Approach"
+            },
+            "W": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 132.52,
+                "networkCallsigns": ["TPA_W_APP (West Arrival)"],
+                "verbalCallsign": "Tampa Approach"
+            },
+            "P": {
+                "artsPositionSymbol": "P",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.3,
+                "networkCallsigns": ["TPA_P_APP (St Pete)"],
+                "verbalCallsign": "Tampa Approach"
+            },
+            "S": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.65,
+                "networkCallsigns": ["TPA_S_APP (Sarasota)"],
+                "verbalCallsign": "Tampa Approach"
+            },
+            "F": {
+                "artsPositionSymbol": "F",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 118.5,
+                "networkCallsigns": ["TPA_F_APP (Final)"],
+                "verbalCallsign": "Tampa Approach"
+            },
+            "G": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 134.25,
+                "networkCallsigns": ["TPA_G_DEP (South Departure)"],
+                "verbalCallsign": "Tampa Departure"
+            },
+            "D": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 118.8,
+                "networkCallsigns": ["TPA_D_DEP (West Departure)"],
+                "verbalCallsign": "Tampa Departure"
+            }
+        }
+    },
+    "RSW_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "R",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5701", "5777"],
+        "sectors": {
+            "E": {
+                "artsPositionSymbol": "E",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 126.8,
+                "networkCallsigns": ["RSW_E_APP (East)"],
+                "verbalCallsign": "Ft Myers Approach"
+            },
+            "W": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.15,
+                "networkCallsigns": ["RSW_W_APP (West)"],
+                "verbalCallsign": "Ft Myers Approach"
+            },
+            "S": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.75,
+                "networkCallsigns": ["RSW_S_APP (South)"],
+                "verbalCallsign": "Ft Myers Approach"
+            },
+            "F": {
+                "artsPositionSymbol": "F",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 134.42,
+                "networkCallsigns": ["RSW_F_APP (Final)"],
+                "verbalCallsign": "Ft Myers Approach"
+            }
+        }
+    },
+    "PBI_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "P",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5601", "5677"],
+        "sectors": {
+            "K": {
+                "artsPositionSymbol": "K",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 132.8,
+                "networkCallsigns": ["PBI_K_APP (North Satellite)"],
+                "verbalCallsign": "Palm Beach Approach"
+            },
+            "I": {
+                "artsPositionSymbol": "I",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 124.6,
+                "networkCallsigns": ["PBI_I_APP (North Approach)"],
+                "verbalCallsign": "Palm Beach Approach"
+            },
+            "F": {
+                "artsPositionSymbol": "F",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.2,
+                "networkCallsigns": ["PBI_F_APP (South Approach)"],
+                "verbalCallsign": "Palm Beach Approach"
+            },
+            "A": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125,
+                "networkCallsigns": ["PBI_A_APP (Final)"],
+                "verbalCallsign": "Palm Beach Approach"
+            },
+            "B": {
+                "artsPositionSymbol": "B",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 128.3,
+                "networkCallsigns": ["PBI_B_DEP (North Departure)"],
+                "verbalCallsign": "Palm Beach Departure"
+            },
+            "P": {
+                "artsPositionSymbol": "P",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["DEP"],
+                "frequency": 127.35,
+                "networkCallsigns": ["PBI_P_DEP (South Departure)"],
+                "verbalCallsign": "Palm Beach Departure"
+            }
+        }
+    },
+    "NQX_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1001", "1077"],
+        "sectors": {
+            "E": {
+                "artsPositionSymbol": "Y",
+                "callsignPrefixes": ["NQX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 124.02,
+                "networkCallsigns": ["NQX_Y_APP"],
+                "verbalCallsign": "Navy Key West Approach"
+            }
+        }
+    },
+    "MCO_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "O",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["0701", "0777"],
+        "sectors": {
+            "E": {
+                "artsPositionSymbol": "E",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP", "DEP"],
+                "frequency": 124.8,
+                "networkCallsigns": ["MCO_E_APP (East Departure)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "W": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP", "DEP"],
+                "frequency": 120.15,
+                "networkCallsigns": ["MCO_W_APP (West Departure)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "B": {
+                "artsPositionSymbol": "B",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.55,
+                "networkCallsigns": ["MCO_B_APP (BITHO)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "L": {
+                "artsPositionSymbol": "L",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 134.05,
+                "networkCallsigns": ["MCO_L_APP (LEESE)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "M": {
+                "artsPositionSymbol": "M",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 123.85,
+                "networkCallsigns": ["MCO_M_APP (MINEE)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "D": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.4,
+                "networkCallsigns": ["MCO_D_APP (Satellite Disney)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "K": {
+                "artsPositionSymbol": "K",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 134.95,
+                "networkCallsigns": ["MCO_K_APP (Satellite Kape)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "N": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 121,
+                "networkCallsigns": ["MCO_N_APP (Satellite North)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "S": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 132.65,
+                "networkCallsigns": ["MCO_S_APP (Satellite South)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "V": {
+                "artsPositionSymbol": "V",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.77,
+                "networkCallsigns": ["MCO_V_APP (OVIDO)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "P": {
+                "artsPositionSymbol": "P",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 135.3,
+                "networkCallsigns": ["MCO_P_APP (PAOLA)"],
+                "verbalCallsign": "Orlando Approach"
+            }
+        }
+    },
+    "DAB_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "Y",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3001", "3077"],
+        "sectors": {
+            "H": {
+                "artsPositionSymbol": "H",
+                "callsignPrefixes": ["DAB"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.72,
+                "networkCallsigns": ["DAB_H_APP (High)"],
+                "verbalCallsign": "Daytona Approach"
+            },
+            "M": {
+                "artsPositionSymbol": "M",
+                "callsignPrefixes": ["DAB"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 127.07,
+                "networkCallsigns": ["DAB_M_APP (MATEO)"],
+                "verbalCallsign": "Daytona Approach"
+            },
+            "L": {
+                "artsPositionSymbol": "L",
+                "callsignPrefixes": ["DAB"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 118.85,
+                "networkCallsigns": ["DAB_L_APP (LAMMA)"],
+                "verbalCallsign": "Daytona Approach"
+            },
+            "F": {
+                "artsPositionSymbol": "F",
+                "callsignPrefixes": ["DAB"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.8,
+                "networkCallsigns": ["DAB_F_APP (Final)"],
+                "verbalCallsign": "Daytona Approach"
+            }
+        }
+    },
+    "JAX_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "X",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2601", "2677"],
+        "sectors": {
+            "N": {
+                "artsPositionSymbol": "N",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 127,
+                "networkCallsigns": ["JAX_N_APP (North)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "W": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 127.77,
+                "networkCallsigns": ["JAX_N_APP (North)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "E": {
+                "artsPositionSymbol": "E",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 132.77,
+                "networkCallsigns": ["JAX_N_APP (North)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "R": {
+                "artsPositionSymbol": "R",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119,
+                "networkCallsigns": ["JAX_N_APP (North)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "S": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 120.75,
+                "networkCallsigns": ["JAX_S_APP (South)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "J": {
+                "artsPositionSymbol": "J",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.85,
+                "networkCallsigns": ["JAX_J_APP (Final)"],
+                "verbalCallsign": "Jacksonville Approach"
+            },
+            "V": {
+                "artsPositionSymbol": "V",
+                "callsignPrefixes": ["JAX"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 118.6,
+                "networkCallsigns": ["JAX_V_APP (Vitts)"],
+                "verbalCallsign": "Jacksonville Approach"
+            }
+        }
+    },
+    "MYNN_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "Q",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "W": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 121,
+                "networkCallsigns": ["MYNN_W_APP"],
+                "verbalCallsign": "Nassau Approach"
+            },
+            "E": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 125.3,
+                "networkCallsigns": ["MYNN_E_APP"],
+                "verbalCallsign": "Nassau Approach"
+            }
+        }
+    },
+    "MYGF_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "F": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MYGF"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 126.5,
+                "networkCallsigns": ["MYGF_APP"],
+                "verbalCallsign": "Freeport Approach"
+            }
+        }
+    },
+    "MBPV_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "V": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MBPV"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 126,
+                "networkCallsigns": ["MBPV_APP"],
+                "verbalCallsign": "Providenciales Approach"
+            }
+        }
+    },
+    "SJU_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "S",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4277"],
+        "sectors": {
+            "1": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.4,
+                "networkCallsigns": ["SJU_1_APP"],
+                "verbalCallsign": "San Juan Approach"
+            },
+            "3": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 128.65,
+                "networkCallsigns": ["SJU_3_APP"],
+                "verbalCallsign": "San Juan Approach"
+            },
+            "5": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 120.9,
+                "networkCallsigns": ["SJU_5_APP"],
+                "verbalCallsign": "San Juan Approach"
+            },
+            "7": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 132.25,
+                "networkCallsigns": ["SJU_7_APP"],
+                "verbalCallsign": "San Juan Approach"
+            },
+            "9": {
+                "artsPositionSymbol": "S",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 124.6,
+                "networkCallsigns": ["SJU_9_APP"],
+                "verbalCallsign": "San Juan Approach"
+            }
+        }
+    },
+    "TNCM_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4501", "4577"],
+        "sectors": {
+            "ZSN": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["TNCM"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 128.95,
+                "networkCallsigns": ["TNCM_APP"],
+                "verbalCallsign": "Juliana Approach"
+            }
+        }
+    },
+    "MTPP_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "ZAP": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MTPP"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.8,
+                "networkCallsigns": ["MTPP_APP"],
+                "verbalCallsign": "Port Au Prince Approach"
+            }
+        }
+    },
+    "MUHA_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZHH": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MUHA"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 120.3,
+                "networkCallsigns": ["MUHA_APP"],
+                "verbalCallsign": "Havana Terminal"
+            }
+        }
+    },
+    "MUCU_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3100", "3177"],
+        "sectors": {
+            "ZHC": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MUCU"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.4,
+                "networkCallsigns": ["MUCU_APP"],
+                "verbalCallsign": "Santiago Approach"
+            }
+        }
+    },
+    "MUVR_APP": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZHR": {
+                "artsPositionSymbol": "A",
+                "callsignPrefixes": ["MUVR"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 119.6,
+                "networkCallsigns": ["MUVR_APP"],
+                "verbalCallsign": "Varadero Approach"
+            }
+        }
+    },
+    "MIA_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "MT",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2101", "2377"],
+        "sectors": {
+            "N": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.3,
+                "networkCallsigns": ["MIA_N_TWR"],
+                "verbalCallsign": "Miami Tower"
+            },
+            "S": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 123.9,
+                "networkCallsigns": ["MIA_S_TWR"],
+                "verbalCallsign": "Miami Tower"
+            }
+        }
+    },
+    "MIA_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1301", "1477"],
+        "sectors": {
+            "MGN": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.8,
+                "networkCallsigns": ["MIA_N_GND"],
+                "verbalCallsign": "Miami Ground"
+            },
+            "MGS": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 127.5,
+                "networkCallsigns": ["MIA_S_GND"],
+                "verbalCallsign": "Miami Ground"
+            },
+            "MGW": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 120.35,
+                "networkCallsigns": ["MIA_W_GND"],
+                "verbalCallsign": "Miami Ground"
+            },
+            "MRN": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 130.95,
+                "networkCallsigns": ["MIA_RN_GND"],
+                "verbalCallsign": "Miami Gates"
+            },
+            "MRS": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 130.5,
+                "networkCallsigns": ["MIA_RS_GND"],
+                "verbalCallsign": "Miami Gates"
+            },
+            "MRH": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 133.72,
+                "networkCallsigns": ["MIA_GH_GND"],
+                "verbalCallsign": "Miami Gate Hold"
+            }
+        }
+    },
+    "MIA_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1301", "1477"],
+        "sectors": {
+            "MCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["MIA"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 135.35,
+                "networkCallsigns": ["MIA_DEL"],
+                "verbalCallsign": "Miami Delivery"
+            }
+        }
+    },
+    "FLL_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "FT",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6601", "6677"],
+        "sectors": {
+            "N": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119.3,
+                "networkCallsigns": ["FLL_N_TWR"],
+                "verbalCallsign": "Fort Lauderdale Tower"
+            },
+            "S": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 120.2,
+                "networkCallsigns": ["FLL_S_TWR"],
+                "verbalCallsign": "Fort Lauderdale Tower"
+            }
+        }
+    },
+    "FLL_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6601", "6677"],
+        "sectors": {
+            "FG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.4,
+                "networkCallsigns": ["FLL_GND"],
+                "verbalCallsign": "Fort Lauderdale Ground"
+            }
+        }
+    },
+    "FLL_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6601", "6677"],
+        "sectors": {
+            "FCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 128.4,
+                "networkCallsigns": ["FLL_DEL"],
+                "verbalCallsign": "Fort Lauderdale Delivery"
+            }
+        }
+    },
+    "TMB_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6101", "6177"],
+        "sectors": {
+            "AT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TMB"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.9,
+                "networkCallsigns": ["TMB_TWR"],
+                "verbalCallsign": "Tamiami Tower"
+            }
+        }
+    },
+    "TMB_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6101", "6177"],
+        "sectors": {
+            "AG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TMB"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["TMB_GND"],
+                "verbalCallsign": "Tamiami Ground"
+            }
+        }
+    },
+    "TMB_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6101", "6177"],
+        "sectors": {
+            "ACD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["TMB"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 133,
+                "networkCallsigns": ["TMB_DEL"],
+                "verbalCallsign": "Tamiami Delivery"
+            }
+        }
+    },
+    "OPF_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6201", "6277"],
+        "sectors": {
+            "OT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["OPF"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 134.675,
+                "networkCallsigns": ["OPF_TWR"],
+                "verbalCallsign": "Opa Locka Tower"
+            }
+        }
+    },
+    "OPF_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6201", "6277"],
+        "sectors": {
+            "OG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["OPF"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 120.025,
+                "networkCallsigns": ["OPF_GND"],
+                "verbalCallsign": "Opa Locka Ground"
+            }
+        }
+    },
+    "OPF_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6201", "6277"],
+        "sectors": {
+            "OCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["OPF"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 119.2,
+                "networkCallsigns": ["OPF_DEL"],
+                "verbalCallsign": "Opa Locka Delivery"
+            }
+        }
+    },
+    "FXE_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6301", "6377"],
+        "sectors": {
+            "XT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["FXE"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 120.9,
+                "networkCallsigns": ["FXE_TWR"],
+                "verbalCallsign": "Executive Tower"
+            }
+        }
+    },
+    "FXE_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6301", "6377"],
+        "sectors": {
+            "XG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["FXE"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.75,
+                "networkCallsigns": ["FXE_GND"],
+                "verbalCallsign": "Executive Ground"
+            }
+        }
+    },
+    "FXE_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6301", "6377"],
+        "sectors": {
+            "XCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["FXE"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 127.95,
+                "networkCallsigns": ["FXE_DEL"],
+                "verbalCallsign": "Executive Delivery"
+            }
+        }
+    },
+    "PMP_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6401", "6477"],
+        "sectors": {
+            "WT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["PMP"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 125.4,
+                "networkCallsigns": ["PMP_TWR"],
+                "verbalCallsign": "Pompano Tower"
+            }
+        }
+    },
+    "PMP_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6401", "6477"],
+        "sectors": {
+            "WG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["PMP"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["PMP_GND"],
+                "verbalCallsign": "Pompano Ground"
+            }
+        }
+    },
+    "HST_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5001", "5077"],
+        "sectors": {
+            "HT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["HST"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 133.45,
+                "networkCallsigns": ["HST_TWR"],
+                "verbalCallsign": "Homestead Tower"
+            }
+        }
+    },
+    "HST_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5001", "5077"],
+        "sectors": {
+            "HG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["HST"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.75,
+                "networkCallsigns": ["HST_GND"],
+                "verbalCallsign": "Homestead Ground"
+            }
+        }
+    },
+    "TPA_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3301", "3377"],
+        "sectors": {
+            "TTW": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119.5,
+                "networkCallsigns": ["TPA_W_TWR"],
+                "verbalCallsign": "Tampa Tower"
+            },
+            "TTE": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119.05,
+                "networkCallsigns": ["TPA_E_TWR"],
+                "verbalCallsign": "Tampa Tower"
+            }
+        }
+    },
+    "TPA_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3301", "3377"],
+        "sectors": {
+            "TGW": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["TPA_W_GND"],
+                "verbalCallsign": "Tampa Ground"
+            },
+            "TGE": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.35,
+                "networkCallsigns": ["TPA_E_GND"],
+                "verbalCallsign": "Tampa Ground"
+            }
+        }
+    },
+    "TPA_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3301", "3377"],
+        "sectors": {
+            "TCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["TPA"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 133.6,
+                "networkCallsigns": ["TPA_DEL"],
+                "verbalCallsign": "Tampa Delivery"
+            }
+        }
+    },
+    "SRQ_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5101", "5177"],
+        "sectors": {
+            "QT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["SRQ"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 120.1,
+                "networkCallsigns": ["SRQ_TWR"],
+                "verbalCallsign": "Sarasota Tower"
+            }
+        }
+    },
+    "SRQ_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5101", "5177"],
+        "sectors": {
+            "QG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["SRQ"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["SRQ_GND"],
+                "verbalCallsign": "Sarasota Ground"
+            }
+        }
+    },
+    "SRQ_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5101", "5177"],
+        "sectors": {
+            "QCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["SRQ"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 118.25,
+                "networkCallsigns": ["SRQ_DEL"],
+                "verbalCallsign": "Sarasota Delivery"
+            }
+        }
+    },
+    "PIE_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5201", "5247"],
+        "sectors": {
+            "IT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["PIE"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.3,
+                "networkCallsigns": ["PIE_TWR"],
+                "verbalCallsign": "St Petersburg Tower"
+            }
+        }
+    },
+    "PIE_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5201", "5247"],
+        "sectors": {
+            "IG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["PIE"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["PIE_GND"],
+                "verbalCallsign": "St Petersburg Ground"
+            }
+        }
+    },
+    "PIE_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5201", "5247"],
+        "sectors": {
+            "ICD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["PIE"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 120.6,
+                "networkCallsigns": ["PIE_DEL"],
+                "verbalCallsign": "St Petersburg Delivery"
+            }
+        }
+    },
+    "LAL_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5301", "5377"],
+        "sectors": {
+            "LT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["LAL"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 124.5,
+                "networkCallsigns": ["LAL_TWR"],
+                "verbalCallsign": "Lakeland Tower"
+            }
+        }
+    },
+    "LAL_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5301", "5377"],
+        "sectors": {
+            "LG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["LAL"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.4,
+                "networkCallsigns": ["LAL_GND"],
+                "verbalCallsign": "Lakeland Ground"
+            }
+        }
+    },
+    "MCF_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5401", "5427"],
+        "sectors": {
+            "DT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MCF"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 123.7,
+                "networkCallsigns": ["MCF_TWR"],
+                "verbalCallsign": "MacDill Tower"
+            }
+        }
+    },
+    "MCF_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5401", "5427"],
+        "sectors": {
+            "DG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MCF"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.65,
+                "networkCallsigns": ["MCF_GND"],
+                "verbalCallsign": "MacDill Ground"
+            }
+        }
+    },
+    "SPG_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5601", "5677"],
+        "sectors": {
+            "GT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["SPG"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 127.4,
+                "networkCallsigns": ["SPG_TWR"],
+                "verbalCallsign": "Whitted Tower"
+            }
+        }
+    },
+    "SPG_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5601", "5677"],
+        "sectors": {
+            "GG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["SPG"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.8,
+                "networkCallsigns": ["SPG_GND"],
+                "verbalCallsign": "Whitted Ground"
+            }
+        }
+    },
+    "BKV_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5431", "5457"],
+        "sectors": {
+            "KT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["BKV"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.55,
+                "networkCallsigns": ["BKV_TWR"],
+                "verbalCallsign": "Brooksville Tower"
+            }
+        }
+    },
+    "BKV_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5431", "5457"],
+        "sectors": {
+            "KG": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["BKV"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 118.55,
+                "networkCallsigns": ["BKV_GND"],
+                "verbalCallsign": "Brooksville Ground"
+            }
+        }
+    },
+    "BOW_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5601", "5677"],
+        "sectors": {
+            "UT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["BOW"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 121.2,
+                "networkCallsigns": ["BOW_TWR"],
+                "verbalCallsign": "Bartow Tower"
+            }
+        }
+    },
+    "BOW_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5601", "5677"],
+        "sectors": {
+            "UG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["BOW"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["BOW_GND"],
+                "verbalCallsign": "Bartow Ground"
+            }
+        }
+    },
+    "RSW_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1101", "1177"],
+        "sectors": {
+            "RT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 128.75,
+                "networkCallsigns": ["RSW_TWR"],
+                "verbalCallsign": "Ft Myers Tower"
+            }
+        }
+    },
+    "RSW_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1101", "1177"],
+        "sectors": {
+            "RG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["RSW_GND"],
+                "verbalCallsign": "Ft Myers Ground"
+            }
+        }
+    },
+    "RSW_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1101", "1177"],
+        "sectors": {
+            "RCD": {
+                "artsPositionSymbol": "C",
+                "callsignPrefixes": ["RSW"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 132.07,
+                "networkCallsigns": ["RSW_DEL"],
+                "verbalCallsign": "Ft Myers Delivery"
+            }
+        }
+    },
+    "PGD_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1401", "1447"],
+        "sectors": {
+            "JT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["PGD"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 121,
+                "networkCallsigns": ["PGD_TWR"],
+                "verbalCallsign": "Punta Gorda Tower"
+            }
+        }
+    },
+    "PGD_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1401", "1447"],
+        "sectors": {
+            "JG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["PGD"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 119.55,
+                "networkCallsigns": ["PGD_GND"],
+                "verbalCallsign": "Punta Gorda Ground"
+            }
+        }
+    },
+    "APF_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1451", "1477"],
+        "sectors": {
+            "NT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["APF"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 128.5,
+                "networkCallsigns": ["APF_TWR"],
+                "verbalCallsign": "Naples Tower"
+            }
+        }
+    },
+    "APF_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1451", "1477"],
+        "sectors": {
+            "NG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["APF"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 118,
+                "networkCallsigns": ["APF_GND"],
+                "verbalCallsign": "Naples Ground"
+            }
+        }
+    },
+    "FMY_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1501", "1527"],
+        "sectors": {
+            "YT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["FMY"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119,
+                "networkCallsigns": ["FMY_TWR"],
+                "verbalCallsign": "Page Tower"
+            }
+        }
+    },
+    "FMY_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1501", "1527"],
+        "sectors": {
+            "YG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["FMY"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["FMY_GND"],
+                "verbalCallsign": "Page Ground"
+            }
+        }
+    },
+    "PBI_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["0501", "0577"],
+        "sectors": {
+            "PT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119.1,
+                "networkCallsigns": ["PBI_TWR"],
+                "verbalCallsign": "Palm Beach Tower"
+            }
+        }
+    },
+    "PBI_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["0501", "0577"],
+        "sectors": {
+            "PG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["PBI_GND"],
+                "verbalCallsign": "Palm Beach Ground"
+            }
+        }
+    },
+    "PBI_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["0501", "0577"],
+        "sectors": {
+            "PCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["PBI"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 121.6,
+                "networkCallsigns": ["PBI_DEL"],
+                "verbalCallsign": "Palm Beach Delivery"
+            }
+        }
+    },
+    "SUA_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1541", "1547"],
+        "sectors": {
+            "ST": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["SUA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 134.475,
+                "networkCallsigns": ["SUA_TWR"],
+                "verbalCallsign": "Stuart Tower"
+            }
+        }
+    },
+    "SUA_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1541", "1547"],
+        "sectors": {
+            "SG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["SUA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["SUA_GND"],
+                "verbalCallsign": "Stuart Ground"
+            }
+        }
+    },
+    "SUA_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1541", "1547"],
+        "sectors": {
+            "SCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["SUA"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 121.02,
+                "networkCallsigns": ["SUA_DEL"],
+                "verbalCallsign": "Stuart Delivery"
+            }
+        }
+    },
+    "BCT_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1551", "1577"],
+        "sectors": {
+            "BT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["BCT"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.425,
+                "networkCallsigns": ["BCT_TWR"],
+                "verbalCallsign": "Boca Raton Tower"
+            }
+        }
+    },
+    "BCT_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1541", "1547"],
+        "sectors": {
+            "BG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["BCT"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.8,
+                "networkCallsigns": ["BCT_GND"],
+                "verbalCallsign": "Boca Raton Ground"
+            }
+        }
+    },
+    "6FA_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1551", "1577"],
+        "sectors": {
+            "GWT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["6FA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 120.4,
+                "networkCallsigns": ["6FA_TWR"],
+                "verbalCallsign": "Gwinn Tower"
+            }
+        }
+    },
+    "6FA_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1551", "1577"],
+        "sectors": {
+            "GWG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["6FA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.65,
+                "networkCallsigns": ["6FA_GND"],
+                "verbalCallsign": "Gwinn Ground"
+            }
+        }
+    },
+    "VRB_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5251", "5277"],
+        "sectors": {
+            "VT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["VRB"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 126.3,
+                "networkCallsigns": ["VRB_TWR"],
+                "verbalCallsign": "Vero Beach Tower"
+            }
+        }
+    },
+    "VRB_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5251", "5277"],
+        "sectors": {
+            "VG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["VRB"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 127.45,
+                "networkCallsigns": ["VRB_GND"],
+                "verbalCallsign": "Vero Beach Ground"
+            }
+        }
+    },
+    "VRB_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5251", "5277"],
+        "sectors": {
+            "VCD": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["VRB"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 134.975,
+                "networkCallsigns": ["VRB_DEL"],
+                "verbalCallsign": "Vero Beach Delivery"
+            }
+        }
+    },
+    "FPR_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5460", "5477"],
+        "sectors": {
+            "CT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["FPR"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 128.2,
+                "networkCallsigns": ["FPR_TWR"],
+                "verbalCallsign": "Ft. Pierce Tower"
+            }
+        }
+    },
+    "FPR_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["5460", "5477"],
+        "sectors": {
+            "CG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["FPR"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 119.55,
+                "networkCallsigns": ["FPR_GND"],
+                "verbalCallsign": "Ft. Pierce Ground"
+            }
+        }
+    },
+    "EYW_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2001", "2077"],
+        "sectors": {
+            "ET": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["EYW"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.2,
+                "networkCallsigns": ["EYW_TWR"],
+                "verbalCallsign": "Key West Tower"
+            }
+        }
+    },
+    "EYW_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["2001", "2077"],
+        "sectors": {
+            "EG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["EYW"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["EYW_GND"],
+                "verbalCallsign": "Key West Ground"
+            }
+        }
+    },
+    "NQX_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1001", "1077"],
+        "sectors": {
+            "ENT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["NQX"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.57,
+                "networkCallsigns": ["NQX_TWR"],
+                "verbalCallsign": "Navy Key West Tower"
+            }
+        }
+    },
+    "NQX_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1001", "1077"],
+        "sectors": {
+            "ENG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["NQX"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["NQX_GND"],
+                "verbalCallsign": "Navy Key West Ground"
+            }
+        }
+    },
+    "MYNN_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "LN1": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 119.5,
+                "networkCallsigns": ["MYNN_TWR"],
+                "verbalCallsign": "Nassau Tower"
+            }
+        }
+    },
+    "MYNN_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "GN1": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["MYNN_GND"],
+                "verbalCallsign": "Nassau Ground"
+            }
+        }
+    },
+    "MYGF_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "LN2": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MYGF"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 125.2,
+                "networkCallsigns": ["MYGF_TWR"],
+                "verbalCallsign": "Freeport Tower"
+            }
+        }
+    },
+    "MYGF_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "GN2": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MYGF"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 118.15,
+                "networkCallsigns": ["MYGF_GND"],
+                "verbalCallsign": "Freeport Ground"
+            }
+        }
+    },
+    "MYAM_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "LN3": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MYAM"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.6,
+                "networkCallsigns": ["MYAM_TWR"],
+                "verbalCallsign": "Freeport Tower"
+            }
+        }
+    },
+    "MYAM_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "GN3": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MYAM"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 124.6,
+                "networkCallsigns": ["MYAM_GND"],
+                "verbalCallsign": "Freeport Ground"
+            }
+        }
+    },
+    "MBPV_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "LN4": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MBPV"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.6,
+                "networkCallsigns": ["MBPV_TWR"],
+                "verbalCallsign": "Providenciales Tower"
+            }
+        }
+    },
+    "MBPV_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "GN4": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MBPV"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 124.6,
+                "networkCallsigns": ["MBPV_GND"],
+                "verbalCallsign": "Providenciales Ground"
+            }
+        }
+    },
+    "MBGT_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "LN5": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MBGT"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.6,
+                "networkCallsigns": ["MBGT_TWR"],
+                "verbalCallsign": "Freeport Tower"
+            }
+        }
+    },
+    "MBGT_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4401", "4477"],
+        "sectors": {
+            "GN5": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MBGT"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 124.6,
+                "networkCallsigns": ["MBGT_GND"],
+                "verbalCallsign": "Freeport Ground"
+            }
+        }
+    },
+    "SJU_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "LS1": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 132.05,
+                "networkCallsigns": ["SJU_TWR"],
+                "verbalCallsign": "San Juan Tower"
+            }
+        }
+    },
+    "SJU_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "LG1": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["SJU_GND"],
+                "verbalCallsign": "San Juan Ground"
+            }
+        }
+    },
+    "SJU_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4101", "4177"],
+        "sectors": {
+            "LD1": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["SJU"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 126.4,
+                "networkCallsigns": ["SJU_DEL"],
+                "verbalCallsign": "San Juan Clr Del"
+            }
+        }
+    },
+    "TIST_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4301", "4377"],
+        "sectors": {
+            "LS2": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TIST"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.8,
+                "networkCallsigns": ["TIST_TWR"],
+                "verbalCallsign": "St Thomas Tower"
+            }
+        }
+    },
+    "TIST_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4301", "4377"],
+        "sectors": {
+            "GS2": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TIST"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["TIST_GND"],
+                "verbalCallsign": "St Thomas Ground"
+            }
+        }
+    },
+    "TNCM_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4501", "4577"],
+        "sectors": {
+            "LS3": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TNCM"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.7,
+                "networkCallsigns": ["TNCM_TWR"],
+                "verbalCallsign": "Juliana Tower"
+            }
+        }
+    },
+    "TISX_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "LS4": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["TISX"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.6,
+                "networkCallsigns": ["TISX_TWR"],
+                "verbalCallsign": "St Croix Tower"
+            }
+        }
+    },
+    "TISX_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["4601", "4677"],
+        "sectors": {
+            "GS4": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["TISX"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.7,
+                "networkCallsigns": ["TISX_GND"],
+                "verbalCallsign": "St Croix Ground"
+            }
+        }
+    },
+    "MUHA_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUHA"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.1,
+                "networkCallsigns": ["MUHA_TWR"],
+                "verbalCallsign": "Marti Tower"
+            }
+        }
+    },
+    "MUHA_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MUHA"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 121.9,
+                "networkCallsigns": ["MUHA_GND"],
+                "verbalCallsign": "Marti Ground"
+            }
+        }
+    },
+    "MUVR_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUVR"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.4,
+                "networkCallsigns": ["MUVR_TWR"],
+                "verbalCallsign": "Valadero Tower"
+            }
+        }
+    },
+    "MUCL_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3400", "3477"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUCL"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.5,
+                "networkCallsigns": ["MUCL_TWR"],
+                "verbalCallsign": "Cayo Largo Tower"
+            }
+        }
+    },
+    "MUCM_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3100", "3177"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUCM"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.5,
+                "networkCallsigns": ["MUCM_TWR"],
+                "verbalCallsign": "Agramonte Tower"
+            }
+        }
+    },
+    "MUCU_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3100", "3177"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUCU"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.1,
+                "networkCallsigns": ["MUCU_TWR"],
+                "verbalCallsign": "Maceo Tower"
+            }
+        }
+    },
+    "MUHG_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3100", "3177"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUHG"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118,
+                "networkCallsigns": ["MUHG_TWR"],
+                "verbalCallsign": "Holguin Tower"
+            }
+        }
+    },
+    "MUCC_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["3100", "3177"],
+        "sectors": {
+            "ZZZ": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["MUCC"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 118.8,
+                "networkCallsigns": ["MUCC_TWR"],
+                "verbalCallsign": "Jardines Tower"
+            }
+        }
+    },
+    "KMIA_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IA": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KMIA"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 119.15,
+                "networkCallsigns": ["KMIA_ATIS"],
+                "verbalCallsign": "Miami International ATIS"
+            }
+        }
+    },
+    "KFLL_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IB": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KFLL"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 135,
+                "networkCallsigns": ["KFLL_ATIS"],
+                "verbalCallsign": "Ft. Lauderdale International ATIS"
+            }
+        }
+    },
+    "KTPA_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IC": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KTPA"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 126.45,
+                "networkCallsigns": ["KTPA_ATIS"],
+                "verbalCallsign": "Tampa International ATIS"
+            }
+        }
+    },
+    "KRSW_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ID": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KRSW"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 124.65,
+                "networkCallsigns": ["KRSW_ATIS"],
+                "verbalCallsign": "Southwest Florida International ATIS"
+            }
+        }
+    },
+    "KPBI_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IE": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KPBI"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 123.75,
+                "networkCallsigns": ["KPBI_ATIS"],
+                "verbalCallsign": "Palm Beach International ATIS"
+            }
+        }
+    },
+    "KSRQ_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IF": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KSRQ"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 134.15,
+                "networkCallsigns": ["KSRQ_ATIS"],
+                "verbalCallsign": "Sarasota International ATIS"
+            }
+        }
+    },
+    "KPIE_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IG": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KPIE"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 134.5,
+                "networkCallsigns": ["KPIE_ATIS"],
+                "verbalCallsign": "St Petersburg International ATIS"
+            }
+        }
+    },
+    "KAPF_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IH": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KAPF"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 134.225,
+                "networkCallsigns": ["KAPF_ATIS"],
+                "verbalCallsign": "Naples Municipal ATIS"
+            }
+        }
+    },
+    "KFMY_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "II": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KFMY"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 123.725,
+                "networkCallsigns": ["KFMY_ATIS"],
+                "verbalCallsign": "Page Field ATIS"
+            }
+        }
+    },
+    "KTMB_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IJ": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KTMB"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 124,
+                "networkCallsigns": ["KTMB_ATIS"],
+                "verbalCallsign": "Tamiami Executive ATIS"
+            }
+        }
+    },
+    "KOPF_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IK": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KOPF"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 125.9,
+                "networkCallsigns": ["KOPF_ATIS"],
+                "verbalCallsign": "Opa-Locka Executive ATIS"
+            }
+        }
+    },
+    "KLAL_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IL": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KLAL"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 118.025,
+                "networkCallsigns": ["KLAL_ATIS"],
+                "verbalCallsign": "Lakeland ATIS"
+            }
+        }
+    },
+    "KSUA_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IM": {
+                "artsPositionSymbol": "x",
+                "callsignPrefixes": ["KSUA"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 134.475,
+                "networkCallsigns": ["KSUA_ATIS"],
+                "verbalCallsign": "Witham Field ATIS"
+            }
+        }
+    },
+    "KVRB_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IN": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KVRB"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 120.575,
+                "networkCallsigns": ["KVRB_ATIS"],
+                "verbalCallsign": "Vero Beach ATIS"
+            }
+        }
+    },
+    "KFPR_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IO": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KFPR"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 134.825,
+                "networkCallsigns": ["KFPR_ATIS"],
+                "verbalCallsign": "St. Lucie County International ATIS"
+            }
+        }
+    },
+    "KMCO_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IP": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["KMCO"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 121.25,
+                "networkCallsigns": ["KMCO_ATIS"],
+                "verbalCallsign": "Orlando International ATIS"
+            }
+        }
+    },
+    "MYNN_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IQ": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["MYNN"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 118.7,
+                "networkCallsigns": ["MYNN_ATIS"],
+                "verbalCallsign": "Lynden Pindling International ATIS"
+            }
+        }
+    },
+    "MYGF_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IR": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["MYGF"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 119.275,
+                "networkCallsigns": ["MYGF_ATIS"],
+                "verbalCallsign": "Grand Bahama International ATIS"
+            }
+        }
+    },
+    "MUHA_ATIS": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "IS": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["MUHA"],
+                "callsignSuffixes": ["ATIS"],
+                "frequency": 132.5,
+                "networkCallsigns": ["MUHA_ATIS"],
+                "verbalCallsign": "Jose Marti International ATIS"
+            }
+        }
+    },
+    "ZMA_ATM": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS1": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["ATM"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_ATM"],
+                "verbalCallsign": "Air Traffic Manager"
+            }
+        }
+    },
+    "ZMA_DATM": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS2": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["DATM"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_DATM"],
+                "verbalCallsign": "Deputy Air Traffic Manager"
+            }
+        }
+    },
+    "ZMA_TA": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS3": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["TA"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_TA"],
+                "verbalCallsign": "Training Administrator"
+            },
+            "ZS7": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["ATA"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_ATA"],
+                "verbalCallsign": "Assistant Training Administrator"
+            }
+        }
+    },
+    "ZMA_EC": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS4": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["EC"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_EC"],
+                "verbalCallsign": "Events Coordinator"
+            },
+            "ZS8": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["AEC"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_AEC"],
+                "verbalCallsign": "Assistant Events Coordinator"
+            }
+        }
+    },
+    "ZMA_FE": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS5": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["FE"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_FE"],
+                "verbalCallsign": "Facility Engineer"
+            },
+            "ZS9": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["AFE"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_AFE"],
+                "verbalCallsign": "Assistant Facility Engineer"
+            }
+        }
+    },
+    "ZMA_IT": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": [null, null],
+        "sectors": {
+            "ZS6": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["IT"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_IT"],
+                "verbalCallsign": "Web Manager"
+            },
+            "ZS0": {
+                "artsPositionSymbol": "X",
+                "callsignPrefixes": ["ZMA"],
+                "callsignSuffixes": ["AIT"],
+                "frequency": 199.998,
+                "networkCallsigns": ["ZMA_AIT"],
+                "verbalCallsign": "Assistant Web Manager"
+            }
+        }
+    }
+}
