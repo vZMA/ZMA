@@ -7,8 +7,8 @@
 
 
 
-[Version]: 2007.1
-[Last Updated]: 07JULY2020
+[Version]: 2013.1
+[Last Updated]: 30DEC2020
 vZMA Alias File
 
 Version 6.0: Jason Cochran - Reconciled EQ's changes and derived reference document.
