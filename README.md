@@ -2,7 +2,7 @@
 
 ### Overview
 
-This repository contains the master copies of important ZMA Facility Engineering documents and data that need to be versioned and released in a controlled manner. This repository is private and not accessible to the general public.
+This repository contains the master copies of important ZMA Facility Engineering documents and data that need to be versioned and released in a controlled manner. 
 
 The purpose of this repository is to be:
 * a master copy of the files.
