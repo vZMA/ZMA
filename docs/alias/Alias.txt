@@ -94,6 +94,15 @@ CLEARANCE DELIVERY
 .ABLERTE Please advise if you are able to accept the following route: $1
 .ABLEDEP Please advise if you are able to accept the following departure: $1
 
+----- Flightaware IFR Route Analyzer -----
+.ROUTEM .openurl https://flightaware.com/analysis/route.rvt?origin=KMIA&destination=$uc($1)
+.ROUTEF .openurl https://flightaware.com/analysis/route.rvt?origin=KFLL&destination=$uc($1)
+.ROUTET .openurl https://flightaware.com/analysis/route.rvt?origin=KTPA&destination=$uc($1)
+.ROUTEP .openurl https://flightaware.com/analysis/route.rvt?origin=KPBI&destination=$uc($1)
+.ROUTEE .openurl https://flightaware.com/analysis/route.rvt?origin=KEYW&destination=$uc($1)
+.ROUTER .openurl https://flightaware.com/analysis/route.rvt?origin=KRSW&destination=$uc($1)
+.ROUTE .openurl https://flightaware.com/analysis/route.rvt?origin=$uc($1)&destination=$uc($2)
+
 
 ********************************************************************************
 GROUND
