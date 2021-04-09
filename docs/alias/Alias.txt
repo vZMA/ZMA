@@ -427,6 +427,7 @@ RADAR
 .DMA Descend and maintain $uc($1), the $uc($2) altimeter $altim($2).
 
 .HI $radioname().
+.HIEA $radioname(), expect $uc($1) Runway $uc($2) approach.
 .HIFH $radioname(), fly heading $1.
 .HIFHV $radioname(), fly heading $1, vector $uc($2) Runway $uc($3) approach.
 .HIFHVF $radioname(), fly heading $1, vector to $uc($2) Runway $uc($3) final approach course.
@@ -463,6 +464,7 @@ RADAR
 .HIDM $radioname(), descend and maintain $uc($1).
 .HIDMA $radioname(), descend and maintain $uc($1), the $uc($2) altimeter $altim($2).
 .HIA $radioname(), $uc($1) altimeter $altim($1).
+.HIAEA $radioname(), $uc($1) altimeter $altim($1), expect $uc($2) Runway $uc($3) approach.
 .HIAFH $radioname(), $uc($1) altimeter $altim($1), fly heading $2.
 .HIAFHV $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector $uc($3) Runway $uc($4) approach.
 .HIAFHVF $radioname(), $uc($1) altimeter $altim($1), fly heading $2, vector to $uc($3) Runway $uc($4) final approach course.
