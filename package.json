@@ -1,0 +1,28 @@
+{
+  "name": "zma-facility-engineering",
+  "version": "1.0.0",
+  "description": "Tools and files for facility engineering for the VATSIM Miami ARTCC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vstars-cad": "babel-node tools/vstars-cad.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vZMA/ZMA.git"
+  },
+  "author": "Erik Quinn, Jason Cochran, et al",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vZMA/ZMA/issues"
+  },
+  "homepage": "https://github.com/vZMA/ZMA#readme",
+  "dependencies": {
+    "7zip-bin": "^5.1.1",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "node-7z": "^2.1.2",
+    "xml-js": "^1.6.11"
+  }
+}
