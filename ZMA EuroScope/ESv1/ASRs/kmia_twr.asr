@@ -1,0 +1,58 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Erik\Desktop\Euro\ESv1\ZMA.sct2
+SECTORTITLE:ZMA.sct2
+DisplayRotation:0.00000:
+Fixes:CIMBA:name
+Fixes:CIMBA:symbol
+Fixes:FORKK:name
+Fixes:FORKK:symbol
+Fixes:HEDLY:name
+Fixes:HEDLY:symbol
+Fixes:SENOY:name
+Fixes:SENOY:symbol
+Fixes:VVMAX:name
+Fixes:VVMAX:symbol
+Geo:the_coast:
+Runways:KMIA 26L-08R:centerline
+Runways:KMIA 26L-08R:extended centerline 1
+Runways:KMIA 26L-08R:extended centerline 1 left ticks
+Runways:KMIA 26L-08R:extended centerline 1 right ticks
+Runways:KMIA 26L-08R:extended centerline 2
+Runways:KMIA 26L-08R:extended centerline 2 left ticks
+Runways:KMIA 26L-08R:extended centerline 2 right ticks
+Runways:KMIA 26R-08L:centerline
+Runways:KMIA 26R-08L:extended centerline 1
+Runways:KMIA 26R-08L:extended centerline 1 left ticks
+Runways:KMIA 26R-08L:extended centerline 1 right ticks
+Runways:KMIA 26R-08L:extended centerline 2
+Runways:KMIA 26R-08L:extended centerline 2 left ticks
+Runways:KMIA 26R-08L:extended centerline 2 right ticks
+Runways:KMIA 27-09:centerline
+Runways:KMIA 27-09:extended centerline 1
+Runways:KMIA 27-09:extended centerline 1 left ticks
+Runways:KMIA 27-09:extended centerline 1 right ticks
+Runways:KMIA 27-09:extended centerline 2
+Runways:KMIA 27-09:extended centerline 2 left ticks
+Runways:KMIA 27-09:extended centerline 2 right ticks
+Runways:KMIA 30-12:centerline
+Runways:KMIA 30-12:extended centerline 1
+Runways:KMIA 30-12:extended centerline 1 left ticks
+Runways:KMIA 30-12:extended centerline 1 right ticks
+Runways:KMIA 30-12:extended centerline 2
+Runways:KMIA 30-12:extended centerline 2 left ticks
+Runways:KMIA 30-12:extended centerline 2 right ticks
+SHOWC:1
+SHOWSB:1
+BELOW:100
+ABOVE:0
+LEADER:3
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Matias (built in)-copy
+WINDOWAREA:25.613464:-80.598621:25.975174:-79.992675

@@ -1,0 +1,30 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Erik\Desktop\Euro\ESv1\ZMA.sct2
+SECTORTITLE:ZMA.sct2
+DisplayRotation:0.00000:
+Geo:the_coast:
+Runways:KTPA-01L:centerline
+Runways:KTPA-01L:extended centerline 1
+Runways:KTPA-01L:extended centerline 1 left ticks
+Runways:KTPA-01L:extended centerline 2
+Runways:KTPA-01L:extended centerline 2 right ticks
+Runways:KTPA-01R:centerline
+Runways:KTPA-01R:extended centerline 1
+Runways:KTPA-01R:extended centerline 1 right ticks
+Runways:KTPA-01R:extended centerline 2
+Runways:KTPA-01R:extended centerline 2 left ticks
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Matias (built in)-copy
+WINDOWAREA:27.408377:-83.444702:28.494979:-81.624404

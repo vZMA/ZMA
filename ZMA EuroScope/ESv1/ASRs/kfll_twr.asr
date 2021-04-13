@@ -1,0 +1,48 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Erik\Desktop\Euro\ESv1\ZMA.sct2
+SECTORTITLE:ZMA.sct2
+DisplayRotation:0.00000:
+Fixes:ARKES:name
+Fixes:ARKES:symbol
+Fixes:BEECH:name
+Fixes:BEECH:symbol
+Fixes:MNATE:name
+Fixes:MNATE:symbol
+Fixes:PREDA:name
+Fixes:PREDA:symbol
+Fixes:THNDR:name
+Fixes:THNDR:symbol
+Fixes:ZAPPA:name
+Fixes:ZAPPA:symbol
+Geo:the_coast:
+Runways:KFLL 10L-28R:centerline
+Runways:KFLL 10L-28R:extended centerline 1
+Runways:KFLL 10L-28R:extended centerline 1 left ticks
+Runways:KFLL 10L-28R:extended centerline 1 right ticks
+Runways:KFLL 10L-28R:extended centerline 2
+Runways:KFLL 10L-28R:extended centerline 2 left ticks
+Runways:KFLL 10L-28R:extended centerline 2 right ticks
+Runways:KFLL 10L-28R:name
+Runways:KFLL 10R-28L:centerline
+Runways:KFLL 10R-28L:extended centerline 1
+Runways:KFLL 10R-28L:extended centerline 1 left ticks
+Runways:KFLL 10R-28L:extended centerline 1 right ticks
+Runways:KFLL 10R-28L:extended centerline 2
+Runways:KFLL 10R-28L:extended centerline 2 left ticks
+Runways:KFLL 10R-28L:extended centerline 2 right ticks
+Runways:KFLL 10R-28L:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Matias (built in)-copy
+WINDOWAREA:25.772638:-80.640580:26.346962:-79.678462

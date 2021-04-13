@@ -1,0 +1,5 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+WINDOWAREA:25.782624:-80.316017:25.813088:-80.264984
+PLUGIN:vSMR:Airport:KMIA
