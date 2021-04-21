@@ -15,7 +15,7 @@
 #define TWY 3092271
 #define BLD 6579300
 #define RMP 5263440
-#define clsdCross 3405311
+#define clsdCross 224
 #define grass 8020224
 
 ; Labels
@@ -2226,7 +2226,6 @@ W080.08.58.900
                           N026.04.28.876 W080.08.13.117 N026.04.28.879 W080.08.13.661 rmpTAXILANES
                           N026.04.28.858 W080.08.10.444 N026.04.28.867 W080.08.11.717 rmpTAXILANES
                           N026.04.02.901 W080.08.45.403 N026.04.03.963 W080.08.45.401 rmpTAXILANES
-
 
 [REGIONS]
 grass N94.00.37.916 W226.53.04.557
