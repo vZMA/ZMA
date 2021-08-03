@@ -8145,3 +8145,14 @@ NDB Names
 .ndbZR .msg ZMA_INFO *** SARNIA NDB  
 .ndbZSJ .msg ZMA_INFO *** SAN SALVADOR NDB 
 .ndbZT .msg ZMA_INFO *** PORT HARDY NDB 
+
+
+********************************************************************************
+Useful Documents
+********************************************************************************
+.zmasop .openurl http://www.zmaartcc.net/wp/download/zma-d2-miami-center-sop
+.miasop .openurl http://www.zmaartcc.net/wp/download/zma-d4-miami-atct-sop
+.tpasop .openurl http://www.zmaartcc.net/wp/download/zma-d4-tampa-atct-sop
+.rswsop .openurl http://www.zmaartcc.net/wp/download/zma-d6-ft-myers-atct-sop
+.fllsop .openurl http://www.zmaartcc.net/wp/download/zma-d8-ft-lauderdale-atct-sop
+
