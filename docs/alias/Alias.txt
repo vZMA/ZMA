@@ -536,6 +536,14 @@ RADAR
 .RE report established on $4.
 .RRTOD Report reaching top of descent.
 
+
+----- Autotrack Commands -----
+.ATMIA .autotrack KMIA KFLL KOPF KTMB KPMP KFXE
+.ATTPA .autotrack KTPA KPIE KSPG KSRQ KLAL KBKV KMCF
+.ATRSW .autotrack KRSW KAPF KPGD KFMY
+.ATPBI .autotrack KPBI KSUA KVRB KFPR KBCT
+.ATALL .autotrack KPBI KSUA KVRB KFPR KBCT KTPA KPIE KSPG KSRQ KLAL KBKV KMCFKRSW KAPF KPGD KFMY KMIA KFLL KOPF KTMB KPMP KFXE KEYW KNQX
+
 ----- Hand Offs, Point Outs, Requests & Coordination -----
 .PO .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $uc($3) along flight plan route?
 .PODIRECT .msg $1 point out, $dist($2) miles $bear($2) of $uc($2), $aircraft, $uc($3), turning direct $uc($4)?
