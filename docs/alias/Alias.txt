@@ -47,6 +47,20 @@ GENERAL
 .SP when able, say parking.
 
 
+********************************************************************************
+TOWER VIEW
+********************************************************************************
+.TVMIA .set3dcenter towermia
+.TVFLL .set3dcenter towerfll
+.TVPBI .set3dcenter towerpbi
+.TVRSW .set3dcenter towerrsw
+.TVTPA .set3dcenter towertpa
+.TVEYW .set3dcenter towereyw
+.TVLAL .set3dcenter towerlal
+.TVFPR .set3dcenter towerfpr
+.TVTMB .set3dcenter towertmb
+.TVAPF .set3dcenter towerapf
+
 
 ********************************************************************************
 CLEARANCE DELIVERY
