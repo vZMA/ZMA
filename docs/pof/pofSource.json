@@ -133,6 +133,22 @@
                 "networkCallsigns": ["ZMO_59_CTR"],
                 "verbalCallsign": "Miami Center"
             },
+            "60": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 127.22,
+                "networkCallsigns": ["ZMO_60_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
+            "61": {
+                "artsPositionSymbol": "Z",
+                "callsignPrefixes": ["ZMO"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.7,
+                "networkCallsigns": ["ZMO_61_CTR"],
+                "verbalCallsign": "Miami Center"
+            },
             "62": {
                 "artsPositionSymbol": "Z",
                 "callsignPrefixes": ["ZMO"],
@@ -401,37 +417,6 @@
                 "frequency": 132.65,
                 "networkCallsigns": ["ZHU_79_FSS"],
                 "verbalCallsign": "Houston Center"
-            }
-        }
-    },
-    "MYNN_CTR": {
-        "defaultHandoffPrefixForExternalFacilities": "N",
-        "customHandoffPrefixes": {},
-        "squawkRange": ["4601", "4677"],
-        "sectors": {
-            "N": {
-                "artsPositionSymbol": "N",
-                "callsignPrefixes": ["MYNN"],
-                "callsignSuffixes": ["CTR"],
-                "frequency": 134.2,
-                "networkCallsigns": ["MYNN_N_CTR"],
-                "verbalCallsign": "Nassau Center"
-            },
-            "S": {
-                "artsPositionSymbol": "N",
-                "callsignPrefixes": ["MYNN"],
-                "callsignSuffixes": ["CTR"],
-                "frequency": 125.7,
-                "networkCallsigns": ["MYNN_S_CTR"],
-                "verbalCallsign": "Nassau Center"
-            },
-            "P": {
-                "artsPositionSymbol": "N",
-                "callsignPrefixes": ["MYNN"],
-                "callsignSuffixes": ["CTR"],
-                "frequency": 127.22,
-                "networkCallsigns": ["MYNN_P_CTR"],
-                "verbalCallsign": "Nassau Center"
             }
         }
     },
