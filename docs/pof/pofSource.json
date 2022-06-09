@@ -1584,13 +1584,37 @@
         "customHandoffPrefixes": {},
         "squawkRange": ["6601", "6677"],
         "sectors": {
-            "FG": {
+            "FGN": {
                 "artsPositionSymbol": "G",
                 "callsignPrefixes": ["FLL"],
                 "callsignSuffixes": ["GND"],
                 "frequency": 121.4,
-                "networkCallsigns": ["FLL_GND"],
+                "networkCallsigns": ["FLL_N_GND"],
                 "verbalCallsign": "Fort Lauderdale Ground"
+            },
+            "FGS": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 127.5,
+                "networkCallsigns": ["FLL_S_GND"],
+                "verbalCallsign": "Fort Lauderdale Ground"
+            },
+            "FRN": {
+                "artsPositionSymbol": "R",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 118.17,
+                "networkCallsigns": ["FLL_RN_GND"],
+                "verbalCallsign": "Fort Lauderdale Ramp"
+            },
+            "FRS": {
+                "artsPositionSymbol": "R",
+                "callsignPrefixes": ["FLL"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 129.87,
+                "networkCallsigns": ["FLL_RS_GND"],
+                "verbalCallsign": "Fort Lauderdale Ramp"
             }
         }
     },
@@ -1696,6 +1720,36 @@
                 "frequency": 119.2,
                 "networkCallsigns": ["OPF_DEL"],
                 "verbalCallsign": "Opa Locka Delivery"
+            }
+        }
+    },
+    "HWO_TWR": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6201", "6277"],
+        "sectors": {
+            "HWT": {
+                "artsPositionSymbol": "T",
+                "callsignPrefixes": ["HWO"],
+                "callsignSuffixes": ["TWR"],
+                "frequency": 132.1,
+                "networkCallsigns": ["HWO_TWR"],
+                "verbalCallsign": "North Perry Tower"
+            }
+        }
+    },
+    "HWO_GND": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["6201", "6277"],
+        "sectors": {
+            "HWG": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["HWO"],
+                "callsignSuffixes": ["GND"],
+                "frequency": 120.45,
+                "networkCallsigns": ["HWO_GND"],
+                "verbalCallsign": "North Perry Ground"
             }
         }
     },
@@ -2066,10 +2120,10 @@
         "squawkRange": ["5431", "5457"],
         "sectors": {
             "KG": {
-                "artsPositionSymbol": "T",
+                "artsPositionSymbol": "G",
                 "callsignPrefixes": ["BKV"],
                 "callsignSuffixes": ["GND"],
-                "frequency": 118.55,
+                "frequency": 121.4,
                 "networkCallsigns": ["BKV_GND"],
                 "verbalCallsign": "Brooksville Ground"
             }
@@ -2522,6 +2576,21 @@
                 "frequency": 121.7,
                 "networkCallsigns": ["NQX_GND"],
                 "verbalCallsign": "Navy Key West Ground"
+            }
+        }
+    },
+    "NQX_DEL": {
+        "defaultHandoffPrefixForExternalFacilities": "",
+        "customHandoffPrefixes": {},
+        "squawkRange": ["1001", "1077"],
+        "sectors": {
+            "END": {
+                "artsPositionSymbol": "D",
+                "callsignPrefixes": ["NQX"],
+                "callsignSuffixes": ["DEL"],
+                "frequency": 121.2,
+                "networkCallsigns": ["NQX_DEL"],
+                "verbalCallsign": "Navy Key West Delivery"
             }
         }
     },
