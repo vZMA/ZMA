@@ -186,9 +186,12 @@ GROUND
 .CTHS continue taxi, hold short of $uc($1).
 
 ----- Ramp Control & Ground Metering -----
+.VR verify fully ready to push.
+.AWR advise when fully ready to push.
 .HPT hold push for traffic.
 .HPQ hold push, you are in the queue.
 .HPQN hold push, you are number $1 in the queue.
+.VHP verify hold position.
 .PUSH Push approved, face $uc($1). Advise when ready to taxi.
 .PUSHT Push approved, tail $uc($1). Advise when ready to taxi.
 .PUSHC Push approved, face $uc($1). Contact $radioname($2) on $freq($2) when ready for taxi.
@@ -606,6 +609,27 @@ UNICOM
 .BYERSTDOWN descending out of my airsapce, no further ATC available. Radar services terminated, change to advisory frequency approved.
 .ICR IFR cancellation received, $time. Radar services terminated, squawk VFR, change to advisory frequency approved.
 .UC monitor unicom 122.8.
+
+
+
+********************************************************************************
+TRAFFIC MANAGEMENT UNIT (TMU)
+********************************************************************************
+.RLSD *** $aircraft released AT THIS TIME, rolling in 2 minutes or less. If unable, advise ASAP. Do not depart after this time.
+.RLSDA *** $aircraft released AT $1, rolling within 1 minute either side of that time. If unable, advise ASAP. Do not depart after this time.
+.HFRE $aircraft HOLD FOR RELEASE (estimating about a $1 minute wait).
+.HFRL $aircraft HOLD FOR RELEASE (estimating greater than 30 minute wait).
+.HFRU $aircraft HOLD FOR RELEASE. Wait time unknown. Check back in 5-10 minutes for an estimate.
+.EUI $aircraft expect an update in about $1 minutes.
+.EUA $aircraft expect an update at $1.
+.CFR *** CALL FOR RELEASE. Acknowledge with your initials. Your facility is currently under a Call-For-Release (CFR) program. Please PM me each departure's callsign, and a time they can reach the runway. Do not allow them to depart until I advise you they are "released". This only applies to: $uc($1)
+.XCFR *** CFR CANCELLED. Acknowledge with your initials. The Call-For-Release (CFR) program is hereby cancelled for your facility for aircraft matching the following: $uc($1)
+.GS *** STOP DEPARTURES. Acknowledge with your initials. Due to traffic volume. Any traffic already rolling may continue, but do not allow any additional aircraft to depart. This only applies to: $uc($1)
+.XGS *** GROUND STOP CANCELLED. Acknowledge with your initials. The ground stop issued for the following is hereby cancelled: $uc($1)
+.XGSCFR *** GROUND STOP CANCELLED, CFR NOW IN EFFECT. Acknowledge with your initials. Your facility is currently under a Call-For-Release (CFR) program. Please PM me each departure's callsign, and a time they can reach the runway. Do not allow them to depart until I advise you they are "released". This only applies to: $uc($1)
+.PA *** Please acknowledge the above message with your initials.
+.FIXROUTE *** If able, please fix the route for $aircraft. Ask me if you need the correct routing, and I can provide it for you.
+.XTMI *** ALL TMIs FROM ZMA ARE CANCELLED. All traffic management initiatives issued to you by ZMA are hereby cancelled.
 
 
 
