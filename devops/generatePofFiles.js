@@ -6,6 +6,7 @@ const path = require('path');
 const pofSourceFilePath = path.join(path.resolve(), 'docs/pof/pofSource.json');
 const pofOutputDirectory = path.join(path.resolve(), 'docs/pof/generated');
 const standardPofOutputPath = path.join(pofOutputDirectory, 'ZMA.pof');
+const zmaEramPofOutputPath = path.join(pofOutputDirectory, 'ZMA vERAM.pof');
 const miaVstarsPofOutputPath = path.join(pofOutputDirectory, 'MIA vSTARS.pof');
 const tpaVstarsPofOutputPath = path.join(pofOutputDirectory, 'TPA vSTARS.pof');
 const pbiVstarsPofOutputPath = path.join(pofOutputDirectory, 'PBI vSTARS.pof');
@@ -61,7 +62,8 @@ function writePofFile(pofSourceData, outputPath, useWith, facilityToExcludePrefi
 }
 
 // generate output files
-writePofFile(pofSourceData, standardPofOutputPath, 'VRC & vERAM');
+writePofFile(pofSourceData, standardPofOutputPath, 'VRC');
+writePofFile(pofSourceData, zmaEramPofOutputPath, 'ZMA vERAM', 'MIA_CTR');
 writePofFile(pofSourceData, miaVstarsPofOutputPath, 'MIA vSTARS', 'MIA_APP');
 writePofFile(pofSourceData, tpaVstarsPofOutputPath, 'TPA vSTARS', 'TPA_APP');
 writePofFile(pofSourceData, pbiVstarsPofOutputPath, 'PBI vSTARS', 'PBI_APP');
