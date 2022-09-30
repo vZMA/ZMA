@@ -1,0 +1,720 @@
+{
+  "Name": "ZMA",
+  "Composites": [
+    {
+      "Id": "db16b595-d8d2-466d-8698-b485039b3280",
+      "Name": "Key West",
+      "Identifier": "KEYW",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 19675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "09",
+          "AirportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPARTING RUNWAY 9",
+          "Notams": "BIRDS IN VC OF APRT",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "27",
+          "AirportConditions": "LANDING AND DEPARTING RUNWAY 27. VISUAL APPROACHES IN USE. ",
+          "Notams": "VFR AIRCRAFT REMAIN CLEAR OF NAVY KEY WEST AIRSPACE UNLESS YOU HAVE PRIOR CLEARANCE.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL APPROACHES IN USE. LANDING AND DEPARTING RUNWAY 9. ",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RNAV APPROACH IN USE. LANDING AND DEPARTING RUNWAY 9",
+          "Enabled": false
+        }
+      ],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "d50de957-8a6b-4115-af2c-fb0d04a22994",
+      "Name": "Ft Lauderdale",
+      "Identifier": "KFLL",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 35000,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L OR 10R. DEPG RWYS RWY 10L AND 10R. SIMUL OPS ARE BEING CNTD ON PARL RWYS.",
+          "Notams": "ATTN ALL ACFT, HAZD WX INFO AVBL FM ATC. CPDLC SERVICE AVBL. ACFT TAXI WITH TRANSPONDERS ON. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R OR 28L. DEPG RWYS RWY 28R AND 28L. SIMUL OPS ARE BEING CNTD ON PARL RWYS. ",
+          "Notams": "ATTN ALL ACFT, HAZD WX INFO AVBL FM ATC. CPDLC SERVICE AVBL. FOR CPDLC USE KZMA. ACFT TAXI WITH TRANSPONDERS ON. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "EAST-NIGHT",
+          "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L. DEPG RWYS RWY 10L. RWY 10R CLSD.",
+          "Notams": "ATTN ALL ACFT, HAZD WX INFO AVBL FM ATC. CPDLC SERVICE AVBL. ACFT TAXI WITH TRANSPONDERS ON. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST-NIGHT",
+          "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R. DEPG RWYS RWY 28R. RWY 28L CLSD.",
+          "Notams": "ATTN ALL ACFT, HAZD WX INFO AVBL FM ATC. CPDLC SERVICE AVBL. ACFT TAXI WITH TRANSPONDERS ON. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "1207e719-0214-415e-a1c6-dbe9bdc6bb68",
+      "Name": "Miami",
+      "Identifier": "KMIA",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 19150,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 8R, ILS RY 9, ILS RY 12, RNAV OR GPS APCH RWY 8L. ACFT LDG RY 9 OR RY 12 CAN EXPCT TO HOLD SHORT. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS 8100FT., LDA RWY 9 TO HOLD SHORT OF RWY 12 IS 9750FT., IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP. DEPG RWYS 8L, 8R, 9, 12. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 26L, ILS RY 27, ILS RY 30, RNAV GPS RY 26R. DEPG RWYS 26L, 26R, 27, 30. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. ",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "EAST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 8R, ILS RY 9. DEPG RWYS 8R, 9. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 26L, ILS RY 27. DEPG RWYS 26L, 27. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "b2e2e721-fbbe-4821-b965-f0d3c1d2ae67",
+      "Name": "Miami",
+      "Identifier": "KMIA",
+      "AtisType": 2,
+      "Contractions": [],
+      "AtisFrequency": 19150,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 8R, ILS RY 9, ILS RY 12, RNAV OR GPS APCH RWY 8L. ACFT LDG RY 9 OR RY 12 CAN EXPCT TO HOLD SHORT. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS 8100FT., LDA RWY 9 TO HOLD SHORT OF RWY 12 IS 9750FT., IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP. DEPG RWYS 8L, 8R, 9, 12. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 26L, ILS RY 27, ILS RY 30, RNAV GPS RY 26R. DEPG RWYS 26L, 26R, 27, 30. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. ",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "EAST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 8R, ILS RY 9. DEPG RWYS 8R, 9. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 26L, ILS RY 27. DEPG RWYS 26L, 27. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "a523b56d-58a1-4fb3-988e-14810d2c7a28",
+      "Name": "Miami",
+      "Identifier": "KMIA",
+      "AtisType": 1,
+      "Contractions": [],
+      "AtisFrequency": 33675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 8R, ILS RY 9, ILS RY 12, RNAV OR GPS APCH RWY 8L. ACFT LDG RY 9 OR RY 12 CAN EXPCT TO HOLD SHORT. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS 8100FT., LDA RWY 9 TO HOLD SHORT OF RWY 12 IS 9750FT., IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP. DEPG RWYS 8L, 8R, 9, 12. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "APCHS ARE BEING CONDUCTED TO PARL CONVERGING AND INTX RWYS. ARRIVALS EXPECT ILS RY 26L, ILS RY 27, ILS RY 30, RNAV GPS RY 26R. DEPG RWYS 26L, 26R, 27, 30. ",
+          "Notams": "NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. ",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "EAST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 8R, ILS RY 9. DEPG RWYS 8R, 9. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST-NIGHT",
+          "AirportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RY 26L, ILS RY 27. DEPG RWYS 26L, 27. ",
+          "Notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. NUMEROUS CRANES VCNTY APRT. CHECK CURRENT NOTAMS.. LINE UP AND WAIT NOT AUTHORIZED. OPERATE TRANS W/MODE C ON TWYS & RWYS. BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR MIA AREA AVBL FM ATC. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT. CPDLC DCL SERVICE OPERATIONAL.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "605cda75-1d5e-45f3-8924-02111cc02367",
+      "Name": "Palm Beach",
+      "Identifier": "KPBI",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 23750,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "ILS RWY 10L IN USE. LNDG AND DEPG RWY 10L, 10R, 14. SIMUL APCHS TO PARL INTG AND OR CNVGG RWYS ARE BEING CONDUCTED. LAND AND HOLD SHORT IN EFFECT. ",
+          "Notams": "HAZD WX INFO AVBL FM ATC. BIRD ACTIVITY VC OF ARPT. ALL AFCT USE CTN FOR RY 10L HOLD SHORT BARS PRIOR TO BEND IN TWY. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS. ",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "ILS RWY 28R IN USE. LNDG AND DEPG RWY 28R, 28L, 32. SIMUL APCHS TO PARL INTG AND OR CNVGG RWYS ARE BEING CONDUCTED",
+          "Notams": "HAZD WX INFO AVBL FM ATC. BIRD ACTIVITY VC OF ARPT. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "048afb03-23b0-4cc3-9c2d-0fb51d756c0f",
+      "Name": "Ft Myers",
+      "Identifier": "KRSW",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 24650,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "06",
+          "AirportConditions": "VISUAL APPROACH RWY 6 IN USE.",
+          "Notams": "NMRS MARKINGS NOT STD CHECK NOTAMS, CSHEL DEP REQUIRES GPS, ALICO DEP REQUIRES GPS. BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "24",
+          "AirportConditions": "VISUAL APPROACH RY 24 IN USE",
+          "Notams": "NMRS MARKINGS NOT STD CHECK NOTAMS, CSHEL DEP REQUIRES GPS, ALICO DEP REQUIRES GPS. BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL APPROACH RWY 6 IN USE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "ILS APPROACH RWY 6 IN USE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "VISUAL APPROACH RUNWAY 24 IN USE",
+          "Enabled": false
+        }
+      ],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "8b89335d-4f78-4be1-a195-8ef8e7a36f39",
+      "Name": "Tampa",
+      "Identifier": "KTPA",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 28475,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "NORTH",
+          "AirportConditions": "DEPG RY 1L, RY 1R. ILS APCH RY 1L, LOC RY 1R IN USE. TURBOJET ARRIVALS EXP RY1 LEFT FOR NOISE ABATEMENT. ",
+          "Notams": "BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR TPA AREA AVBL FM ATC. CRANE ACTIVITY IN THE VICINITY OF THE AIRPORT. ",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "SOUTH",
+          "AirportConditions": "DEPG RY 19R, RY 19L. AIR CARRIER TYPE DEPARTURES EXP RY 19R FOR NOISE ABATEMENT.. ILS APCH RY 19R, ILS RY 19L IN USE. ",
+          "Notams": "BIRD ACTIVITY VICINITY ARPT. HAZD WX INFO FOR TPA AREA AVBL FM ATC. CPDLC SERVICE AVAILABLE. CRANE ACTIVITY IN THE VICINITY OF THE AIRPORT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "50318edf-553f-4936-8f77-a83fab1883f9",
+      "Name": "Nassau",
+      "Identifier": "MYNN",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 18700,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "VISUAL/EAST",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_LETTER] [TIME]. [WX]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VISUAL/WEST",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_LETTER] [TIME]. [WX]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    }
+  ]
+}
