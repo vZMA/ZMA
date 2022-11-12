@@ -200,7 +200,7 @@
                 "artsPositionSymbol": "J",
                 "callsignPrefixes": ["JAX"],
                 "callsignSuffixes": ["CTR"],
-                "frequency": 127.75,
+                "frequency": 125.75,
                 "networkCallsigns": ["JAX_12_CTR"],
                 "verbalCallsign": "Jacksonville Center"
             },
@@ -471,6 +471,14 @@
                 "callsignSuffixes": ["CTR"],
                 "frequency": 128.5,
                 "networkCallsigns": ["NY_HDY_CTR"],
+                "verbalCallsign": "New York Center"
+            },
+            "56": {
+                "artsPositionSymbol": "W",
+                "callsignPrefixes": ["NY"],
+                "callsignSuffixes": ["CTR"],
+                "frequency": 125.32,
+                "networkCallsigns": ["NY_CTR"],
                 "verbalCallsign": "New York Center"
             }
         }
@@ -1101,7 +1109,7 @@
                 "artsPositionSymbol": "B",
                 "callsignPrefixes": ["MCO"],
                 "callsignSuffixes": ["APP"],
-                "frequency": 125.55,
+                "frequency": 128.37,
                 "networkCallsigns": ["MCO_B_APP (BITHO)"],
                 "verbalCallsign": "Orlando Approach"
             },
@@ -1141,7 +1149,7 @@
                 "artsPositionSymbol": "N",
                 "callsignPrefixes": ["MCO"],
                 "callsignSuffixes": ["APP"],
-                "frequency": 121,
+                "frequency": 121.1,
                 "networkCallsigns": ["MCO_N_APP (Satellite North)"],
                 "verbalCallsign": "Orlando Approach"
             },
@@ -1167,6 +1175,14 @@
                 "callsignSuffixes": ["APP"],
                 "frequency": 135.3,
                 "networkCallsigns": ["MCO_P_APP (PAOLA)"],
+                "verbalCallsign": "Orlando Approach"
+            },
+            "G": {
+                "artsPositionSymbol": "G",
+                "callsignPrefixes": ["MCO"],
+                "callsignSuffixes": ["APP"],
+                "frequency": 127.75,
+                "networkCallsigns": ["MCO_G_APP (East Final)"],
                 "verbalCallsign": "Orlando Approach"
             }
         }
