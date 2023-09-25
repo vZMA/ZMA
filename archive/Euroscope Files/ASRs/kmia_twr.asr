@@ -1,0 +1,36 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Patrick\Documents\Controlling\ZMA\ESv1\ZMA.sct2
+SECTORTITLE:ZMA.sct2
+DisplayRotation:0.00000:
+Geo:the_coast:
+Runways:KMIA-26L:centerline
+Runways:KMIA-26L:extended centerline 1
+Runways:KMIA-26L:extended centerline 1 right ticks
+Runways:KMIA-26L:extended centerline 2
+Runways:KMIA-26L:extended centerline 2 left ticks
+Runways:KMIA-26R:centerline
+Runways:KMIA-27:centerline
+Runways:KMIA-27:extended centerline 1
+Runways:KMIA-27:extended centerline 1 left ticks
+Runways:KMIA-27:extended centerline 2
+Runways:KMIA-27:extended centerline 2 right ticks
+Runways:KMIA-30:centerline
+Runways:KMIA-30:extended centerline 1
+Runways:KMIA-30:extended centerline 1 left ticks
+Runways:KMIA-30:extended centerline 2
+Runways:KMIA-30:extended centerline 2 left ticks
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Matias (built in)-copy
+WINDOWAREA:25.553756:-80.780302:26.014932:-79.838078

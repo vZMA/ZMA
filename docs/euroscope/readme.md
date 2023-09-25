@@ -1,0 +1,1 @@
+This directory contains files necessary to support Euroscope radar client.
